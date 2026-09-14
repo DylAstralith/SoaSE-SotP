@@ -2,5 +2,5 @@
     "is_positionable": true,
     "is_looping": false,
     "is_streaming": false,
-    "min_attenuation_distance": 400.0
+    "min_attenuation_distance": 100.0
 }

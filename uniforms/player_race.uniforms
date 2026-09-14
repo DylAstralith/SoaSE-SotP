@@ -21,7 +21,7 @@
                         "exhaustive_shuffle": true,
                         "music_tracks": [
                             {
-                                "sound": "macross_title_track",
+                                "sound": "mus_macross_title_track",
                                 "weight": 5
                             }
                         ]
@@ -30,16 +30,113 @@
 		            {
                         "music_tracks": [
                             {
-                                "sound": "macross_loading",
+                                "sound": "mus_macross_loading",
                                 "weight": 1
                             }
                         ]
                     },
                     "ambient": 
 		            {
+                        "exhaustive_shuffle": true,
                         "music_tracks": [
                             {
-                                "sound": "spacy_ambient_01",
+                                "sound": "mus_spacy_ambient_01",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_02",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_03",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_04",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_05",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_06",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_07",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_08",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_09",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_10",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_11",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_12",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_13",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_14",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_15",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_16",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_17",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_18",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_19",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_20",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_21",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_22",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_23",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_24",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_25",
                                 "weight": 1
                             }
                         ]
@@ -47,131 +144,112 @@
                     "early_game_neutral": 
                     {
                         "extra_music_tracks_pool_type": "ambient",
-                        "music_tracks": [
-                            {
-                                "sound": "spacy_ambient_02",
-                                "weight": 5
-                            }
-                        ]
+                        "music_tracks": []
                     },
                     "early_game_winning": 
                     {
                         "extra_music_tracks_pool_type": "ambient",
-                        "music_tracks": [
-                            {
-                                "sound": "spacy_ambient_03",
-                                "weight": 5
-                            }
-                        ]
+                        "music_tracks": []
                     },
                     "early_game_losing": 
                     {
                         "extra_music_tracks_pool_type": "ambient",
-                        "music_tracks": [
-                            {
-                                "sound": "spacy_ambient_losing_01",
-                                "weight": 5
-                            }
-                        ]
+                        "music_tracks": []
                     },
                     "mid_game_neutral": 
                     {
                         "extra_music_tracks_pool_type": "ambient",
-                        "music_tracks": [
-                            {
-                                "sound": "spacy_ambient_03",
-                                "weight": 5
-                            }
-                        ]
+                        "music_tracks": []
                     },
                     "mid_game_winning": 
                     {
                         "extra_music_tracks_pool_type": "ambient",
-                        "first_music_track_index": 0,
-                        "music_tracks": [
-                            {
-                                "sound": "spacy_ambient_late_01",
-                                "weight": 5
-                            }
-                        ]
+                        "music_tracks": []
                     },
                     "mid_game_losing": 
                     {
                         "extra_music_tracks_pool_type": "ambient",
-                        "first_music_track_index": 0,
-                        "music_tracks": [
-                            {
-                                "sound": "spacy_ambient_losing_01",
-                                "weight": 5
-                            }
-                        ]
+                        "music_tracks": []
                     },
                     "late_game_neutral": 
                     {
                         "extra_music_tracks_pool_type": "ambient",
-                        "first_music_track_index": 0,
-                        "music_tracks": [                          
-                            {
-                                "sound": "spacy_ambient_late_01",
-                                "weight": 5
-                            }
-                        ]
+                        "music_tracks": []
                     },
                     "late_game_winning": 
                     {
                         "extra_music_tracks_pool_type": "ambient",
-                        "first_music_track_index": 0,
                         "music_tracks": [
                             {
-                                "sound": "spacy_battle_winning_01",
-                                "weight": 3
+                                "sound": "mus_spacy_gamewin_01",
+                                "weight": 5
                             }
                         ]
                     },
                     "late_game_losing": 
                     {
                         "extra_music_tracks_pool_type": "ambient",
-                        "first_music_track_index": 0,
-                        "music_tracks": [
-                            {
-                                "sound": "spacy_ambient_late_01",
-                                "weight": 3
-                            }
-                        ]
+                        "music_tracks": []
                     },
+
                     "battle_neutral": 
                     {
+                        "exhaustive_shuffle": true,
                         "music_tracks": [
                             {
-                                "sound": "shared_battle_dogfight",
+                                "sound": "mus_spacy_battle_01",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_02",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_03",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_04",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_05",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_06",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_07",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_08",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_09",
                                 "weight": 1
                             }
                         ]
                     },
                     "battle_winning": 
                     {
-                        "music_tracks": [
-                            {
-                                "sound": "spacy_battle_winning_01",
-                                "weight": 1
-                            }
-                        ]
+                        "extra_music_tracks_pool_type": "battle_neutral",
+                        "music_tracks": []
                     },
                     "battle_losing": 
                     {
-                        "music_tracks": [
-                            {
-                                "sound": "spacy_gamelost_01",
-                                "weight": 1
-                            }
-                        ]
+                        "extra_music_tracks_pool_type": "battle_neutral",
+                        "music_tracks": []
                     },
                     "game_won": 
                     {
                         "first_music_track_index": 0,
                         "music_tracks": [
                             {
-                                "sound": "spacy_gamewin_01",
+                                "sound": "mus_spacy_gamewin_01",
                                 "weight": 1
                             }
                         ]
@@ -181,7 +259,273 @@
                         "first_music_track_index": 0,
                         "music_tracks": [
                             {
-                                "sound": "spacy_gamelost_01",
+                                "sound": "mus_spacy_ambient_21",
+                                "weight": 1
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        
+        {
+            "name": "zentr",
+            "localized_name": "player_race.zentr",
+            "portraits": [
+                "trader_1",
+				"trader_2"
+            ],
+            "icons": [
+                "trader_1",
+                "trader_2"
+            ],            
+            "music": 
+            {
+                "in_game_music_pools": 
+                {
+                    "front_end": 
+		            {
+                        "first_music_track_index": 0,
+                        "exhaustive_shuffle": true,
+                        "music_tracks": [
+                            {
+                                "sound": "mus_macross_title_track",
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "loading": 
+		            {
+                        "music_tracks": [
+                            {
+                                "sound": "mus_macross_loading",
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "ambient": 
+		            {
+                        "music_tracks": [
+                            {
+                                "sound": "mus_spacy_ambient_01",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_02",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_03",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_04",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_05",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_06",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_07",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_08",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_09",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_10",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_11",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_12",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_13",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_14",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_15",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_16",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_17",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_18",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_19",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_20",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_21",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_22",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_23",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_24",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_25",
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "early_game_neutral": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "music_tracks": []
+                    },
+                    "early_game_winning": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "music_tracks": []
+                    },
+                    "early_game_losing": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "music_tracks": []
+                    },
+                    "mid_game_neutral": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "music_tracks": []
+                    },
+                    "mid_game_winning": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "music_tracks": []
+                    },
+                    "mid_game_losing": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "music_tracks": []
+                    },
+                    "late_game_neutral": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "music_tracks": []
+                    },
+                    "late_game_winning": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "music_tracks": [
+                            {
+                                "sound": "mus_spacy_gamewin_01",
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "late_game_losing": 
+                    {
+                        "extra_music_tracks_pool_type": "ambient",
+                        "music_tracks": []
+                    },
+
+                    "battle_neutral": 
+                    {
+                        "music_tracks": [
+                            {
+                                "sound": "mus_spacy_battle_01",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_02",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_03",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_04",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_05",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_06",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_07",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_08",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_09",
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "battle_winning": 
+                    {
+                        "extra_music_tracks_pool_type": "battle_neutral",
+                        "music_tracks": []
+                    },
+                    "battle_losing": 
+                    {
+                        "extra_music_tracks_pool_type": "battle_neutral",
+                        "music_tracks": []
+                    },
+                    "game_won": 
+                    {
+                        "first_music_track_index": 0,
+                        "music_tracks": [
+                            {
+                                "sound": "mus_spacy_gamewin_01",
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "game_lost": 
+                    {
+                        "first_music_track_index": 0,
+                        "music_tracks": [
+                            {
+                                "sound": "mus_spacy_ambient_21",
                                 "weight": 1
                             }
                         ]

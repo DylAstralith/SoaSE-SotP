@@ -21,13 +21,18 @@
                 "selected_icon": "trader_medium_torpedo_main_view_icon_selected",
                 "sub_selected_icon": "trader_medium_torpedo_main_view_icon_sub_selected"
             },
-            "effects": {
-                "exhaust_effects": {
+            "effects":
+            {
+                "exhaust_effects":
+                {
                     "trail_effects": [
-                        {
-                            "trail_effect": "mm_torpedo"
-                        }
-                    ]
+                    {
+                        "trail_effect": "mm_torpedo"
+                    }],
+                    "particle_effects": [
+                    {
+                        "particle_effect": "mm_glow_spacy"
+                    }]
                 }
             },
             "sounds": {

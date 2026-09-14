@@ -13,8 +13,8 @@
     ],
     "weapon_type": "normal",
     "damage_affect_type": "hull_and_armor_and_shields",
-    "damage": 18.75,
-    "penetration": 450.0,
+    "damage": 9,
+    "penetration": 0.0,
     "tags": [
         "missile",
         "physical"
@@ -31,10 +31,7 @@
     "burst_pattern": [
         0.245,
         0.465,
-        0.685,
-        0.905,
-        1.125,
-        1.345
+        0.685
     ],
     "effects": {
         "muzzle_picking_behavior": "sequential",

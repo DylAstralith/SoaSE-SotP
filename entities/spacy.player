@@ -459,7 +459,8 @@
         "dlc2_trader_rebel_super_capital_ship",
 
         "spacy_sdf_capital_ship",
-        "spacy_armd_cruiser"
+        "spacy_armd_cruiser",
+        "spacy_oberth_frigate"
     ],
     "faction_buildable_units": [
         "trader_rebel_titan",

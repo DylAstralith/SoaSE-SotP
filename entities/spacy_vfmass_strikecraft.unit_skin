@@ -30,10 +30,7 @@
         {
             "exhaust_effects":
             {
-                "particle_effects": [
-                {
-                    "particle_effect": "exhaust_tech_tiny_01"
-                }],
+                "particle_effects": [],
                 "trail_effects": [
                 {
                     "trail_effect": "fightertechcombat"
@@ -46,11 +43,9 @@
                 {
                     "particle_effect": "light_autocannon_impact",
                     "sounds": [
-                        "weapon_impact_physical_light_hithull",
-                        "weapon_impact_physical_light_hithull_01",
-                        "weapon_impact_physical_light_hithull_02",
-                        "weapon_impact_physical_light_hithull_03",
-                        "weapon_impact_physical_light_hithull_04"
+                        "hithull_sfx1",
+                        "hithull_sfx2",
+                        "hithull_sfx3"
                     ]
                 }
             },
@@ -74,10 +69,10 @@
                 }
             },
             {
-                "alias_name": "trader_interceptor_strikecraft_light_autocannon_weapon_projectile_travel",
+                "alias_name": "spacy_gunpod_weapon_projectile_travel",
                 "alias_binding":
                 {
-                    "particle_effect": "trader_light_autocannon_weapon_projectile_travel"
+                    "particle_effect": "spacy_gunpod_weapon_projectile_travel"
                 }
             },
             {
@@ -108,7 +103,7 @@
         {
             "move_sounds":
             {
-                "engine": "engine_techstrikecraft"
+                "engine": "spacy_engine_light"
             },
             "dialogue":
             {
