@@ -26,39 +26,79 @@
                     }
                 ],
                 "constraint": {
+                    "constraint_type": "composite_or",
                     "constraints": [
                         {
-                            "constraint_type": "unit_passes_unit_constraint",
-                            "unit_constraint": {
-                                "constraint_type": "has_definition",
-                                "unit_definition": "mm_torpedo_wide"
-                            },
-                            "unit": {
-                                "unit_type": "trigger_event_destination"
-                            }
+                            "constraint_type": "composite_or",
+                            "constraints": [
+                                {
+                                    "constraint_type": "unit_passes_unit_constraint",
+                                    "unit_constraint": {
+                                        "constraint_type": "has_definition",
+                                        "unit_definition": "spacy_mm_torpedo_wide"
+                                    },
+                                    "unit": {
+                                        "unit_type": "trigger_event_destination"
+                                    }
+                                },
+                                {
+                                    "constraint_type": "unit_passes_unit_constraint",
+                                    "unit_constraint": {
+                                        "constraint_type": "has_definition",
+                                        "unit_definition": "spacy_mm_torpedo_medium"
+                                    },
+                                    "unit": {
+                                        "unit_type": "trigger_event_destination"
+                                    }
+                                },
+                                {
+                                    "constraint_type": "unit_passes_unit_constraint",
+                                    "unit_constraint": {
+                                        "constraint_type": "has_definition",
+                                        "unit_definition": "spacy_mm_torpedo_fast"
+                                    },
+                                    "unit": {
+                                        "unit_type": "trigger_event_destination"
+                                    }
+                                }
+                            ]
                         },
                         {
-                            "constraint_type": "unit_passes_unit_constraint",
-                            "unit_constraint": {
-                                "constraint_type": "has_definition",
-                                "unit_definition": "mm_torpedo_medium"
-                            },
-                            "unit": {
-                                "unit_type": "trigger_event_destination"
-                            }
-                        },
-                        {
-                            "constraint_type": "unit_passes_unit_constraint",
-                            "unit_constraint": {
-                                "constraint_type": "has_definition",
-                                "unit_definition": "mm_torpedo_fast"
-                            },
-                            "unit": {
-                                "unit_type": "trigger_event_destination"
-                            }
+                            "constraint_type": "composite_or",
+                            "constraints": [
+                                {
+                                    "constraint_type": "unit_passes_unit_constraint",
+                                    "unit_constraint": {
+                                        "constraint_type": "has_definition",
+                                        "unit_definition": "zentr_mm_torpedo_wide"
+                                    },
+                                    "unit": {
+                                        "unit_type": "trigger_event_destination"
+                                    }
+                                },
+                                {
+                                    "constraint_type": "unit_passes_unit_constraint",
+                                    "unit_constraint": {
+                                        "constraint_type": "has_definition",
+                                        "unit_definition": "zentr_mm_torpedo_medium"
+                                    },
+                                    "unit": {
+                                        "unit_type": "trigger_event_destination"
+                                    }
+                                },
+                                {
+                                    "constraint_type": "unit_passes_unit_constraint",
+                                    "unit_constraint": {
+                                        "constraint_type": "has_definition",
+                                        "unit_definition": "zentr_mm_torpedo_fast"
+                                    },
+                                    "unit": {
+                                        "unit_type": "trigger_event_destination"
+                                    }
+                                }
+                            ]
                         }
-                    ],
-                    "constraint_type": "composite_or"
+                    ]
                 }
             }
         }

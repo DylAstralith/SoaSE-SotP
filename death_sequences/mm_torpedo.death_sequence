@@ -5,7 +5,7 @@
             "attached_to_unit": false,
             "time": 0,
             "particle_effects": [
-                "mm_torpedo_impact"
+                "explosion2"
             ],
             "sounds": [
             "mm_explode",

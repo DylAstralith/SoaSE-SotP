@@ -1,0 +1,111 @@
+{
+    "version": 2,
+    "nodes": [
+        {
+            "id": 1,
+            "name": "Root",
+            "x": [0.0, 0.0],
+            "y": [0.0, 0.0],
+            "z": [0.0, 0.0],
+            "yaw": [0.0, 0.0],
+            "pitch": [0.0, 0.0],
+            "roll": [0.0, 0.0]
+        }
+    ],
+    "emitters": [
+        {
+            "id": 6,
+            "name": "OutPillars",
+            "type": "point",
+            "emit_max_particle_count": [2.0, 2.0],
+            "emit_rate": {
+                "primary_emit_rate": [60.0, 60.0]
+            },
+            "particle": {
+                "type": "billboard",
+                "render_layer": 0,
+                "max_duration": [0.20, 0.20],
+                "color": "ffff7c03",
+                "fade_in_time": [0.250, 0.250],
+                "fade_out_time": [0.0, 0.0],
+                "billboard": {
+                    "render_with_additive_blending": true,
+                    "shader_type": "uber_add_color",
+                    "facing_type": "face_camera_by_rotating_on_particle_direction",
+                    "anchor": "bottom",
+                    "width": [1.40, 1.40],
+                    "height": [3.0, 3.0],
+                    "gradient_texture": "dlc3_gradient_pd",
+                    "erosion_texture": "dlc3_herald_vines",
+                    "initial_erosion_noise_offset_u": [0.20, 0.20],
+                    "initial_erosion_noise_offset_v": [0.0, 0.50],
+                    "texture_animation": "dlc3_herald_muzzles",
+                    "texture_animation_first_frame": "sequential",
+                    "uber_constants": {
+                        "basic_constants": {
+                            "depth_fade_opacity": 22.0,
+                            "alpha_ramp_steepness": 1.0,
+                            "alpha_ramp_growth_delay": 0.80,
+                            "alpha_ramp_max_alpha_scalar": 8.0
+                        },
+                        "erosion_constants": {
+                            "noise_constants_0": {
+                                "u_pan_speed": -0.110,
+                                "v_pan_speed": 0.40,
+                                "v_scale": 0.50,
+                                "global_scale": 0.30
+                            },
+                            "noise_constants_1": {
+                                "u_pan_speed": 0.050,
+                                "v_pan_speed": 0.10,
+                                "u_scale": 0.60,
+                                "v_scale": 0.10,
+                                "global_scale": 0.20
+                            },
+                            "erosion_test": 0.20
+                        }
+                    }
+                },
+                "mesh": {}
+            },
+            "forward_velocity": [0.0, 0.0]
+        }
+    ],
+    "modifiers": [
+        {
+            "id": 3,
+            "name": "Erosion",
+            "type": "float_property",
+            "property_type": "erosion_test_base",
+            "property_value": {
+                "type": "ease",
+                "range": [0.0, 0.0],
+                "easing_function": "in_expo",
+                "easing_values": [0.0, 1.0]
+            }
+        },
+        {
+            "id": 24,
+            "name": "PillarGrow",
+            "type": "size",
+            "width_change_rate": [5.0, 5.0],
+            "height_change_rate": [55.0, 55.0]
+        }
+    ],
+    "emitter_to_node_attachments": [
+        {
+            "attacher_id": 6,
+            "attachee_id": 1
+        }
+    ],
+    "modifier_to_emitter_attachments": [
+        {
+            "attacher_id": 3,
+            "attachee_id": 6
+        },
+        {
+            "attacher_id": 24,
+            "attachee_id": 6
+        }
+    ]
+}

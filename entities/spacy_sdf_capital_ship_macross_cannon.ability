@@ -20,7 +20,7 @@
                     "operators": [
                         {
                             "operator_type": "apply_buff",
-                            "buff": "spacy_sdf_capital_ship_macross_cannon_on_self"
+                            "buff": "super_heavy_beam_on_self"
                         }
                     ]
                 }

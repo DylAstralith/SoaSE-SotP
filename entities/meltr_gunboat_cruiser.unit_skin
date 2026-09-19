@@ -44,161 +44,130 @@
                     "exit_sound": "hyperspace_exit"
                 },
                 "damage_effects": {
-                    "max_damage_effect_count": 5,
+                    "max_damage_effect_count": 1,
                     "damage_effects": [
                         {
-                            "max_count": 2,
-                            "weight": 2,
-                            "hull_percentage_threshold": 0.5,
-                            "particle_effect": "advent_damage_plasma_sparks"
-                        },
-                        {
-                            "max_count": 1,
-                            "weight": 2,
-                            "hull_percentage_threshold": 0.45,
-                            "particle_effect": "advent_damage_smoke_1"
-                        },
-                        {
                             "max_count": 1,
                             "weight": 3,
-                            "hull_percentage_threshold": 0.45,
-                            "particle_effect": "advent_damage_smoke_2"
-                        },
-                        {
-                            "max_count": 1,
-                            "weight": 3,
-                            "hull_percentage_threshold": 0.45,
-                            "particle_effect": "advent_damage_smoke_3"
-                        },
-                        {
-                            "max_count": 1,
-                            "weight": 4,
-                            "hull_percentage_threshold": 0.4,
+                            "hull_percentage_threshold": 0.99,
                             "particle_effect": "damage_electricity",
-                            "sound": "ambient_loop_electrical_damage"
-                        },
-                        {
-                            "max_count": 1,
-                            "weight": 4,
-                            "hull_percentage_threshold": 0.4,
-                            "particle_effect": "damage_electricity_2",
-                            "sound": "ambient_loop_electrical_damage_01"
+                            "sound": "damaged_loop_sfx1"
                         }
                     ]
                 },
                 "shield_effect": "frigatepsilongrange",
                 "effect_alias_bindings": [
                     {
-                        "alias_name": "meltr_super_heavy_beam",
+                        "alias_name": "super_heavy_beam_beam",
                         "alias_binding": {
                             "beam": "meltr_beam_super_heavy",
                             "sounds": ["super_heavy_beam_fire"]
                         }
                     },
                     {
-                        "alias_name": "meltr_super_heavy_beam_charge",
+                        "alias_name": "super_heavy_beam_charge",
                         "alias_binding": {
                             "particle_effect": "trader_robotics_cruiser_emp_droids_buff_large_default",
                             "sounds": ["super_heavy_beam_charge"]
                         }
                     },
                     {
-                        "alias_name": "meltr_super_heavy_beam_hit_hull",
+                        "alias_name": "super_heavy_beam_hit_hull",
                         "alias_binding": {
                             "particle_effect": "meltr_beam_super_heavy_impact",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
-                        "alias_name": "meltr_super_heavy_beam_hit_shield",
+                        "alias_name": "super_heavy_beam_hit_shield",
                         "alias_binding": {
                             "particle_effect": "meltr_beam_super_heavy_impact",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
-                        "alias_name": "meltr_super_heavy_beam_muzzle",
+                        "alias_name": "super_heavy_beam_muzzle",
                         "alias_binding": {
                             "particle_effect": "meltr_beam_super_heavy_muzzle"
                         }
                     },
                     {
-                        "alias_name": "meltr_weapon_heavy_beam_beam",
+                        "alias_name": "weapon_heavy_beam_beam",
                         "alias_binding": {
                             "beam": "meltr_beam_heavy",
                             "sounds": ["zentr_beam", "zentr_beam2"]
                         }
                     },
                     {
-                        "alias_name": "meltr_weapon_heavy_beam_hit_hull",
+                        "alias_name": "weapon_heavy_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "meltr_beam_heavy_impact",
+                            "particle_effect": "explosion1",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
-                        "alias_name": "meltr_weapon_heavy_beam_hit_shield",
+                        "alias_name": "weapon_heavy_beam_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "meltr_beam_heavy_impact",
+                            "particle_effect": "explosion1",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
-                        "alias_name": "meltr_weapon_heavy_beam_muzzle",
+                        "alias_name": "weapon_heavy_beam_muzzle",
                         "alias_binding": {
                             "particle_effect": "meltr_beam_heavy_muzzle"
                         }
                     },
                     {
-                        "alias_name": "meltr_weapon_medium_beam_beam",
+                        "alias_name": "weapon_medium_beam_beam",
                         "alias_binding": {
                             "beam": "meltr_beam",
                             "sounds": ["zentr_beam", "zentr_beam2"]
                         }
                     },
                     {
-                        "alias_name": "meltr_weapon_medium_beam_hit_hull",
+                        "alias_name": "weapon_medium_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "meltr_beam_impact",
+                            "particle_effect": "explosion1",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
-                        "alias_name": "meltr_weapon_medium_beam_hit_shield",
+                        "alias_name": "weapon_medium_beam_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "meltr_beam_impact",
+                            "particle_effect": "explosion1",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
-                        "alias_name": "meltr_weapon_medium_beam_muzzle",
+                        "alias_name": "weapon_medium_beam_muzzle",
                         "alias_binding": {
                             "particle_effect": "meltr_beam_muzzle"
                         }
                     },
                     {
-                        "alias_name": "meltr_weapon_light_beam_beam",
+                        "alias_name": "weapon_light_beam_beam",
                         "alias_binding": {
                             "beam": "meltr_beam_light",
                             "sounds": ["zentr_beam", "zentr_beam2"]
                         }
                     },
                     {
-                        "alias_name": "meltr_weapon_light_beam_hit_hull",
+                        "alias_name": "weapon_light_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "meltr_beam_impact",
+                            "particle_effect": "explosion1",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
-                        "alias_name": "meltr_weapon_light_beam_hit_shield",
+                        "alias_name": "weapon_light_beam_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "meltr_beam_impact",
+                            "particle_effect": "explosion1",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
-                        "alias_name": "meltr_weapon_light_beam_muzzle",
+                        "alias_name": "weapon_light_beam_muzzle",
                         "alias_binding": {
                             "particle_effect": "meltr_beam_muzzle"
                         }
@@ -263,7 +232,7 @@
                     }
                 }
             },
-            "death_sequence_group": "advent_cruiser0"
+            "death_sequence_group": "capitalship0"
         }
     ]
 }

@@ -50,59 +50,14 @@
                     "exit_sound": "hyperspace_exit"
                 },
                 "damage_effects": {
-                    "max_damage_effect_count": 7,
+                    "max_damage_effect_count": 1,
                     "damage_effects": [
-                        {
-                            "max_count": 2,
-                            "weight": 4,
-                            "hull_percentage_threshold": 0.99,
-                            "particle_effect": "tec_damage_embers"
-                        },
-                        {
-                            "max_count": 2,
-                            "weight": 4,
-                            "hull_percentage_threshold": 0.99,
-                            "particle_effect": "damage_smoke_1"
-                        },
-                        {
-                            "max_count": 2,
-                            "weight": 4,
-                            "hull_percentage_threshold": 0.99,
-                            "particle_effect": "damage_smoke_2"
-                        },
                         {
                             "max_count": 1,
                             "weight": 3,
                             "hull_percentage_threshold": 0.99,
                             "particle_effect": "damage_electricity",
-                            "sound": "ambient_loop_electrical_damage"
-                        },
-                        {
-                            "max_count": 1,
-                            "weight": 2,
-                            "hull_percentage_threshold": 0.75,
-                            "particle_effect": "damage_electricity_2",
-                            "sound": "ambient_loop_electrical_damage_01"
-                        },
-                        {
-                            "max_count": 2,
-                            "weight": 3,
-                            "hull_percentage_threshold": 0.75,
-                            "particle_effect": "tec_damage_plasma_sparks"
-                        },
-                        {
-                            "max_count": 2,
-                            "weight": 2,
-                            "hull_percentage_threshold": 0.75,
-                            "particle_effect": "damage_air_decompression",
-                            "sound": "ambient_loop_airdecompression"
-                        },
-                        {
-                            "max_count": 3,
-                            "weight": 5,
-                            "hull_percentage_threshold": 0.75,
-                            "particle_effect": "damage_fire",
-                            "sound": "ambient_loop_firedamage"
+                            "sound": "damaged_loop_sfx1"
                         }
                     ]
                 },
@@ -111,48 +66,39 @@
                         "mesh_point_name": "center",
                         "particle_effect": "tec_damage_cruiser",
                         "constraint": "is_crippled"
-                    },
-                    {
-                        "mesh_point_name": "center",
-                        "particle_effect": "tech_carrier_cruiser_ambience"
                     }
                 ],
                 "shield_effect": "trader_carrier_cruiser",
                 "effect_alias_bindings": [
                     {
-                        "alias_name": "spacy_weapon_light_beam_beam",
+                        "alias_name": "weapon_light_beam_beam",
                         "alias_binding": {
                             "beam": "spacy_beam_light",
                             "sounds": ["spacy_beam", "spacy_beam2"]
                         }
                     },
                     {
-                        "alias_name": "spacy_weapon_light_beam_hit_hull",
+                        "alias_name": "weapon_light_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "spacy_beam_impact",
+                            "particle_effect": "explosion1",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
-                        "alias_name": "spacy_weapon_light_beam_hit_shield",
+                        "alias_name": "weapon_light_beam_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "spacy_beam_impact",
-                            "sounds": [
-                                "weapon_impact_generic_medium_hitshields",
-                                "weapon_impact_generic_medium_hitshields_01",
-                                "weapon_impact_generic_medium_hitshields_02",
-                                "weapon_impact_generic_medium_hitshields_03"
-                            ]
+                            "particle_effect": "explosion1",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
-                        "alias_name": "spacy_weapon_light_beam_muzzle",
+                        "alias_name": "weapon_light_beam_muzzle",
                         "alias_binding": {
                             "particle_effect": "spacy_beam_muzzle"
                         }
                     },
                     {
-                        "alias_name": "spacy_sts_missile_weapon_muzzle",
+                        "alias_name": "sts_missile_weapon_muzzle",
                         "alias_binding": {
                             "particle_effect": "capital_ship_torpedo_muzzle",
                             "sounds": ["sts_missile"]
@@ -175,7 +121,7 @@
                     {
                         "alias_name": "mm_missile_weapon_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "torpedo_missile_hit",
+                            "particle_effect": "explosion2",
                             "sounds": ["mm_explode", "mm_explode2", "mm_explode3"]
                         }
                     }

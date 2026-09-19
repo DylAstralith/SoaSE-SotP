@@ -65,7 +65,7 @@
         "attack_target_type_groups_to_ignore": [
             "torpedo_strikecraft"
         ],
-        "attack_target_type_groups_matching_weapon": "meltr_heavy_beam",
+        "attack_target_type_groups_matching_weapon": "heavy_beam",
         "auto_follow_target_priority": 5.0,
         "pursuit":
         {
@@ -97,7 +97,7 @@
     {
         "weapons": [
         {
-            "weapon": "meltr_heavy_beam",
+            "weapon": "heavy_beam",
             "mesh_point": "turret_muzzle.001",
             "weapon_position": [-113.990883, 43.379242, -5.58111],
             "non_turret_muzzle_positions": [[-113.990883, 43.379242, -5.58111]],
@@ -115,7 +115,7 @@
             }
         },
         {
-            "weapon": "meltr_heavy_beam",
+            "weapon": "heavy_beam",
             "mesh_point": "turret_muzzle.002",
             "weapon_position": [112.567383, 43.379242, -5.58111],
             "non_turret_muzzle_positions": [[112.567383, 43.379242, -5.58111]],
@@ -133,7 +133,7 @@
             }
         },
         {
-            "weapon": "meltr_light_beam",
+            "weapon": "light_beam",
             "mesh_point": "turret_muzzle.003",
             "weapon_position": [0.0, -86.828262, -43.019619],
             "non_turret_muzzle_positions": [[0.0, -86.828262, -43.019619]],
@@ -151,7 +151,7 @@
             }
         },
         {
-            "weapon": "meltr_light_beam_alt1",
+            "weapon": "light_beam_alt1",
             "mesh_point": "turret_muzzle.004",
             "weapon_position": [0.0, -28.026865, 93.607101],
             "non_turret_muzzle_positions": [[0.0, -28.026865, 93.607101]],

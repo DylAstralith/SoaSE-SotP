@@ -97,7 +97,7 @@
     "weapons": {
         "weapons": [
             {
-                "weapon": "spacy_medium_beam_dual",
+                "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.001",
                 "weapon_position": [
                     0.0,
@@ -136,7 +136,7 @@
                 }
             },
             {
-                "weapon": "spacy_medium_beam_dual",
+                "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.002",
                 "weapon_position": [
                     0.0,
@@ -175,7 +175,7 @@
                 }
             },
             {
-                "weapon": "spacy_medium_beam_triple",
+                "weapon": "medium_beam_triple",
                 "mesh_point": "turret_muzzle.003",
                 "weapon_position": [
                     0.0,
@@ -219,7 +219,7 @@
                 }
             },
             {
-                "weapon": "spacy_medium_beam_dual",
+                "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.004",
                 "weapon_position": [
                     0.0,
@@ -258,7 +258,7 @@
                 }
             },
             {
-                "weapon": "spacy_medium_beam_dual",
+                "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.005",
                 "weapon_position": [
                     0.0,
@@ -297,7 +297,7 @@
                 }
             },
             {
-                "weapon": "spacy_medium_beam_dual",
+                "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.006",
                 "weapon_position": [
                     0.0,
@@ -336,7 +336,7 @@
                 }
             },
             {
-                "weapon": "spacy_medium_beam_dual",
+                "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.007",
                 "weapon_position": [
                     0.0,
@@ -375,7 +375,7 @@
                 }
             },
             {
-                "weapon": "spacy_medium_beam_dual",
+                "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.008",
                 "weapon_position": [
                     0.0,
@@ -414,7 +414,7 @@
                 }
             },
             {
-                "weapon": "spacy_light_beam_dual",
+                "weapon": "light_beam_dual",
                 "mesh_point": "turret_muzzle.009",
                 "weapon_position": [
                     0.0,
@@ -453,7 +453,7 @@
                 }
             },
             {
-                "weapon": "spacy_light_beam_dual",
+                "weapon": "light_beam_dual",
                 "mesh_point": "turret_muzzle.010",
                 "weapon_position": [
                     0.0,
@@ -492,7 +492,7 @@
                 }
             },
             {
-                "weapon": "spacy_light_beam_dual",
+                "weapon": "light_beam_dual",
                 "mesh_point": "turret_muzzle.011",
                 "weapon_position": [
                     0.0,
@@ -531,7 +531,7 @@
                 }
             },
             {
-                "weapon": "spacy_light_beam_dual",
+                "weapon": "light_beam_dual",
                 "mesh_point": "turret_muzzle.012",
                 "weapon_position": [
                     0.0,
@@ -570,7 +570,7 @@
                 }
             },
             {
-                "weapon": "spacy_light_beam_dual_alt1",
+                "weapon": "light_beam_dual_alt1",
                 "mesh_point": "turret_muzzle.013",
                 "weapon_position": [
                     0.0,
@@ -609,7 +609,7 @@
                 }
             },
             {
-                "weapon": "spacy_light_beam_dual_alt1",
+                "weapon": "light_beam_dual_alt1",
                 "mesh_point": "turret_muzzle.014",
                 "weapon_position": [
                     0.0,
@@ -648,7 +648,7 @@
                 }
             },
             {
-                "weapon": "spacy_medium_beam_dual",
+                "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.015",
                 "weapon_position": [
                     0.0,
@@ -687,7 +687,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_7",
+                "weapon": "spacy_mm_bank_7",
                 "mesh_point": "turret_muzzle",
                 "weapon_position": [
                     -40.210075,
@@ -721,7 +721,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_0",
+                "weapon": "spacy_mm_bank_0",
                 "mesh_point": "turret_muzzle.016",
                 "weapon_position": [
                     -15.503186,
@@ -755,7 +755,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_1",
+                "weapon": "spacy_mm_bank_1",
                 "mesh_point": "turret_muzzle.017",
                 "weapon_position": [
                     -25.340055,
@@ -789,7 +789,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_2",
+                "weapon": "spacy_mm_bank_2",
                 "mesh_point": "turret_muzzle.018",
                 "weapon_position": [
                     -26.426111,
@@ -823,7 +823,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_3",
+                "weapon": "spacy_mm_bank_3",
                 "mesh_point": "turret_muzzle.019",
                 "weapon_position": [
                     40.210068,
@@ -857,7 +857,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_4",
+                "weapon": "spacy_mm_bank_4",
                 "mesh_point": "turret_muzzle.020",
                 "weapon_position": [
                     15.503181,
@@ -891,7 +891,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_5",
+                "weapon": "spacy_mm_bank_5",
                 "mesh_point": "turret_muzzle.021",
                 "weapon_position": [
                     25.194923,
@@ -925,7 +925,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_6",
+                "weapon": "spacy_mm_bank_6",
                 "mesh_point": "turret_muzzle.022",
                 "weapon_position": [
                     26.136194,
@@ -959,7 +959,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_7",
+                "weapon": "spacy_mm_bank_7",
                 "mesh_point": "turret_muzzle.023",
                 "weapon_position": [
                     -59.323677,
@@ -993,7 +993,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_0",
+                "weapon": "spacy_mm_bank_0",
                 "mesh_point": "turret_muzzle.024",
                 "weapon_position": [
                     -37.269417,
@@ -1027,7 +1027,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_1",
+                "weapon": "spacy_mm_bank_1",
                 "mesh_point": "turret_muzzle.025",
                 "weapon_position": [
                     -98.548584,
@@ -1061,7 +1061,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_2",
+                "weapon": "spacy_mm_bank_2",
                 "mesh_point": "turret_muzzle.026",
                 "weapon_position": [
                     -97.751526,
@@ -1095,7 +1095,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_3",
+                "weapon": "spacy_mm_bank_3",
                 "mesh_point": "turret_muzzle.027",
                 "weapon_position": [
                     -97.021347,
@@ -1129,7 +1129,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_4",
+                "weapon": "spacy_mm_bank_4",
                 "mesh_point": "turret_muzzle.028",
                 "weapon_position": [
                     59.323677,
@@ -1163,7 +1163,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_5",
+                "weapon": "spacy_mm_bank_5",
                 "mesh_point": "turret_muzzle.029",
                 "weapon_position": [
                     37.541599,
@@ -1197,7 +1197,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_6",
+                "weapon": "spacy_mm_bank_6",
                 "mesh_point": "turret_muzzle.030",
                 "weapon_position": [
                     97.021347,
@@ -1231,7 +1231,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_7",
+                "weapon": "spacy_mm_bank_7",
                 "mesh_point": "turret_muzzle.031",
                 "weapon_position": [
                     98.548584,
@@ -1265,7 +1265,7 @@
                 }
             },
             {
-                "weapon": "mm_bank_0",
+                "weapon": "spacy_mm_bank_0",
                 "mesh_point": "turret_muzzle.032",
                 "weapon_position": [
                     97.751526,
@@ -1296,6 +1296,162 @@
                 "pitch_arc": {
                     "min_angle": -90.0,
                     "max_angle": 90.0
+                }
+            },
+            {
+                "weapon": "heavy_beam",
+                "mesh_point": "turret_muzzle.033",
+                "weapon_position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        7.0,
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        -7.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "heavy_beam",
+                "mesh_point": "turret_muzzle.034",
+                "weapon_position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        7.0,
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        -7.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "heavy_beam",
+                "mesh_point": "turret_muzzle.035",
+                "weapon_position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        7.0,
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        -7.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "heavy_beam",
+                "mesh_point": "turret_muzzle.036",
+                "weapon_position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        7.0,
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        -7.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 5.0
                 }
             }
         ],
@@ -1824,16 +1980,7 @@
             "metal": 850.0,
             "crystal": 600.0
         },
-        "exotic_price": [
-            {
-                "exotic_type": "offense",
-                "count": 1
-            },
-            {
-                "exotic_type": "defense",
-                "count": 2
-            }
-        ],
+        "exotic_price": [],
         "build_kind": "capital_ship",
         "supply_cost": 50,
         "build_group_id": "capital_ship"

@@ -32,17 +32,13 @@
             {
                 "particle_effects": [
                 {
-                    "particle_effect": "vasari_exhaust_strikecraft"
-                }],
-                "trail_effects": [
-                {
-                    "trail_effect": "fighterphasebomber"
+                    "particle_effect": "mm_glow_zentr"
                 }]
             },
             "shield_effect": "vasari_interceptor_strikecraft",
             "effect_alias_bindings": [
             {
-                "alias_name": "zentr_weapon_pulse_beam",
+                "alias_name": "weapon_pulse_beam_beam",
                 "alias_binding":
                 {
                     "beam": "zentr_pulse",
@@ -51,7 +47,7 @@
                 }
             },
             {
-                "alias_name": "zentr_weapon_pulse_hit_hull",
+                "alias_name": "weapon_pulse_beam_hit_hull",
                 "alias_binding":
                 {
                     "particle_effect": "zentr_beam_impact",
@@ -63,23 +59,22 @@
                 }
             },
             {
-                "alias_name": "zentr_weapon_pulse_hit_shield",
+                "alias_name": "weapon_pulse_beam_hit_shield",
                 "alias_binding":
                 {
                     "particle_effect": "zentr_beam_impact",
                     "sounds": [
-                        "weapon_impact_generic_light_hitshields",
-                        "weapon_impact_generic_light_hitshields_01",
-                        "weapon_impact_generic_light_hitshields_02",
-                        "weapon_impact_generic_light_hitshields_03"
+                        "hithull_sfx1",
+                        "hithull_sfx2",
+                        "hithull_sfx3"
                     ]
                 }
             },
             {
-                "alias_name": "zentr_weapon_pulse_muzzle",
+                "alias_name": "weapon_pulse_beam_muzzle",
                 "alias_binding":
                 {
-                    "particle_effect": "zentr_beam_muzzle"
+                    "particle_effect": "pulse_beam_muzzle"
                 }
             },
             {
@@ -96,7 +91,7 @@
                 "alias_name": "mm_missile_weapon_hit_hull",
                 "alias_binding":
                 {
-                    "particle_effect": "torpedo_missile_hit",
+                    "particle_effect": "explosion2",
                     "sounds": [
                         "mm_explode",
                         "mm_explode2",
@@ -160,6 +155,6 @@
                 }
             }
         },
-        "death_sequence_group": "vasari_strikecraft0"
+        "death_sequence_group": "strikecraft0"
     }]
 }

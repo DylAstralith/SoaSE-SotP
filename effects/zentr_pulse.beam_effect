@@ -1,32 +1,32 @@
 {
     "version": 1,
-    "glow_texture": "beam_pattern",
-    "core_texture": "beam_pattern_core",
+    "glow_texture": "pulse_beam_pattern",
+    "core_texture": "pulse_beam_pattern_core",
     "glow_color": "ff52aaff",
     "core_color": "ff69c6ff",
-    "width": 1.0,
+    "width": 5.0,
     "glow_tiling_animation_rate": 1.0,
     "core_tiling_animation_rate": 1.0,
-    "core_fade_in_duration":  0.01,
-    "core_fade_out_duration":  0.03,
-    "use_length_based_fade":  true,
-    "back_fade_distance":  1.0,
-    "front_fade_speed_multiplier":  3.5,
-    "back_fade_speed_multiplier":  3.0,
-    "back_fade_delay":  0.05,
-    "front_width_multiplier":  0.5,
-    "back_width_multiplier":  0.5,
-    "front_fade_distance":  1.0,
-    "basic_constants":
-    {
+    "core_fade_in_duration": 0.010,
+    "core_fade_out_duration": 0.030,
+    "use_length_based_fade": true,
+    "back_fade_distance": 1.0,
+    "front_fade_distance": 1.0,
+    "front_fade_speed_multiplier": 3.50,
+    "back_fade_speed_multiplier": 2.90,
+    "front_width_multiplier": 0.50,
+    "back_width_multiplier": 0.50,
+    "basic_constants": {
+        "emissive_factor": 2.0,
         "depth_fade_opacity": 4.0,
         "depth_fade_distance": 3.0,
         "alpha_ramp_curvature": 2.0,
         "alpha_ramp_steepness": 1.0
     },
     "particle_effects": [
-    {
-        "particle_effect": "zentr_beam",
-        "interval_distance": [4.0, 4.0]
-    }]
+        {
+            "particle_effect": "zentr_beam",
+            "interval_distance": [6.0, 6.0]
+        }
+    ]
 }

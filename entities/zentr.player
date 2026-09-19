@@ -436,14 +436,16 @@
         "vasari_antifighter_frigate",
         "dlc2_vasari_loyalist_super_capital_ship",
 
-        "zentr_picket_frigate"
+        "zentr_picket_frigate",
+        "zentr_thurvel_capital_ship"
     ],
     "faction_buildable_units": [
         "vasari_loyalist_titan",
         "dlc2_vasari_loyalist_super_capital_ship"
     ],
     "buildable_strikecraft": [
-        "zentr_gnerl_strikecraft"
+        "zentr_gnerl_strikecraft",
+        "zentr_regult_strikecraft"
     ],
     "structure_build_groups": [
     {

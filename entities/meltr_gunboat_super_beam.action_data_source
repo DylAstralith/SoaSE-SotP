@@ -120,7 +120,7 @@
             "action_value_id": "execution_interval_count_value",
             "action_value": {
                 "values": [
-                    4
+                    3
                 ]
             }
         },
@@ -143,7 +143,7 @@
         {
             "action_value": {
                 "values": [
-                    1000
+                    75
                 ]
             },
             "action_value_id": "cannon_splash_damage_rate_value"

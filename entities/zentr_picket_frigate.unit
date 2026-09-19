@@ -93,7 +93,7 @@
     {
         "weapons": [
         {
-            "weapon": "zentr_light_beam",
+            "weapon": "light_beam",
             "mesh_point": "turret_muzzle",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -114,7 +114,7 @@
             } 
         },
         {
-            "weapon": "zentr_light_beam_alt2",
+            "weapon": "light_beam_alt2",
             "mesh_point": "turret_muzzle.001",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -135,7 +135,7 @@
             } 
         },
         {
-            "weapon": "zentr_light_beam_alt3",
+            "weapon": "light_beam_alt3",
             "mesh_point": "turret_muzzle.002",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -156,7 +156,7 @@
             } 
         },
         {
-            "weapon": "zentr_light_beam_alt1",
+            "weapon": "light_beam_alt1",
             "mesh_point": "turret_muzzle.003",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -177,7 +177,7 @@
             } 
         },
         {
-            "weapon": "zentr_pulse_aa",
+            "weapon": "pulse_beam_aa",
             "mesh_point": "turret_muzzle.004",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -198,7 +198,7 @@
             } 
         },
         {
-            "weapon": "zentr_pulse_aa",
+            "weapon": "pulse_beam_aa",
             "mesh_point": "turret_muzzle.005",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -219,7 +219,7 @@
             } 
         },
         {
-            "weapon": "zentr_pulse_aa",
+            "weapon": "pulse_beam_aa",
             "mesh_point": "turret_muzzle.006",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -240,7 +240,7 @@
             } 
         },
         {
-            "weapon": "zentr_pulse_aa",
+            "weapon": "pulse_beam_aa",
             "mesh_point": "turret_muzzle.007",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -261,7 +261,7 @@
             } 
         },
         {
-            "weapon": "zentr_light_beam",
+            "weapon": "light_beam",
             "mesh_point": "turret_muzzle.012",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -282,7 +282,7 @@
             } 
         },
         {
-            "weapon": "zentr_light_beam_alt2",
+            "weapon": "light_beam_alt2",
             "mesh_point": "turret_muzzle.013",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -303,7 +303,7 @@
             } 
         },
         {
-            "weapon": "zentr_light_beam_alt3",
+            "weapon": "light_beam_alt3",
             "mesh_point": "turret_muzzle.014",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -324,7 +324,7 @@
             } 
         },
         {
-            "weapon": "zentr_light_beam_alt1",
+            "weapon": "light_beam_alt1",
             "mesh_point": "turret_muzzle.015",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -345,7 +345,7 @@
             } 
         },
         {
-            "weapon": "zentr_pulse_aa",
+            "weapon": "pulse_beam_aa",
             "mesh_point": "turret_muzzle.016",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -366,7 +366,7 @@
             } 
         },
         {
-            "weapon": "zentr_pulse_aa",
+            "weapon": "pulse_beam_aa",
             "mesh_point": "turret_muzzle.017",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -387,7 +387,7 @@
             } 
         },
         {
-            "weapon": "zentr_pulse_aa",
+            "weapon": "pulse_beam_aa",
             "mesh_point": "turret_muzzle.018",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [
@@ -408,7 +408,7 @@
             } 
         },
         {
-            "weapon": "zentr_pulse_aa",
+            "weapon": "pulse_beam_aa",
             "mesh_point": "turret_muzzle.019",
             "weapon_position": [0.0, 0.0, 0.0],
             "non_turret_muzzle_positions": [

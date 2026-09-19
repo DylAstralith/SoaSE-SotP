@@ -5,14 +5,21 @@
         "spacy_armd_cruiser",
         "spacy_oberth_frigate",
         
+        "zentr_regult_strikecraft",
         "zentr_picket_frigate",
         "zentr_gnerl_strikecraft",
+        "zentr_thurvel_capital_ship",
+        "zentr_quiltra_cruiser",
 
         "meltr_gunboat_cruiser",
 
-        "mm_torpedo_wide",
-        "mm_torpedo_medium",
-        "mm_torpedo_fast",
+        "spacy_mm_torpedo_wide",
+        "spacy_mm_torpedo_medium",
+        "spacy_mm_torpedo_fast",
+        "zentr_mm_torpedo_wide",
+        "zentr_mm_torpedo_medium",
+        "zentr_mm_torpedo_fast",
+
         "sts_missile"
     ]
 }

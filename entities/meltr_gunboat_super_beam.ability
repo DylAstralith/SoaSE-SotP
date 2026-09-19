@@ -1,8 +1,10 @@
 {
     "version": 0,
     "action_data_source": "meltr_gunboat_super_beam",
-    "level_source": "internal_level",
-    "min_required_unit_levels": [0],
+    "level_source": "research_prerequisites_per_level",
+    "level_prerequisites": [
+        []
+    ],
     "active_actions": {
         "cooldown_time": "cooldown_time_value",
         "antimatter_cost": "antimatter_cost_value",
@@ -16,7 +18,7 @@
                     "operators": [
                         {
                             "operator_type": "apply_buff",
-                            "buff": "meltr_gunboat_super_beam_on_self"
+                            "buff": "super_heavy_beam_on_self"
                         }
                     ]
                 }

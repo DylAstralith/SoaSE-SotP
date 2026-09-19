@@ -2,7 +2,8 @@
     "version": 0,
     "race": "zentr",
     "buildable_strikecraft": [
-        "zentr_gnerl_strikecraft"
+        "zentr_gnerl_strikecraft",
+        "zentr_regult_strikecraft"
     ],
     "home_planet":
     {},
@@ -49,38 +50,36 @@
                         "count": [2, 7]
                     },
                     {
-                        "unit": "zentr_picket_frigate",
-                        "count": [2, 4]
-                    },
-                    {
                         "unit": "meltr_gunboat_cruiser",
                         "count": [2, 3]
                     },
                     {
-                        "unit": "meltr_gunboat_cruiser",
-                        "count": [2, 3]
+                        "unit": "zentr_thurvel_capital_ship",
+                        "count": [1, 2]
                     },
                     {
-                        "unit": "zentr_picket_frigate",
-                        "count": [3, 3]
-                    }],
+                        "unit": "zentr_quiltra_cruiser",
+                        "count": [2, 2]
+                    }
+                ],
                     "random_units": [
                     {
                         "unit": "zentr_picket_frigate",
                         "weight": 6.0
                     },
                     {
-                        "unit": "zentr_picket_frigate",
+                        "unit": "meltr_gunboat_cruiser",
+                        "weight": 2.0
+                    },
+                    {
+                        "unit": "zentr_thurvel_capital_ship",
+                        "weight": 1.0
+                    },
+                    {
+                        "unit": "zentr_quiltra_cruiser",
                         "weight": 3.0
-                    },
-                    {
-                        "unit": "meltr_gunboat_cruiser",
-                        "weight": 2.0
-                    },
-                    {
-                        "unit": "meltr_gunboat_cruiser",
-                        "weight": 2.0
-                    }]
+                    }
+                ]
                 },
                 "supply_threshold": 125
             },
@@ -89,33 +88,38 @@
                 {
                     "required_units": [
                     {
-                        "unit": "meltr_gunboat_cruiser",
-                        "count": [2, 2]
-                    },
-                    {
-                        "unit": "zentr_picket_frigate",
-                        "count": [3, 4]
-                    },
-                    {
                         "unit": "zentr_picket_frigate",
                         "count": [2, 3]
                     },
                     {
                         "unit": "meltr_gunboat_cruiser",
                         "count": [2, 2]
-                    }],
+                    },
+                    {
+                        "unit": "zentr_thurvel_capital_ship",
+                        "count": [1, 2]
+                    },
+                    {
+                        "unit": "zentr_quiltra_cruiser",
+                        "count": [2, 2]
+                    }
+                ],
                     "random_units": [
                     {
                         "unit": "zentr_picket_frigate",
                         "weight": 3.0
                     },
                     {
-                        "unit": "zentr_picket_frigate",
+                        "unit": "meltr_gunboat_cruiser",
                         "weight": 2.0
                     },
                     {
-                        "unit": "meltr_gunboat_cruiser",
-                        "weight": 2.0
+                        "unit": "zentr_thurvel_capital_ship",
+                        "weight": 1.0
+                    },
+                    {
+                        "unit": "zentr_quiltra_cruiser",
+                        "weight": 3.0
                     }]
                 },
                 "supply_threshold": 85
@@ -126,10 +130,6 @@
                     "required_units": [
                     {
                         "unit": "zentr_picket_frigate",
-                        "count": [2, 2]
-                    },
-                    {
-                        "unit": "zentr_picket_frigate",
                         "count": [5, 6]
                     },
                     {
@@ -137,25 +137,30 @@
                         "count": [1, 2]
                     },
                     {
-                        "unit": "meltr_gunboat_cruiser",
+                        "unit": "zentr_thurvel_capital_ship",
                         "count": [1, 2]
                     },
                     {
-                        "unit": "zentr_picket_frigate",
+                        "unit": "zentr_quiltra_cruiser",
                         "count": [2, 2]
-                    }],
+                    }
+                ],
                     "random_units": [
                     {
                         "unit": "zentr_picket_frigate",
                         "weight": 2.0
                     },
                     {
-                        "unit": "zentr_picket_frigate",
-                        "weight": 3.0
-                    },
-                    {
                         "unit": "meltr_gunboat_cruiser",
                         "weight": 1.0
+                    },
+                    {
+                        "unit": "zentr_thurvel_capital_ship",
+                        "weight": 1.0
+                    },
+                    {
+                        "unit": "zentr_quiltra_cruiser",
+                        "weight": 2.0
                     }]
                 },
                 "supply_threshold": 80
@@ -166,10 +171,6 @@
                     "required_units": [
                     {
                         "unit": "zentr_picket_frigate",
-                        "count": [2, 2]
-                    },
-                    {
-                        "unit": "zentr_picket_frigate",
                         "count": [2, 3]
                     },
                     {
@@ -177,8 +178,12 @@
                         "count": [1, 2]
                     },
                     {
-                        "unit": "meltr_gunboat_cruiser",
+                        "unit": "zentr_thurvel_capital_ship",
                         "count": [1, 2]
+                    },
+                    {
+                        "unit": "zentr_quiltra_cruiser",
+                        "count": [2, 2]
                     }],
                     "random_units": [
                     {
@@ -187,6 +192,14 @@
                     },
                     {
                         "unit": "meltr_gunboat_cruiser",
+                        "weight": 1.0
+                    },
+                    {
+                        "unit": "zentr_thurvel_capital_ship",
+                        "weight": 1.0
+                    },
+                    {
+                        "unit": "zentr_quiltra_cruiser",
                         "weight": 1.0
                     }]
                 },
@@ -205,21 +218,31 @@
                         "count": [1, 1]
                     },
                     {
-                        "unit": "zentr_picket_frigate",
+                        "unit": "zentr_thurvel_capital_ship",
                         "count": [1, 1]
-                    }],
+                    },
+                    {
+                        "unit": "zentr_quiltra_cruiser",
+                        "count": [1, 1]
+                    }
+],
                     "random_units": [
                     {
                         "unit": "zentr_picket_frigate",
                         "weight": 3.0
                     },
-                    {
-                        "unit": "zentr_picket_frigate",
-                        "weight": 3.0
-                    },
+   
                     {
                         "unit": "meltr_gunboat_cruiser",
                         "weight": 1.0
+                    },
+                    {
+                        "unit": "zentr_thurvel_capital_ship",
+                        "weight": 1.0
+                    },
+                    {
+                        "unit": "zentr_quiltra_cruiser",
+                        "weight": 2.0
                     }]
                 },
                 "supply_threshold": 25
@@ -230,15 +253,20 @@
                     "required_units": [
                     {
                         "unit": "zentr_picket_frigate",
-                        "count": [1, 1]
+                        "count": [1, 2]
                     },
                     {
-                        "unit": "zentr_picket_frigate",
+                        "unit": "zentr_quiltra_cruiser",
                         "count": [1, 1]
-                    }],
+                    }
+                ],
                     "random_units": [
                     {
                         "unit": "zentr_picket_frigate",
+                        "weight": 1.0
+                    },
+                    {
+                        "unit": "zentr_quiltra_cruiser",
                         "weight": 1.0
                     }]
                 },

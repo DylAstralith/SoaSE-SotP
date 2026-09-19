@@ -30,10 +30,13 @@
         {
             "exhaust_effects":
             {
-                "particle_effects": [],
+                "particle_effects": [
+                {
+                    "particle_effect": "mm_glow_spacy"
+                }],
                 "trail_effects": [
                 {
-                    "trail_effect": "fightertechcombat"
+                    "trail_effect": "vf_trail"
                 }]
             },
             "effect_alias_bindings": [
@@ -55,21 +58,24 @@
                 {
                     "particle_effect": "light_autocannon_impact",
                     "sounds": [
-                        "weapon_impact_generic_light_hitshields"]
+                        "hithull_sfx1",
+                        "hithull_sfx2",
+                        "hithull_sfx3"
+                    ]
                 }
             },
             {
-                "alias_name": "trader_interceptor_strikecraft_light_autocannon_weapon_muzzle",
+                "alias_name": "gunpod_weapon_muzzle",
                 "alias_binding":
                 {
-                    "particle_effect": "trader_light_autocannon_weapon_muzzle",
+                    "particle_effect": "gunpod_muzzle",
                     "sounds": [
                         "spacy_gunpod"
                     ]
                 }
             },
             {
-                "alias_name": "spacy_gunpod_weapon_projectile_travel",
+                "alias_name": "gunpod_weapon_projectile_travel",
                 "alias_binding":
                 {
                     "particle_effect": "spacy_gunpod_weapon_projectile_travel"
@@ -89,7 +95,7 @@
                 "alias_name": "mm_missile_weapon_hit_hull",
                 "alias_binding":
                 {
-                    "particle_effect": "torpedo_missile_hit",
+                    "particle_effect": "explosion2",
                     "sounds": [
                         "mm_explode",
                         "mm_explode2",

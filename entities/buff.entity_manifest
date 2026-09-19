@@ -3,6 +3,7 @@
         "spacy_sdf_capital_ship_macross_cannon_on_self",
         "meltr_gunboat_super_beam_on_self",
         "mm_splash_on_launcher",
-        "mm_splash_on_torpedo"
+        "mm_splash_on_torpedo",
+        "super_heavy_beam_on_self"
     ]
 }

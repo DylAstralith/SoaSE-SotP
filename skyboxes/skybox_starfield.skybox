@@ -1,0 +1,29 @@
+{
+    "starfield_layers": [
+    {
+        "base_color_texture": "starfielddense",
+        "zoom": 4.0,
+        "speed_scalar": 1.0
+    },
+    {
+        "base_color_texture": "starfieldsparse",
+        "zoom": 3.4,
+        "speed_scalar": 1.0
+    },
+    {
+        "base_color_texture": "starfieldsparse2",
+        "zoom": 3.0,
+        "speed_scalar": 1.0
+    }
+],
+    "skybox_layers": [
+    {
+        "base_color_texture": "starfield_cloud",
+        "speed_scalar": 1.0
+    }
+    
+    ],
+    "radiance_texture": "starfield_rad",
+    "irradiance_texture": "starfield_irr",
+    "dfg_texture": "default_skybox_dfg.png"
+}

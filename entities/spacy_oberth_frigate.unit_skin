@@ -96,35 +96,78 @@
                 "shield_effect": "trader_light_frigate",
                 "effect_alias_bindings": [
                     {
-                        "alias_name": "spacy_weapon_light_beam_beam",
+                        "alias_name": "weapon_light_beam_beam",
                         "alias_binding": {
                             "beam": "spacy_beam_light",
                             "sounds": ["spacy_beam", "spacy_beam2"]
                         }
                     },
                     {
-                        "alias_name": "spacy_weapon_light_beam_hit_hull",
+                        "alias_name": "weapon_light_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "spacy_beam_impact",
+                            "particle_effect": "explosion1",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
-                        "alias_name": "spacy_weapon_light_beam_hit_shield",
+                        "alias_name": "weapon_light_beam_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "spacy_beam_impact",
-                            "sounds": [
-                                "weapon_impact_generic_medium_hitshields",
-                                "weapon_impact_generic_medium_hitshields_01",
-                                "weapon_impact_generic_medium_hitshields_02",
-                                "weapon_impact_generic_medium_hitshields_03"
-                            ]
+                            "particle_effect": "explosion1",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
-                        "alias_name": "spacy_weapon_light_beam_muzzle",
+                        "alias_name": "weapon_light_beam_muzzle",
                         "alias_binding": {
                             "particle_effect": "spacy_beam_muzzle"
+                        }
+                    },
+                    {
+                        "alias_name": "weapon_medium_beam_beam",
+                        "alias_binding": {
+                            "beam": "spacy_beam",
+                            "sounds": ["spacy_beam", "spacy_beam2"]
+                        }
+                    },
+                    {
+                        "alias_name": "weapon_medium_beam_hit_hull",
+                        "alias_binding": {
+                            "particle_effect": "explosion1",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                        }
+                    },
+                    {
+                        "alias_name": "weapon_medium_beam_hit_shield",
+                        "alias_binding": {
+                            "particle_effect": "explosion1",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                        }
+                    },
+                    {
+                        "alias_name": "weapon_medium_beam_muzzle",
+                        "alias_binding": {
+                            "particle_effect": "spacy_beam_muzzle"
+                        }
+                    },
+                    {
+                        "alias_name": "mm_missile_weapon_muzzle",
+                        "alias_binding": {
+                            "particle_effect": "javelis_torpedo_muzzle",
+                            "sounds": ["mm_launch"]
+                        }
+                    },
+                    {
+                        "alias_name": "mm_missile_weapon_trail",
+                        "alias_binding": {
+                            "particle_effect": "javelis_torpedo_muzzle",
+                            "sounds": ["mm_launch"]
+                        }
+                    },
+                    {
+                        "alias_name": "mm_missile_weapon_hit_hull",
+                        "alias_binding": {
+                            "particle_effect": "explosion2",
+                            "sounds": ["mm_explode", "mm_explode2", "mm_explode3"]
                         }
                     }
                 ]
