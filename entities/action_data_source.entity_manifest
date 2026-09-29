@@ -1,7 +1,8 @@
 {
     "ids": [
-        "spacy_sdf_capital_ship_macross_cannon",
-        "meltr_gunboat_super_beam",
-        "mm_splash"
+        "macross_cannon",
+        "super_heavy_beam",
+        "mm_splash",
+        "react_missile"
     ]
 }

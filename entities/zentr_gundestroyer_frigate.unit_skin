@@ -1,0 +1,184 @@
+{
+    "version": 0,
+    "skin_stages": [
+        {
+            "is_main_view_icon_visible_camera_distance": 24129.378371,
+            "min_camera_distance": 475.892333,
+            "gui": {
+                "hud_icon": "zentr_gundestroyer_frigate_hud_icon",
+                "hud_monochrome_icon": "zentr_gundestroyer_frigate_main_view_icon",
+                "hud_picture": "zentr_gundestroyer_frigate_hud_picture",
+                "tooltip_picture": "zentr_gundestroyer_frigate_tooltip_picture",
+                "name": "zentr_gundestroyer_frigate_name",
+                "description": "zentr_gundestroyer_frigate_description"
+            },
+            "unit_mesh": {
+                "mesh": "zentr_gundestroyer_frigate",
+                "shader": "ship",
+                "is_shadow_blocker": true
+            },
+            "child_mesh_alias_bindings": {
+                "map": [
+                    {
+                        "mesh_alias_name": "zentradi_gundestroyer_upper_jaw",
+                        "mesh_definition": {
+                            "mesh": "zentr_gundestroyer_frigate_upj",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "zentradi_gundestroyer_lower_jaw",
+                        "mesh_definition": {
+                            "mesh": "zentr_gundestroyer_frigate_lowj",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    }
+                ]
+            },
+            "main_view_icon": {
+                "group": "ship",
+                "icon": "advent_long_range_cruiser_main_view_icon",
+                "selected_icon": "advent_long_range_cruiser_main_view_icon_selected",
+                "sub_selected_icon": "advent_long_range_cruiser_main_view_icon_sub_selected"
+            },
+            "effects": {
+                "exhaust_effects": {
+                    "particle_effects": [
+                        {
+                            "particle_effect": "advent_trail_cruiser"
+                        }
+                    ]
+                },
+                "hyperspace_effects": {
+                    "charge_effect": "fold_chargeup",
+                    "charge_effect_between_stars": "fold_chargeup",
+                    "charge_effect_destabilized": "fold_chargeup",
+                    "travel_effect": "fold_travel",
+                    "travel_effect_between_stars": "fold_travel",
+                    "travel_effect_destabilized": "fold_travel",
+                    "exit_effect": "fold_exit",
+                    "charge_sound": "fold_chargeup",
+                    "enter_sound": "fold_entry",
+                    "exit_sound": "fold_exit"
+                },
+                "damage_effects": {
+                    "max_damage_effect_count": 1,
+                    "damage_effects": [
+                        {
+                            "max_count": 1,
+                            "weight": 3,
+                            "hull_percentage_threshold": 0.99,
+                            "particle_effect": "damage_electricity",
+                            "sound": "damaged_loop_sfx1"
+                        }
+                    ]
+                },
+                "shield_effect": "frigatepsilongrange",
+                "effect_alias_bindings": [
+                    {
+                        "alias_name": "mm_missile_weapon_muzzle",
+                        "alias_binding": {
+                            "particle_effect": "javelis_torpedo_muzzle",
+                            "sounds": ["mm_launch"]
+                        }
+                    },
+                    {
+                        "alias_name": "super_heavy_beam_beam",
+                        "alias_binding": {
+                            "beam": "zentr_beam_super_heavy",
+                            "sounds": ["super_heavy_beam_fire"]
+                        }
+                    },
+                    {
+                        "alias_name": "super_heavy_beam_charge",
+                        "alias_binding": {
+                            "particle_effect": "trader_robotics_cruiser_emp_droids_buff_large_default",
+                            "sounds": ["super_heavy_beam_charge"]
+                        }
+                    },
+                    {
+                        "alias_name": "super_heavy_beam_hit_hull",
+                        "alias_binding": {
+                            "particle_effect": "meltr_beam_super_heavy_impact",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                        }
+                    },
+                    {
+                        "alias_name": "super_heavy_beam_hit_shield",
+                        "alias_binding": {
+                            "particle_effect": "meltr_beam_super_heavy_impact",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                        }
+                    },
+                    {
+                        "alias_name": "super_heavy_beam_muzzle",
+                        "alias_binding": {
+                            "particle_effect": "meltr_beam_super_heavy_muzzle"
+                        }
+                    }
+                ]
+            },
+            "sounds": {
+                "move_sounds": {
+                    "engine": "engine_heavy",
+                    "hyperspace_travel": "fold_loop"
+                },
+                "dialogue": {
+                    "spawned": {
+                        "neutral": ["advent_long_range_cruiser_spawned_neutral_0"]
+                    },
+                    "selected": {
+                        "neutral": [
+                            "advent_long_range_cruiser_selected_neutral_0",
+                            "advent_long_range_cruiser_selected_neutral_1",
+                            "advent_long_range_cruiser_selected_neutral_2"
+                        ],
+                        "scared": [
+                            "advent_long_range_cruiser_selected_scared_0_placeholder",
+                            "advent_long_range_cruiser_selected_scared_1_placeholder",
+                            "advent_long_range_cruiser_selected_scared_2_placeholder"
+                        ]
+                    },
+                    "order_issued": {
+                        "neutral": [
+                            "advent_long_range_cruiser_order_issued_neutral_0",
+                            "advent_long_range_cruiser_order_issued_neutral_1",
+                            "advent_long_range_cruiser_order_issued_neutral_2"
+                        ],
+                        "scared": [
+                            "advent_long_range_cruiser_order_issued_scared_0_placeholder",
+                            "advent_long_range_cruiser_order_issued_scared_1_placeholder",
+                            "advent_long_range_cruiser_order_issued_scared_2_placeholder"
+                        ]
+                    },
+                    "attack_order_issued": {
+                        "neutral": [
+                            "advent_long_range_cruiser_attack_order_issued_neutral_0",
+                            "advent_long_range_cruiser_attack_order_issued_neutral_1",
+                            "advent_long_range_cruiser_attack_order_issued_neutral_2",
+                            "advent_long_range_cruiser_attack_order_issued_neutral_3_placeholder"
+                        ],
+                        "scared": [
+                            "advent_long_range_cruiser_attack_order_issued_scared_0_placeholder",
+                            "advent_long_range_cruiser_attack_order_issued_scared_1_placeholder",
+                            "advent_long_range_cruiser_attack_order_issued_scared_2_placeholder",
+                            "advent_long_range_cruiser_attack_order_issued_scared_3_placeholder"
+                        ],
+                        "smug": [
+                            "advent_long_range_cruiser_attack_order_issued_smug_0_placeholder",
+                            "advent_long_range_cruiser_attack_order_issued_smug_1_placeholder",
+                            "advent_long_range_cruiser_attack_order_issued_smug_2_placeholder",
+                            "advent_long_range_cruiser_attack_order_issued_smug_3_placeholder"
+                        ]
+                    },
+                    "hyperspace_charge_started": {
+                        "neutral": ["advent_long_range_cruiser_hyperspace_charge_started_neutral_0"]
+                    }
+                }
+            },
+            "death_sequence_group": "capitalship0"
+        }
+    ]
+}

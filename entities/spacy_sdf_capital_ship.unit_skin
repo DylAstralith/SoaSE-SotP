@@ -36,16 +36,16 @@
                     ]
                 },
                 "hyperspace_effects": {
-                    "charge_effect": "hyperspace_tech_capital_chargeup",
-                    "charge_effect_between_stars": "hyperspace_tech_capital_chargeup_interstellar",
-                    "charge_effect_destabilized": "hyperspace_tech_capital_chargeup_unstable",
-                    "travel_effect": "hyperspace_tech_capital_travel",
-                    "travel_effect_between_stars": "hyperspace_tech_capital_travel_interstellar",
-                    "travel_effect_destabilized": "hyperspace_tech_capital_travel_unstable",
-                    "exit_effect": "hyperspace_tech_capital_exit",
-                    "charge_sound": "hyperspace_chargeup",
-                    "enter_sound": "hyperspace_entry",
-                    "exit_sound": "hyperspace_exit"
+                    "charge_effect": "fold_chargeup",
+                    "charge_effect_between_stars": "fold_chargeup",
+                    "charge_effect_destabilized": "fold_chargeup",
+                    "travel_effect": "fold_travel",
+                    "travel_effect_between_stars": "fold_travel",
+                    "travel_effect_destabilized": "fold_travel",
+                    "exit_effect": "fold_exit",
+                    "charge_sound": "fold_chargeup",
+                    "enter_sound": "fold_entry",
+                    "exit_sound": "fold_exit"
                 },
                 "damage_effects": {
                     "max_damage_effect_count": 1,
@@ -186,7 +186,7 @@
                         "alias_name": "weapon_light_beam_beam",
                         "alias_binding": {
                             "beam": "spacy_beam_light",
-                            "sounds": ["spacy_beam", "spacy_beam2", "spacy_beam3"]
+                            "sounds": ["spacy_beam", "spacy_beam2"]
                         }
                     },
                     {
@@ -200,12 +200,7 @@
                         "alias_name": "weapon_light_beam_hit_shield",
                         "alias_binding": {
                             "particle_effect": "explosion1",
-                            "sounds": [
-                                "weapon_impact_generic_medium_hitshields",
-                                "weapon_impact_generic_medium_hitshields_01",
-                                "weapon_impact_generic_medium_hitshields_02",
-                                "weapon_impact_generic_medium_hitshields_03"
-                            ]
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
@@ -217,8 +212,8 @@
                     {
                         "alias_name": "mm_missile_weapon_muzzle",
                         "alias_binding": {
-                            "particle_effect": "javelis_torpedo_muzzle",
-                            "sounds": ["mm_launch"]
+                            "particle_effect": "Buff_FighterBlinkActivate",
+                            "sounds": ["mm_launch", "mm_launch2"]
                         }
                     },
                     {
@@ -232,7 +227,7 @@
                         "alias_name": "weapon_heavy_beam_beam",
                         "alias_binding": {
                             "beam": "spacy_beam_heavy",
-                            "sounds": ["spacy_beam", "spacy_beam2", "spacy_beam3"]
+                            "sounds": ["spacy_beam", "spacy_beam2"]
                         }
                     },
                     {
@@ -260,7 +255,7 @@
             "sounds": {
                 "move_sounds": {
                     "engine": "engine_heavy",
-                    "hyperspace_travel": "hyperspace_travel"
+                    "hyperspace_travel": "fold_loop"
                 },
                 "dialogue": {
                     "spawned": {

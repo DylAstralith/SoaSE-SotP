@@ -89,7 +89,7 @@
         "weapons": [
             {
                 "weapon": "gunpod",
-                "mesh_point": "turret_muzzle.004",
+                "mesh_point": "turret_muzzle",
                 "weapon_position": [
                     -0.00091,
                     0.032322,
@@ -118,17 +118,17 @@
                     0.0
                 ],
                 "yaw_arc": {
-                    "min_angle": -10.0,
-                    "max_angle": 10.0
+                    "min_angle": -5.0,
+                    "max_angle": 5.0
                 },
                 "pitch_arc": {
-                    "min_angle": -10.0,
-                    "max_angle": 10.0
+                    "min_angle": -5.0,
+                    "max_angle": 5.0
                 }
             },
             {
                 "weapon": "spacy_mm_bank_0",
-                "mesh_point": "turret_muzzle",
+                "mesh_point": "turret_muzzle.001",
                 "weapon_position": [
                     -2.219911,
                     -0.319226,
@@ -162,7 +162,7 @@
             },
             {
                 "weapon": "spacy_mm_bank_1",
-                "mesh_point": "turret_muzzle.001",
+                "mesh_point": "turret_muzzle.002",
                 "weapon_position": [
                     -3.111887,
                     -0.323936,
@@ -196,7 +196,7 @@
             },
             {
                 "weapon": "spacy_mm_bank_2",
-                "mesh_point": "turret_muzzle.002",
+                "mesh_point": "turret_muzzle.003",
                 "weapon_position": [
                     2.274331,
                     -0.338238,
@@ -230,7 +230,7 @@
             },
             {
                 "weapon": "spacy_mm_bank_3",
-                "mesh_point": "turret_muzzle.003",
+                "mesh_point": "turret_muzzle.004",
                 "weapon_position": [
                     3.168759,
                     -0.342947,

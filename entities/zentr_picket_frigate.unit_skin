@@ -31,17 +31,18 @@
                         }
                     ]
                 },
-                "hyperspace_effects": {
-                    "charge_effect": "vasari_portal_start_frigate",
-                    "charge_effect_between_stars": "hyperspace_vasari_frigate_chargeup_interstellar",
-                    "charge_effect_destabilized": "hyperspace_vasari_frigate_chargeup_unstable",
-                    "travel_effect": "vasari_corvette_portal_travel",
-                    "travel_effect_between_stars": "hyperspace_vasari_frigate_travel_interstellar",
-                    "travel_effect_destabilized": "hyperspace_vasari_frigate_travel_unstable",
-                    "exit_effect": "vasari_frigate_portal_exit",
-                    "charge_sound": "hyperspace_chargeup",
-                    "enter_sound": "hyperspace_entry",
-                    "exit_sound": "hyperspace_exit"
+                "hyperspace_effects": 
+                {
+                    "charge_effect": "fold_chargeup_small",
+                    "charge_effect_between_stars": "fold_chargeup_small",
+                    "charge_effect_destabilized": "fold_chargeup_small",
+                    "travel_effect": "fold_travel_small",
+                    "travel_effect_between_stars": "fold_travel_small",
+                    "travel_effect_destabilized": "fold_travel_small",
+                    "exit_effect": "fold_exit_small",
+                    "charge_sound": "fold_chargeup",
+                    "enter_sound": "fold_entry",
+                    "exit_sound": "fold_exit"
                 },
                 "damage_effects": {
                     "max_damage_effect_count": 1,
@@ -68,7 +69,7 @@
                         "alias_name": "weapon_light_beam_beam",
                         "alias_binding": {
                             "beam": "zentr_beam_light",
-                            "sounds": ["zentr_beam", "zentr_beam2"]
+                            "sounds": ["zentr_pulse", "zentr_pulse2", "zentr_pulse3", "zentr_beam3", "zentr_beam4"]
                         }
                     },
                     {
@@ -100,7 +101,7 @@
                         "alias_name": "weapon_pulse_beam_aa_beam",
                         "alias_binding": {
                             "beam": "zentr_pulse_aa",
-                            "sounds": ["zentr_pulse"]
+                            "sounds": ["zentr_pulse", "zentr_pulse2", "zentr_pulse3"]
                         }
                     },
                     {
@@ -138,7 +139,7 @@
             "sounds": {
                 "move_sounds": {
                     "engine": "engine_medium",
-                    "hyperspace_travel": "hyperspace_travel"
+                    "hyperspace_travel": "fold_loop"
                 },
                 "dialogue": {
                     "spawned": {

@@ -1,0 +1,149 @@
+{
+    "version": 0,
+    "action_data_source": "react_missile",
+    "level_source": "fixed_level_0",
+    "active_actions":
+    {
+        "cooldown_time": "react_missile_cooldown_time_value",
+        "actions":
+        {
+            "actions": [
+            {
+                "constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "target"
+                    },
+                    "target_filter_id": "react_missile_target_filter"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "current_spawner"
+                },
+                "operators": [
+                {
+                    "operator_type": "apply_buff",
+                    "buff": "react_missile_on_self"
+                }]
+            }]
+        },
+        "targeting_type": "unit_targeted",
+        "target_filters": [
+            "react_missile_target_filter"
+        ],
+        "range": "react_missile_range_value",
+        "auto_cast":
+        {
+            "enabled_by_default_behavior": "never",
+            "caster_constraint":
+            {
+                "constraint_type": "unit_passes_unit_constraint",
+                "unit":
+                {
+                    "unit_type": "current_spawner"
+                },
+                "unit_constraint":
+                {
+                    "constraint_type": "weapon_has_target"
+                }
+            },
+            "target_definitions": [
+            {
+                "target_filter": "react_missile_auto_cast_high_priority_target_filter"
+            },
+            {
+                "target_filter": "react_missile_auto_cast_low_priority_target_filter"
+            }]
+        }
+    },
+    "gui":
+    {
+        "hud_icon": "trader_long_range_cruiser_breaker_missile_ability_hud_icon",
+        "tooltip_picture": "trader_long_range_cruiser_breaker_missile_ability_tooltip_picture",
+        "name": "react_missile_ability_name",
+        "description": "react_missile_ability_description",
+        "targeting":
+        {
+            "targeting_type": "range",
+            "values":
+            {
+                "range": "react_missile_range_value"
+            }
+        },
+        "tooltip_line_groups": [
+        {
+            "header_text": "tooltip.ability.salvo_properties",
+            "lines": [
+            {
+                "rendering_type": "single_value",
+                "label_text": "tooltip.ability.missile_count",
+                "value_id": "react_missile_torpedo_count_value"
+            }
+            ]
+        },
+        {
+            "header_text": "tooltip.ability.missile_properties",
+            "lines": [
+            {
+                "rendering_type": "single_value",
+                "label_text": "tooltip.ability.damage",
+                "value_id": "react_missile_damage_value",
+                "value_color": "negative"
+            },
+            {
+                "visible_if_value_zero": true,
+                "rendering_type": "single_value",
+                "label_text": "tooltip.ability.armor_penetration",
+                "value_id": "react_missile_armor_penetration_value"
+            },
+            {
+                "rendering_type": "single_value",
+                "label_text": "tooltip.ability.missile_speed",
+                "value_id": "react_missile_torpedo_speed_value"
+            },
+            {
+                "rendering_type": "single_value",
+                "label_text": "tooltip.ability.missile_hull",
+                "value_id": "react_missile_torpedo_hull_value"
+            },
+            {
+                "rendering_type": "single_value",
+                "label_text": "tooltip.ability.missile_armor",
+                "value_id": "react_missile_torpedo_armor_value"
+            }]
+        }]
+    },
+    "ability_positions": [
+    {
+        "position":  [
+                         -1.805707,
+                         -0.260797,
+                         0.105825
+                     ]
+    },
+    {
+        "position":  [
+                         -2.150185,
+                         -0.260797,
+                         0.105825
+                     ]
+    },
+    {
+        "position":  [
+                         2.150905,
+                         -0.260798,
+                         0.103536
+                     ]
+    },
+    {
+        "position":  [
+                         1.809292,
+                         -0.260178,
+                         0.103536
+                     ]
+    }
+]
+}

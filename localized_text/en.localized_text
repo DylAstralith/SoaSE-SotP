@@ -14,6 +14,8 @@
 
     "spacy_vfmass_strikecraft_name":  "VF-1A Mass-Production",
     "spacy_vfmass_strikecraft_description":  "VF-1A Mass-Production desc (WIP)",
+    "spacy_vf1a_react_strikecraft_name":  "VF-1A (Reaction Missiles)",
+    "spacy_vf1a_react_strikecraft_description":  "VF-1A (Reaction Missiles) desc (WIP)",
     "spacy_oberth_frigate_name":  "Oberth-Class Space Destroyer",
     "spacy_oberth_frigate_description":  "Oberth-Class Space Destroyer desc (WIP)",
     "spacy_armd_cruiser_name":  "ARMD-Class Space Carrier",
@@ -25,12 +27,16 @@
     "zentr_gnerl_strikecraft_description":  "Gnerl desc (WIP)",
     "zentr_regult_strikecraft_name":  "Regult Battle Pod",
     "zentr_regult_strikecraft_description":  "Regult Battle Pod desc (WIP)",
+    "zentr_regult_m_strikecraft_name":  "Regult Battle Pod (Heavy Missiles)",
+    "zentr_regult_m_strikecraft_description":  "Regult Battle Pod (Heavy Missiles) desc (WIP)",
     "zentr_picket_frigate_name":  "Zentradi Picket Patrol Frigate",
     "zentr_picket_frigate_description":  "Zentradi Picket Patrol Frigate desc (WIP)",
     "zentr_thurvel_capital_ship_name":  "Thuverl-Salan Class Battleship",
     "zentr_thurvel_capital_ship_description":  "Thuverl-Salan Class Battleship desc (WIP)",
     "zentr_quiltra_cruiser_name":  "Quiltra-Queleual Class Heavy Cruiser",
     "zentr_quiltra_cruiser_description":  "Quiltra-Queleual Class Heavy Cruiser desc (WIP)",
+    "zentr_gundestroyer_frigate_name":  "Medium-Scale Gun Destroyer",
+    "zentr_gundestroyer_frigate_description":  "Medium-Scale Gun Destroyer desc (WIP)",
 
     "meltr_gunboat_cruiser_name":  "Meltrandi Gunboat Cruiser",
     "meltr_gunboat_cruiser_description":  "Meltrandi Gunboat Cruiser desc (WIP)",
@@ -47,10 +53,20 @@
     "weapon_name.medium_beam_dual":  "Dual Medium Beam",
     "weapon_name.medium_beam_triple":  "Triple Medium Beam",
     "weapon_name.heavy_beam_triple":  "Triple Heavy Beam",
-    
     "weapon_name.sts_missile":  "Ship-to-Ship Missile",
     "weapon_name.mm":  "Micro-Missile Launcher",
+
+    "weapon_name.defender_des_turret":  "Destroid Defender",
+    "defender_des_weapons_unit_item_name":  "Destroid Defenders",
+    "defender_des_weapons_unit_item_description":  "Moves Destroid defenders to the hull, allowing them to shoot down enemy strikecraft and torpedoes.",
+
+
     "mm_splash_name":  "Micro-Missile Fragmentation",
     "mm_splash_description":  "Micro-missile impacts deal 25% of resolved impact damage to other enemy small crafts within 750 range",
-    "tooltip.macross_cannon.splash_damage_rate":  "Area damage rate"
+    "tooltip.super_heavy_beam.splash_damage_rate":  "Area damage rate",
+    "tooltip.macross_cannon.splash_damage_rate":  "Area damage rate",
+    "react_missile_ability_name":  "Reaction Missiles",
+    "react_missile_ability_description":  "Reaction Missiles desc (WIP)",
+    "react_missile_name":  "Reaction Missiles",
+    "react_missile_description":  "Reaction Missiles desc (WIP)"
 }

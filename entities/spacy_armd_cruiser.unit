@@ -574,6 +574,70 @@
                     "min_angle": -90.0,
                     "max_angle": 90.0
                 }
+            },
+            {
+                "weapon": "defender_des_turret",
+                "required_unit_item": "defender_des_weapons",
+                "mesh_point": "child.defender_des_mount.0",
+                "weapon_position": [-17.882908, 13.625709, 64.360008],
+                "forward": [0.0, 0.0, 1.0],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "defender_des_turret",
+                "required_unit_item": "defender_des_weapons",
+                "mesh_point": "child.defender_des_mount.1",
+                "weapon_position": [-21.525408, 13.625706, 37.847118],
+                "forward": [0.0, 0.0, 1.0],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "defender_des_turret",
+                "required_unit_item": "defender_des_weapons",
+                "mesh_point": "child.defender_des_mount.2",
+                "weapon_position": [18.089104, 13.625703, -3.729498],
+                "forward": [0.0, 0.0, 1.0],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "defender_des_turret",
+                "required_unit_item": "defender_des_weapons",
+                "mesh_point": "child.defender_des_mount.3",
+                "weapon_position": [18.089102, 13.625708, 38.592705],
+                "forward": [0.0, 0.0, 1.0],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 10.0
+                }
             }
         ],
         "max_range_weapon_index": 0
@@ -605,66 +669,6 @@
                         1.0,
                         0.0,
                         1.0,
-                        0.0,
-                        0.0
-                    ]
-                }
-            },
-            {
-                "hangar_basis": {
-                    "position": [
-                        40.766865,
-                        4.023466,
-                        18.227726
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        -1.0,
-                        0.0,
-                        1.0,
-                        0.0,
-                        1.0,
-                        0.0,
-                        0.0
-                    ]
-                }
-            },
-            {
-                "hangar_basis": {
-                    "position": [
-                        -41.040066,
-                        4.023466,
-                        -27.366314
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        0.0,
-                        1.0,
-                        0.0,
-                        -1.0,
-                        0.0,
-                        0.0
-                    ]
-                }
-            },
-            {
-                "hangar_basis": {
-                    "position": [
-                        -41.040066,
-                        4.023466,
-                        18.227726
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        0.0,
-                        1.0,
-                        0.0,
-                        -1.0,
                         0.0,
                         0.0
                     ]
@@ -752,6 +756,17 @@
     "ship_roles": [
         "attack_ship"
     ],
+    "items": {
+        "levels": [
+            {
+                "max_ship_component_count": 1
+            }
+        ],
+        "requires_ship_component_shop_to_purchase_items": false
+    },
+    "item_access_tags": [
+        "defender_des_compatible"
+    ],
     "skin_groups": [
         {
             "skins": [
@@ -759,11 +774,38 @@
             ]
         }
     ],
+        "child_meshes": [
+        {
+            "mesh_alias_name": "defender_des_base",
+            "mesh_point": "turret_muzzle.022",
+            "is_weapon_effects_destination": false,
+            "required_unit_item": "defender_des_weapons"
+        },
+        {
+            "mesh_alias_name": "defender_des_base",
+            "mesh_point": "turret_muzzle.021",
+            "is_weapon_effects_destination": false,
+            "required_unit_item": "defender_des_weapons"
+        },
+        {
+            "mesh_alias_name": "defender_des_base",
+            "mesh_point": "turret_muzzle.025",
+            "is_weapon_effects_destination": false,
+            "required_unit_item": "defender_des_weapons"
+        },
+        {
+            "mesh_alias_name": "defender_des_base",
+            "mesh_point": "turret_muzzle.026",
+            "is_weapon_effects_destination": false,
+            "required_unit_item": "defender_des_weapons"
+        }
+    ],
     "action_effect_size": "small_unit",
     "can_join_fleet": true,
     "abilities": [
         {
             "abilities": [
+                "react_missile_armd",
                 "mm_splash"
             ]
         }

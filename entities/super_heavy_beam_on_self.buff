@@ -1,6 +1,7 @@
 {
     "version": 0,
-    "make_dead_on_all_finite_time_actions_done": true,
+    "active_duration": "beam_total_duration_value",
+    "make_dead_on_all_finite_time_actions_done": false,
     "stacking_ownership_type": "for_all_players",
     "restart_other_stacked_buffs_when_started": true,
     "time_actions": [
@@ -16,10 +17,10 @@
                             "unit_type": "target"
                         },
                         "include_radius_origin_unit": false,
-                        "radius_value": "cannon_splash_radius_value",
+                        "radius_value": "beam_splash_radius_value",
                         "operators_constraint": {
                             "constraint_type": "unit_passes_target_filter",
-                            "target_filter_id": "cannon_splash_target_filter",
+                            "target_filter_id": "beam_splash_target_filter",
                             "unit": {
                                 "unit_type": "operand_destination"
                             }
@@ -29,7 +30,7 @@
                                 "penetration_value": "penetration_value",
                                 "damage_source": "ability",
                                 "operator_type": "apply_damage",
-                                "damage_value": "cannon_splash_damage_rate_value",
+                                "damage_value": "beam_splash_damage_rate_value",
                                 "damage_affect_type": "hull_and_armor_and_shields"
                             }
                         ]

@@ -1,12 +1,12 @@
 {
     "version": 0,
     "name": "weapon_name.pulse_beam_aa",
-    "pitch_speed": 150.0,
-    "yaw_speed": 150.0,
+    "pitch_speed": 60.0,
+    "yaw_speed": 60.0,
     "pitch_firing_tolerance": 7.5,
     "yaw_firing_tolerance": 7.5,
     "range": 3250.0,
-    "cooldown_duration": 3.0,
+    "cooldown_duration": 5.0,
     "uniforms_target_filter_id": "common_and_strikecraft_and_torpedo_weapon",
     "attack_target_type_groups": [
         "torpedo_strikecraft"

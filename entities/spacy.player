@@ -445,29 +445,14 @@
         "column_count": 1
     }],
     "buildable_units": [
-        "trader_scout_corvette",
-        "trader_light_frigate",
-        "trader_skirmisher_corvette_frigate",
-        "trader_missile_corvette",
-        "trader_colony_frigate",
-        "trader_siege_frigate",
-        "trader_carrier_cruiser",
-        "trader_antifighter_frigate",
-        "trader_antiarmor_frigate",
-        "trader_siege_capital_ship",
-        "trader_rebel_titan",
-        "dlc2_trader_rebel_super_capital_ship",
-
         "spacy_sdf_capital_ship",
         "spacy_armd_cruiser",
         "spacy_oberth_frigate"
     ],
-    "faction_buildable_units": [
-        "trader_rebel_titan",
-        "dlc2_trader_rebel_super_capital_ship"
-    ],
+    "faction_buildable_units": [],
     "buildable_strikecraft": [
-        "spacy_vfmass_strikecraft"
+        "spacy_vfmass_strikecraft",
+        "spacy_vf1a_react_strikecraft"
     ],
     "structure_build_groups": [
     {
@@ -1111,6 +1096,8 @@
     },
     "missing_ship_component_shop_build_time_scalar": 10.0,
     "ship_components": [
+        "defender_des_weapons",
+        
         "trader_missile_armor",
         "trader_beam_armor",
         "trader_heavy_armor",

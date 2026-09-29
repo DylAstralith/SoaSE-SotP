@@ -2180,7 +2180,7 @@
                 "trader_colony_capital_ship_inspiring_broadcast",
                 "trader_colony_capital_ship_mobile_trade_port",
                 "trader_battle_capital_ship_adaptive_force_field",
-                "spacy_sdf_capital_ship_macross_cannon",
+                "macross_cannon",
                 "mm_splash"
             ]
         }

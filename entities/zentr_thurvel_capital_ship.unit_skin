@@ -41,16 +41,16 @@
             },
             "hyperspace_effects":
             {
-                "charge_effect": "vasari_portal_start_capital",
-                "charge_effect_between_stars": "hyperspace_vasari_capital_chargeup_interstellar",
-                "charge_effect_destabilized": "hyperspace_vasari_capital_chargeup_unstable",
-                "travel_effect": "vasari_capital_portal_travel",
-                "travel_effect_between_stars": "hyperspace_vasari_capital_travel_interstellar",
-                "travel_effect_destabilized": "hyperspace_vasari_capital_travel_unstable",
-                "exit_effect": "vasari_capital_portal_exit",
-                "charge_sound": "hyperspace_chargeup",
-                "enter_sound": "hyperspace_entry",
-                "exit_sound": "hyperspace_exit"
+                "charge_effect": "fold_chargeup_large",
+                "charge_effect_between_stars": "fold_chargeup_large",
+                "charge_effect_destabilized": "fold_chargeup_large",
+                "travel_effect": "fold_travel_large",
+                "travel_effect_between_stars": "fold_travel_large",
+                "travel_effect_destabilized": "fold_travel_large",
+                "exit_effect": "fold_exit_large",
+                "charge_sound": "fold_chargeup",
+                "enter_sound": "fold_entry",
+                "exit_sound": "fold_exit"
             },
             "damage_effects": {
                 "max_damage_effect_count": 1,
@@ -78,7 +78,7 @@
                 "alias_name": "weapon_medium_beam_beam",
                 "alias_binding": {
                     "beam": "zentr_beam",
-                    "sounds": ["zentr_beam", "zentr_beam2"]
+                    "sounds": ["zentr_beam", "zentr_beam2", "zentr_beam3", "zentr_beam4"]
                 }
             },
             {
@@ -145,7 +145,7 @@
                 "alias_name": "weapon_heavy_beam_beam",
                 "alias_binding": {
                     "beam": "zentr_beam_heavy",
-                    "sounds": ["zentr_beam", "zentr_beam2", "zentr_beam3"]
+                    "sounds": ["zentr_beam", "zentr_beam2"]
                 }
             },
             {
@@ -189,7 +189,7 @@
             "move_sounds":
             {
                 "engine": "engine_heavy",
-                "hyperspace_travel": "hyperspace_travel"
+                "hyperspace_travel": "fold_loop"
             },
             "dialogue":
             {

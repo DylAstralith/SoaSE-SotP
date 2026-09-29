@@ -81,7 +81,7 @@
                 "alias_name": "weapon_pulse_beam_aa_beam",
                 "alias_binding": {
                     "beam": "zentr_pulse_aa",
-                    "sounds": ["zentr_pulse"]
+                    "sounds": ["zentr_pulse", "zentr_pulse2", "zentr_pulse3", "zentr_beam3", "zentr_beam4"]
                 }
             },
             {
@@ -170,6 +170,6 @@
                 }
             }
         },
-        "death_sequence_group": "strikecraft0"
+        "death_sequence_group": "mm_torpedo"
     }]
 }

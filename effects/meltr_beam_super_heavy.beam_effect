@@ -4,7 +4,7 @@
     "core_texture": "super_beam_core",
     "glow_color": "fffc00ff",
     "core_color": "ffffccfd",
-    "width": 80.0,
+    "width": 70.0,
     "glow_tiling_animation_rate": 2.0,
     "core_tiling_animation_rate": 3.0,
     "core_fade_in_duration": 0.50,

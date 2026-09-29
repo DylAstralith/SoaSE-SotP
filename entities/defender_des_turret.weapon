@@ -1,0 +1,46 @@
+{
+    "version": 0,
+    "name": "weapon_name.defender_des_turret",
+    "pitch_speed": 60.0,
+    "yaw_speed": 60.0,
+    "pitch_firing_tolerance": 5.0,
+    "yaw_firing_tolerance": 5.0,
+    "range": 3000.0,
+    "cooldown_duration": 2.0,
+    "uniforms_target_filter_id": "common_and_strikecraft_and_torpedo_weapon",
+    "attack_target_type_groups": [
+        "torpedo_strikecraft"
+    ],
+    "always_check_is_dead_soon": true,
+    "weapon_type": "normal",
+    "damage_affect_type": "hull_and_armor_and_shields",
+    "damage": 15.0,
+    "penetration": 0.0,
+    "tags": [
+        "autocannon",
+        "physical",
+        "point_defense"
+    ],
+    "acquire_target_logic": "best_target_in_range",
+    "firing":
+    {
+        "firing_type": "beam",
+        "beam_duration": 4.0
+    },
+    "effects": {
+        "muzzle_effect": "defender_des_weapon_muzzle",
+        "beam_effect": "defender_des_weapon_beam",
+        "hit_hull_effect": "defender_des_weapon_hit_hull",
+        "hit_shield_effect": "defender_des_weapon_hit_shield",
+        "hit_shield_impact_radius_t": 0.1
+    },
+    "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "defender_des_mount",
+        "biaxial_barrel_mesh": "defender_des_barrel",
+        "barrel_position": [0.0, 0.719913, -0.325149],
+        "muzzle_positions": [
+            [0.0, 0.0, 3.670118]
+        ]
+    }
+}

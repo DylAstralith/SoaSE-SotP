@@ -18,9 +18,14 @@
 ],
     "skybox_layers": [
     {
+        "base_color_texture": "starfield_strip",
+        "speed_scalar": 1.0
+    },
+    {
         "base_color_texture": "starfield_cloud",
         "speed_scalar": 1.0
     }
+    
     
     ],
     "radiance_texture": "starfield_rad",

@@ -3,7 +3,8 @@
     "race": "zentr",
     "buildable_strikecraft": [
         "zentr_gnerl_strikecraft",
-        "zentr_regult_strikecraft"
+        "zentr_regult_strikecraft",
+        "zentr_regult_m_strikecraft"
     ],
     "home_planet":
     {},
@@ -54,6 +55,10 @@
                         "count": [2, 3]
                     },
                     {
+                        "unit": "zentr_gundestroyer_frigate",
+                        "count": [3, 3]
+                    },
+                    {
                         "unit": "zentr_thurvel_capital_ship",
                         "count": [1, 2]
                     },
@@ -69,6 +74,10 @@
                     },
                     {
                         "unit": "meltr_gunboat_cruiser",
+                        "weight": 1.0
+                    },
+                    {
+                        "unit": "zentr_gundestroyer_frigate",
                         "weight": 2.0
                     },
                     {
@@ -96,6 +105,10 @@
                         "count": [2, 2]
                     },
                     {
+                        "unit": "zentr_gundestroyer_frigate",
+                        "count": [2, 3]
+                    },
+                    {
                         "unit": "zentr_thurvel_capital_ship",
                         "count": [1, 2]
                     },
@@ -111,6 +124,10 @@
                     },
                     {
                         "unit": "meltr_gunboat_cruiser",
+                        "weight": 1.0
+                    },
+                    {
+                        "unit": "zentr_gundestroyer_frigate",
                         "weight": 2.0
                     },
                     {
@@ -137,6 +154,10 @@
                         "count": [1, 2]
                     },
                     {
+                        "unit": "zentr_gundestroyer_frigate",
+                        "count": [2, 3]
+                    },
+                    {
                         "unit": "zentr_thurvel_capital_ship",
                         "count": [1, 2]
                     },
@@ -153,6 +174,10 @@
                     {
                         "unit": "meltr_gunboat_cruiser",
                         "weight": 1.0
+                    },
+                    {
+                        "unit": "zentr_gundestroyer_frigate",
+                        "weight": 2.0
                     },
                     {
                         "unit": "zentr_thurvel_capital_ship",
@@ -178,6 +203,10 @@
                         "count": [1, 2]
                     },
                     {
+                        "unit": "zentr_gundestroyer_frigate",
+                        "count": [2, 3]
+                    },
+                    {
                         "unit": "zentr_thurvel_capital_ship",
                         "count": [1, 2]
                     },
@@ -192,6 +221,10 @@
                     },
                     {
                         "unit": "meltr_gunboat_cruiser",
+                        "weight": 1.0
+                    },
+                    {
+                        "unit": "zentr_gundestroyer_frigate",
                         "weight": 1.0
                     },
                     {
@@ -211,6 +244,10 @@
                     "required_units": [
                     {
                         "unit": "meltr_gunboat_cruiser",
+                        "count": [1, 1]
+                    },
+                    {
+                        "unit": "zentr_gundestroyer_frigate",
                         "count": [1, 1]
                     },
                     {
@@ -237,6 +274,10 @@
                         "weight": 1.0
                     },
                     {
+                        "unit": "zentr_gundestroyer_frigate",
+                        "weight": 2.0
+                    },
+                    {
                         "unit": "zentr_thurvel_capital_ship",
                         "weight": 1.0
                     },
@@ -256,6 +297,10 @@
                         "count": [1, 2]
                     },
                     {
+                        "unit": "zentr_gundestroyer_frigate",
+                        "count": [1, 2]
+                    },
+                    {
                         "unit": "zentr_quiltra_cruiser",
                         "count": [1, 1]
                     }
@@ -263,6 +308,10 @@
                     "random_units": [
                     {
                         "unit": "zentr_picket_frigate",
+                        "weight": 1.0
+                    },
+                    {
+                        "unit": "zentr_gundestroyer_frigate",
                         "weight": 1.0
                     },
                     {

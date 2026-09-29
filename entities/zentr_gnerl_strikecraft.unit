@@ -89,7 +89,7 @@
     "weapons": {
         "weapons": [
             {
-                "weapon": "pulse_beam",
+                "weapon": "pulse_beam_triple",
                 "mesh_point": "turret_muzzle.002",
                 "weapon_position": [
                     0.0,
@@ -200,7 +200,7 @@
     "strikecraft": {
         "kind": "interceptor",
         "build_time": 60.0,
-        "squadron_size": 5,
+        "squadron_size": 4,
         "launch_destination_formation_offset": {
             "rank": 0,
             "group": 0

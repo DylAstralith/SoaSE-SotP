@@ -1,8 +1,11 @@
 {
     "ids": [
         "pulse_beam",
+        "pulse_beam_dual",
+        "pulse_beam_triple",
         "pulse_beam_aa",
         "gunpod",
+        "defender_des_turret",
         "light_beam",
         "light_beam_alt1",
         "light_beam_alt2",
@@ -22,10 +25,7 @@
         "medium_beam_triple",
         "heavy_beam",
         "heavy_beam_triple",
-
         "sts_missile",
-
-        
         "spacy_mm_bank_0",
         "spacy_mm_bank_1",
         "spacy_mm_bank_2",
@@ -34,7 +34,6 @@
         "spacy_mm_bank_5",
         "spacy_mm_bank_6",
         "spacy_mm_bank_7",
-
         "zentr_mm_bank_0",
         "zentr_mm_bank_1",
         "zentr_mm_bank_2",

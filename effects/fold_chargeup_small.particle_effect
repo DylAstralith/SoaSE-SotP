@@ -1,0 +1,307 @@
+{
+    "version": 2,
+    "nodes": [
+        {
+            "id": 1,
+            "name": "Root",
+            "x": [0.0, 0.0],
+            "y": [0.0, 0.0],
+            "z": [0.0, 0.0],
+            "yaw": [0.0, 0.0],
+            "pitch": [0.0, 0.0],
+            "roll": [0.0, 0.0]
+        }
+    ],
+    "emitters": [
+        {
+            "id": 10,
+            "name": "Translucent Growing Fold Ring",
+            "type": "point",
+            "emit_max_particle_count": [1.0, 1.0],
+            "emit_rate": {
+                "primary_emit_rate": [100.0, 100.0]
+            },
+            "particle": {
+                "type": "billboard",
+                "render_layer": 0,
+                "max_duration": [7.50, 7.50],
+                "camera_offset": [-0.25, -0.25],
+                "color": "55ffffff",
+                "fade_in_time": [0.0, 0.0],
+                "fade_out_time": [5.0, 5.0],
+                "billboard": {
+                    "render_with_additive_blending": true,
+                    "width": [560.0, 560.0],
+                    "texture_0": "fold_bubble_out",
+                    "initial_erosion_noise_offset_u": [0.0, 0.0],
+                    "initial_erosion_noise_offset_v": [0.0, 0.0],
+                    "uber_constants": {
+                        "basic_constants": {
+                            "emissive_factor": 0.750,
+                            "depth_fade_opacity": 4.0
+                        }
+                    }
+                },
+                "mesh": {}
+            },
+            "forward_velocity": [0.0, 0.0],
+            "angle_variance": [0.0, 3.141593]
+        },
+        {
+            "id": 11,
+            "name": "color1",
+            "type": "point",
+            "emit_start_delay": [3.0, 3.0],
+            "emit_max_particle_count": [1.0, 1.0],
+            "emit_rate": {
+                "primary_emit_rate": [100.0, 100.0]
+            },
+            "particle": {
+                "type": "billboard",
+                "render_layer": 1,
+                "max_duration": [2.0, 2.0],
+                "camera_offset": [-0.35, -0.35],
+                "color": "ffffe0c0",
+                "initial_alpha": [0.10, 0.10],
+                "fade_in_time": [1.0, 1.0],
+                "fade_out_time": [0.0, 0.0],
+                "billboard": {
+                    "render_with_additive_blending": true,
+                    "width": [550.0, 550.0],
+                    "texture_0": "fold_bubble_color1",
+                    "initial_erosion_noise_offset_u": [0.0, 0.0],
+                    "initial_erosion_noise_offset_v": [0.0, 0.0],
+                    "uber_constants": {
+                        "basic_constants": {
+                            "emissive_factor": 10.0,
+                            "depth_fade_opacity": 5.0
+                        }
+                    }
+                },
+                "mesh": {}
+            },
+            "forward_velocity": [0.0, 0.0],
+            "angle_variance": [0.0, 3.141593]
+        },
+        {
+            "id": 12,
+            "name": "color2",
+            "type": "point",
+            "emit_start_delay": [5.0, 5.0],
+            "emit_max_particle_count": [1.0, 1.0],
+            "emit_rate": {
+                "primary_emit_rate": [100.0, 100.0]
+            },
+            "particle": {
+                "type": "billboard",
+                "render_layer": 1,
+                "max_duration": [1.0, 1.0],
+                "camera_offset": [-0.35, -0.35],
+                "color": "ffffe0c0",
+                "initial_alpha": [0.10, 0.10],
+                "fade_in_time": [0.0, 0.0],
+                "fade_out_time": [0.0, 0.0],
+                "billboard": {
+                    "render_with_additive_blending": true,
+                    "width": [550.0, 550.0],
+                    "texture_0": "fold_bubble_color2",
+                    "initial_erosion_noise_offset_u": [0.0, 0.0],
+                    "initial_erosion_noise_offset_v": [0.0, 0.0],
+                    "uber_constants": {
+                        "basic_constants": {
+                            "emissive_factor": 10.0,
+                            "depth_fade_opacity": 5.0
+                        }
+                    }
+                },
+                "mesh": {}
+            },
+            "forward_velocity": [0.0, 0.0],
+            "angle_variance": [0.0, 3.141593]
+        },
+        {
+            "id": 13,
+            "name": "color3",
+            "type": "point",
+            "emit_start_delay": [6.0, 6.0],
+            "emit_max_particle_count": [1.0, 1.0],
+            "emit_rate": {
+                "primary_emit_rate": [100.0, 100.0]
+            },
+            "particle": {
+                "type": "billboard",
+                "render_layer": 1,
+                "max_duration": [3.0, 3.0],
+                "camera_offset": [-0.35, -0.35],
+                "color": "ffffe0c0",
+                "initial_alpha": [0.10, 0.10],
+                "fade_in_time": [0.0, 0.0],
+                "fade_out_time": [2.0, 2.0],
+                "billboard": {
+                    "render_with_additive_blending": true,
+                    "width": [550.0, 550.0],
+                    "texture_0": "fold_bubble_color3",
+                    "initial_erosion_noise_offset_u": [0.0, 0.0],
+                    "initial_erosion_noise_offset_v": [0.0, 0.0],
+                    "uber_constants": {
+                        "basic_constants": {
+                            "emissive_factor": 10.0,
+                            "depth_fade_opacity": 5.0
+                        }
+                    }
+                },
+                "mesh": {}
+            },
+            "forward_velocity": [0.0, 0.0],
+            "angle_variance": [0.0, 3.141593]
+        },
+        {
+            "id": 14,
+            "name": "Late Solidifying Fold Ring",
+            "type": "point",
+            "emit_start_delay": [7.0, 7.0],
+            "emit_max_particle_count": [1.0, 1.0],
+            "emit_rate": {
+                "primary_emit_rate": [100.0, 100.0]
+            },
+            "particle": {
+                "type": "billboard",
+                "render_layer": 1,
+                "max_duration": [4.50, 4.50],
+                "camera_offset": [-0.35, -0.35],
+                "color": "c8ffffff",
+                "fade_in_time": [50.650002, 50.650002],
+                "fade_out_time": [0.150, 0.150],
+                "billboard": {
+                    "render_with_additive_blending": true,
+                    "width": [550.0, 550.0],
+                    "texture_0": "fold_ring",
+                    "initial_erosion_noise_offset_u": [0.0, 0.0],
+                    "initial_erosion_noise_offset_v": [0.0, 0.0],
+                    "uber_constants": {
+                        "basic_constants": {
+                            "emissive_factor": 10.0,
+                            "depth_fade_opacity": 5.0
+                        }
+                    }
+                },
+                "mesh": {},
+                "light": {
+                    "type": "point_finite",
+                    "color": "ffffffff",
+                    "intensity": 140.0,
+                    "surface_radius": 90.0
+                }
+            },
+            "forward_velocity": [0.0, 0.0],
+            "angle_variance": [0.0, 3.141593]
+        }
+    ],
+    "modifiers": [
+        {
+            "id": 30,
+            "name": "Aperture Growth",
+            "type": "float_property",
+            "property_type": "width_and_height_scale",
+            "property_value": {
+                "type": "ease",
+                "range": [0.0, 0.0],
+                "easing_function": "out_sine",
+                "easing_values": [0.10, 1.0]
+            }
+        },
+        {
+            "id": 31,
+            "name": "Late Ring Growth",
+            "type": "float_property",
+            "property_type": "erosion_noise_offset_uv",
+            "property_value": {
+                "type": "ease",
+                "range": [0.0, 0.0],
+                "easing_function": "out_sine",
+                "easing_values": [0.820, 2.0]
+            }
+        },
+        {
+            "id": 33,
+            "name": "Late Ring Growth Template 1",
+            "type": "float_property",
+            "property_type": "width_and_height_scale",
+            "property_value": {
+                "type": "ease",
+                "range": [0.0, 0.0],
+                "easing_function": "out_sine",
+                "easing_values": [0.820, 2.0]
+            }
+        },
+        {
+            "id": 34,
+            "name": "Late Ring Growth Template 2",
+            "type": "float_property",
+            "property_type": "width_and_height_scale",
+            "property_value": {
+                "type": "ease",
+                "range": [0.0, 0.0],
+                "easing_function": "out_sine",
+                "easing_values": [0.820, 2.0]
+            }
+        },
+        {
+            "id": 35,
+            "name": "Late Ring Growth Template 3",
+            "type": "float_property",
+            "property_type": "width_and_height_scale",
+            "property_value": {
+                "type": "ease",
+                "range": [0.0, 0.0],
+                "easing_function": "out_sine",
+                "easing_values": [1.80, 2.0]
+            }
+        },
+        {
+            "id": 32,
+            "name": "Mote Fluctuation",
+            "type": "float_property",
+            "property_type": "width_and_height_scale",
+            "property_value": {
+                "type": "ease",
+                "range": [0.0, 0.0],
+                "easing_function": "in_out_sine",
+                "easing_values": [0.250, 1.250]
+            }
+        }
+    ],
+    "emitter_to_node_attachments": [
+        {
+            "attacher_id": 10,
+            "attachee_id": 1
+        },
+        {
+            "attacher_id": 11,
+            "attachee_id": 1
+        },
+        {
+            "attacher_id": 12,
+            "attachee_id": 1
+        },
+        {
+            "attacher_id": 13,
+            "attachee_id": 1
+        },
+        {
+            "attacher_id": 14,
+            "attachee_id": 1
+        }
+    ],
+    "modifier_to_emitter_attachments": [
+        {
+            "attacher_id": 30,
+            "attachee_id": 10
+        },
+        {
+            "attacher_id": 35,
+            "attachee_id": 14
+        }
+    ],
+    "max_effect_radius_scalar": 3.0
+}

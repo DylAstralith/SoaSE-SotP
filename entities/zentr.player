@@ -415,37 +415,16 @@
         "column_count": 1
     }],
     "buildable_units": [
-        "vasari_scout_corvette",
-        "vasari_light_frigate",
-        "vasari_colony_cruiser",
-        "vasari_heavy_cruiser",
-        "vasari_long_range_frigate",
-        "vasari_carrier_cruiser",
-        "vasari_raider_corvette",
-        "vasari_anticorvette_corvette",
-        "vasari_antiarmor_cruiser",
-        "vasari_siege_cruiser",
-        "vasari_overseer_cruiser",
-        "vasari_fabricator_cruiser",
-        "vasari_battle_capital_ship",
-        "vasari_colony_capital_ship",
-        "vasari_carrier_capital_ship",
-        "vasari_marauder_capital_ship",
-        "vasari_siege_capital_ship",
-        "vasari_loyalist_titan",
-        "vasari_antifighter_frigate",
-        "dlc2_vasari_loyalist_super_capital_ship",
-
         "zentr_picket_frigate",
-        "zentr_thurvel_capital_ship"
+        "zentr_thurvel_capital_ship",
+        "zentr_quiltra_cruiser",
+        "zentr_gundestroyer_frigate"
     ],
-    "faction_buildable_units": [
-        "vasari_loyalist_titan",
-        "dlc2_vasari_loyalist_super_capital_ship"
-    ],
+    "faction_buildable_units": [],
     "buildable_strikecraft": [
         "zentr_gnerl_strikecraft",
-        "zentr_regult_strikecraft"
+        "zentr_regult_strikecraft",
+        "zentr_regult_m_strikecraft"
     ],
     "structure_build_groups": [
     {

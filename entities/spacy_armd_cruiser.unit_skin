@@ -23,6 +23,34 @@
                 "shader": "ship",
                 "is_shadow_blocker": true
             },
+            "child_mesh_alias_bindings": {
+                "map": [
+                    {
+                        "mesh_alias_name": "defender_des_base",
+                        "mesh_definition": {
+                            "mesh": "defender_des_base",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "defender_des_mount",
+                        "mesh_definition": {
+                            "mesh": "defender_des_mount",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "defender_des_barrel",
+                        "mesh_definition": {
+                            "mesh": "defender_des_barrel",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    }
+                ]
+            },
             "main_view_icon": {
                 "group": "ship",
                 "icon": "trader_carrier_cruiser_main_view_icon",
@@ -37,17 +65,18 @@
                         }
                     ]
                 },
-                "hyperspace_effects": {
-                    "charge_effect": "hyperspace_tech_frigate_chargeup",
-                    "charge_effect_between_stars": "hyperspace_tech_frigate_chargeup_interstellar",
-                    "charge_effect_destabilized": "hyperspace_tech_frigate_chargeup_unstable",
-                    "travel_effect": "hyperspace_tech_frigate_travel",
-                    "travel_effect_between_stars": "hyperspace_tech_frigate_travel_interstellar",
-                    "travel_effect_destabilized": "hyperspace_tech_frigate_travel_unstable",
-                    "exit_effect": "hyperspace_tech_frigate_exit",
-                    "charge_sound": "hyperspace_chargeup",
-                    "enter_sound": "hyperspace_entry",
-                    "exit_sound": "hyperspace_exit"
+                "hyperspace_effects": 
+                {
+                    "charge_effect": "fold_chargeup_small",
+                    "charge_effect_between_stars": "fold_chargeup_small",
+                    "charge_effect_destabilized": "fold_chargeup_small",
+                    "travel_effect": "fold_travel_small",
+                    "travel_effect_between_stars": "fold_travel_small",
+                    "travel_effect_destabilized": "fold_travel_small",
+                    "exit_effect": "fold_exit_small",
+                    "charge_sound": "fold_chargeup",
+                    "enter_sound": "fold_entry",
+                    "exit_sound": "fold_exit"
                 },
                 "damage_effects": {
                     "max_damage_effect_count": 1,
@@ -98,24 +127,28 @@
                         }
                     },
                     {
+                        "alias_name": "react_missile_weapon_muzzle",
+                        "alias_binding":
+                        {
+                            "particle_effect": "Buff_FighterBlinkActivate",
+                            "sounds": [
+                                "mm_launch",
+                                "mm_launch2"
+                            ]
+                        }
+                    },
+                    {
                         "alias_name": "sts_missile_weapon_muzzle",
                         "alias_binding": {
-                            "particle_effect": "capital_ship_torpedo_muzzle",
+                            "particle_effect": "Buff_FighterBlinkActivate",
                             "sounds": ["sts_missile"]
                         }
                     },
                     {
                         "alias_name": "mm_missile_weapon_muzzle",
                         "alias_binding": {
-                            "particle_effect": "javelis_torpedo_muzzle",
-                            "sounds": ["mm_launch"]
-                        }
-                    },
-                    {
-                        "alias_name": "mm_missile_weapon_trail",
-                        "alias_binding": {
-                            "particle_effect": "javelis_torpedo_muzzle",
-                            "sounds": ["mm_launch"]
+                            "particle_effect": "Buff_FighterBlinkActivate",
+                            "sounds": ["mm_launch", "mm_launch2"]
                         }
                     },
                     {
@@ -124,13 +157,41 @@
                             "particle_effect": "explosion2",
                             "sounds": ["mm_explode", "mm_explode2", "mm_explode3"]
                         }
+                    },
+                                        {
+                        "alias_name": "defender_des_weapon_muzzle",
+                        "alias_binding": {
+                            "particle_effect": "gunpod_muzzle",
+                            "sounds": ["spacy_gunpod"]
+                        }
+                    },
+                    {
+                        "alias_name": "defender_des_weapon_beam",
+                        "alias_binding": {
+                            "beam": "pd_bullet_stream",
+                            "sounds": ["spacy_gunpod"]
+                        }
+                    },
+                    {
+                        "alias_name": "defender_des_weapon_hit_hull",
+                        "alias_binding": {
+                            "particle_effect": "explosion1",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                        }
+                    },
+                    {
+                        "alias_name": "defender_des_weapon_hit_shield",
+                        "alias_binding": {
+                            "particle_effect": "explosion1",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                        }
                     }
                 ]
             },
             "sounds": {
                 "move_sounds": {
                     "engine": "engine_medium",
-                    "hyperspace_travel": "hyperspace_travel"
+                    "hyperspace_travel": "fold_loop"
                 },
                 "dialogue": {
                     "spawned": {
