@@ -3,6 +3,8 @@
         "macross_cannon",
         "super_heavy_beam",
         "mm_splash",
-        "react_missile"
+        "react_missile",
+        "minmay_attack",
+        "omni_directional_barrier"
     ]
 }

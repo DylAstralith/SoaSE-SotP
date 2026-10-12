@@ -22,7 +22,7 @@
     "firing":
     {
         "firing_type": "beam",
-        "beam_duration": 0.5
+        "beam_duration": 1.0
     },
     "effects":
     {

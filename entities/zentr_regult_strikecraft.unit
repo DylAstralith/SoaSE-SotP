@@ -113,7 +113,7 @@
                 }
             },
             {
-                "weapon": "pulse_beam_dual",
+                "weapon": "pulse_beam_dual_aft",
                 "mesh_point": "turret_muzzle.002",
                 "weapon_position": [-0.04055072, 4.883193493, -2.503530025],
                 "non_turret_muzzle_positions": [[-0.04055072, 4.883193493, -2.503530025]],
@@ -145,7 +145,7 @@
                 }
             }
         ],
-        "max_range_weapon_index": 0
+        "max_range_weapon_index": 2
     },
     "formation": {
         "leader_priority": 0,
@@ -177,8 +177,8 @@
     },
     "strikecraft": {
         "kind": "interceptor",
-        "build_time": 60.0,
-        "squadron_size": 3,
+        "build_time": 50.0,
+        "squadron_size": 4,
         "launch_destination_formation_offset": {
             "rank": 0,
             "group": 0

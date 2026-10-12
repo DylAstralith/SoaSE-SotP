@@ -82,7 +82,7 @@
             "action_value_id": "react_missile_splash_radius_value",
             "action_value": {
                 "values": [
-                    750
+                    1250
                 ]
             }
         },

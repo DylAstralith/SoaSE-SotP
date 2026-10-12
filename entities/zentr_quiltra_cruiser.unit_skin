@@ -32,7 +32,7 @@
             {
                 "particle_effects": [
                 {
-                    "particle_effect": "zentr_exhaust"
+                    "particle_effect": "zentr_exhaust_huge"
                 }]
             },
             "hyperspace_effects":
@@ -79,14 +79,14 @@
             {
                 "alias_name": "weapon_medium_beam_hit_hull",
                 "alias_binding": {
-                    "particle_effect": "explosion1",
+                    "particle_effect": "explosion_tiny",
                     "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                 }
             },
             {
                 "alias_name": "weapon_medium_beam_hit_shield",
                 "alias_binding": {
-                    "particle_effect": "explosion1",
+                    "particle_effect": "explosion_tiny",
                     "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                 }
             },
@@ -106,14 +106,14 @@
             {
                 "alias_name": "weapon_light_beam_hit_hull",
                 "alias_binding": {
-                    "particle_effect": "explosion1",
+                    "particle_effect": "explosion_tiny",
                     "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                 }
             },
             {
                 "alias_name": "weapon_light_beam_hit_shield",
                 "alias_binding": {
-                    "particle_effect": "explosion1",
+                    "particle_effect": "explosion_tiny",
                     "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                 }
             },
@@ -121,6 +121,15 @@
                 "alias_name": "weapon_light_beam_muzzle",
                 "alias_binding": {
                     "particle_effect": "zentr_beam_muzzle"
+                }
+            },
+            {
+                "alias_name": "trader_colony_shuttle",
+                "alias_binding":
+                {
+                    "particle_effect": "trader_colony_shuttle",
+                    "sounds": [
+                        "ability_activate_tech_shuttlelaunch"]
                 }
             }
         ]

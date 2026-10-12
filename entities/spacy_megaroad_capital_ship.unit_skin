@@ -1,0 +1,260 @@
+{
+    "version": 0,
+    "name": {
+        "group": "capital_ship"
+    },
+    "skin_stages": [
+        {
+            "is_main_view_icon_visible_camera_distance": 22702.051225,
+            "min_camera_distance": 807.615518,
+            "gui": {
+                "hud_icon": "spacy_megaroad_capital_ship_hud_icon",
+                "hud_monochrome_icon": "spacy_megaroad_capital_ship_main_view_icon",
+                "hud_picture": "spacy_megaroad_capital_ship_hud_picture",
+                "tooltip_picture": "spacy_megaroad_capital_ship_tooltip_picture",
+                "name": "spacy_megaroad_capital_ship_name",
+                "description": "spacy_megaroad_capital_ship_description",
+                "hud_selection_window_icon_offet": [-10, 0]
+            },
+            "unit_mesh": {
+                "mesh": "spacy_megaroad_capital_ship",
+                "shader": "ship",
+                "is_shadow_blocker": true
+            },
+            "main_view_icon": {
+                "group": "capital_ship",
+                "icon": "trader_battle_capital_ship_main_view_icon",
+                "selected_icon": "trader_battle_capital_ship_main_view_icon_selected",
+                "sub_selected_icon": "trader_battle_capital_ship_main_view_icon_sub_selected"
+            },
+            "effects": {
+                "exhaust_effects": {
+                    "particle_effects": [
+                        {
+                            "particle_effect": "zentr_exhaust_large"
+                        }
+                    ]
+                },
+                "hyperspace_effects": {
+                    "charge_effect": "fold_chargeup",
+                    "charge_effect_between_stars": "fold_chargeup",
+                    "charge_effect_destabilized": "fold_chargeup",
+                    "travel_effect": "fold_travel",
+                    "travel_effect_between_stars": "fold_travel",
+                    "travel_effect_destabilized": "fold_travel",
+                    "exit_effect": "fold_exit",
+                    "charge_sound": "fold_chargeup",
+                    "enter_sound": "fold_entry",
+                    "exit_sound": "fold_exit"
+                },
+                "damage_effects": {
+                    "max_damage_effect_count": 1,
+                    "damage_effects": [
+                        {
+                            "max_count": 1,
+                            "weight": 3,
+                            "hull_percentage_threshold": 0.99,
+                            "particle_effect": "damage_electricity",
+                            "sound": "damaged_loop_sfx1"
+                        }
+                    ]
+                },
+                "flair_effects": [
+                    {
+                        "mesh_point_name": "center",
+                        "particle_effect": "tec_damage_capital_1",
+                        "constraint": "is_crippled"
+                    }
+                ],
+                "level_up_effect": "capitalship_levelup",
+                "level_up_sound": "capitalship_levelup",
+                "shield_effect": "trader_battle_capital_ship",
+                "effect_alias_bindings": [
+                    {
+                        "alias_name": "minmay_attack_buff_on_ally_large",
+                        "alias_binding": {
+                            "particle_effect": "inspiring_broadcast_target_capital"
+                        }
+                    },
+                    {
+                        "alias_name": "minmay_attack_buff_on_ally_medium",
+                        "alias_binding": {
+                            "particle_effect": "inspiring_broadcast_target_cruiser"
+                        }
+                    },
+                    {
+                        "alias_name": "minmay_attack_buff_on_ally_small",
+                        "alias_binding": {
+                            "particle_effect": "inspiring_broadcast_target_corvette"
+                        }
+                    },
+                    {
+                        "alias_name": "minmay_attack_on_spawner",
+                        "alias_binding": {
+                            "particle_effect": "minmay_broadcast",
+                            "sounds": ["minmay_broadcast_3"]
+                        }
+                    },
+                    {
+                        "alias_name": "minmay_attack_on_enemy",
+                        "alias_binding": {
+                            "particle_effect": "minmay_attack_on_enemy"
+                        }
+                    },
+                    {
+                        "alias_name": "mm_missile_weapon_muzzle",
+                        "alias_binding": {
+                            "particle_effect": "Buff_FighterBlinkActivate",
+                            "sounds": ["missile_launch", "missile_launch2"]
+                        }
+                    },
+                    {
+                        "alias_name": "mm_missile_weapon_hit_hull",
+                        "alias_binding": {
+                            "particle_effect": "explosion_small",
+                            "sounds": ["explode", "explode2", "explode3"]
+                        }
+                    },
+                    {
+                        "alias_name": "spacy_pd_weapon_muzzle",
+                        "alias_binding": {
+                            "particle_effect": "gunpod_muzzle",
+                            "sounds": ["spacy_gunpod"]
+                        }
+                    },
+                    {
+                        "alias_name": "spacy_pd_weapon_beam",
+                        "alias_binding": {
+                            "beam": "pd_bullet_stream",
+                            "sounds": ["spacy_gunpod"]
+                        }
+                    },
+                    {
+                        "alias_name": "spacy_pd_weapon_hit_hull",
+                        "alias_binding": {
+                            "particle_effect": "explosion_tiny",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                        }
+                    },
+                    {
+                        "alias_name": "spacy_pd_weapon_hit_shield",
+                        "alias_binding": {
+                            "particle_effect": "explosion_tiny",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                        }
+                    },
+                    {
+                        "alias_name": "trader_colony_shuttle",
+                        "alias_binding":
+                        {
+                            "particle_effect": "trader_colony_shuttle",
+                            "sounds": [
+                                "ability_activate_tech_shuttlelaunch"]
+                        }
+                    }
+                ]
+            },
+            "sounds": {
+                "move_sounds": {
+                    "engine": "engine_heavy",
+                    "hyperspace_travel": "fold_loop"
+                },
+                "dialogue": {
+                    "spawned": {
+                        "neutral": ["sdf_select_01"]
+                    },
+                    "selected": {
+                        "neutral": [
+                            "sdf_select_01",
+                            "sdf_select_02"
+                        ],
+                        "scared": [
+                            "sdf_select_01",
+                            "sdf_select_02"
+                        ]
+                    },
+                    "order_issued": {
+                        "neutral": [
+                            "sdf_order_issued_01"
+                        ],
+                        "scared": [
+                            "sdf_order_issued_01"
+
+                        ]
+                    },
+                    "attack_order_issued": {
+                        "neutral": [
+                            "sdf_attack_01",
+                            "sdf_attack_02",
+                            "sdf_attack_03",
+                            "sdf_attack_04",
+                            "sdf_attack_05",
+                            "sdf_attack_06",
+                            "sdf_attack_07"
+                        ],
+                        "scared": [
+                            "sdf_attack_01",
+                            "sdf_attack_02",
+                            "sdf_attack_03",
+                            "sdf_attack_04",
+                            "sdf_attack_05",
+                            "sdf_attack_06",
+                            "sdf_attack_07"
+                        ],
+                        "smug": [
+                            "sdf_attack_01",
+                            "sdf_attack_02",
+                            "sdf_attack_03",
+                            "sdf_attack_04",
+                            "sdf_attack_05",
+                            "sdf_attack_06",
+                            "sdf_attack_07"
+                        ]
+                    },
+                    "retreat": {
+                        "neutral": [],
+                        "scared": []
+                    },
+                    "hyperspace_charge_started": {
+                        "neutral": [
+                            "sdf_order_issued_01",
+                            "sdf_select_01",
+                            "sdf_select_02"
+                        ]
+                    },
+                    "cannot_hyperspace": {
+                        "neutral": [],
+                        "scared": []
+                    },
+                    "shields_down": {
+                        "neutral": [],
+                        "scared": []
+                    },
+                    "armor_down": {
+                        "scared": []
+                    },
+                    "became_crippled": {
+                        "neutral": [],
+                        "scared": []
+                    },
+                    "destroyed": {
+                        "neutral": [],
+                        "scared": []
+                    },
+                    "ship_component_finished_building": {
+                        "neutral": []
+                    },
+                    "ability_cooldown_is_not_completed": {
+                        "neutral": [],
+                        "scared": []
+                    },
+                    "insufficient_antimatter": {
+                        "neutral": [],
+                        "scared": []
+                    }
+                }
+            },
+            "death_sequence_group": "capitalship0"
+        }
+    ]
+}

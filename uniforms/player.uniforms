@@ -7,16 +7,10 @@
 
     "overwrite_pickable_players": true,
     "pickable_players": [
-        "spacy"
+        "spacy",
+        "zentr"
     ],
-    "npc_players_with_reputation": [
-        "aluxian_resurgence_npc",
-        "jiskun_force_npc",
-        "pirate_npc",
-        "pranast_united_npc",
-        "viturak_cabal_npc",
-        "eivonns_frigates_npc"
-    ],
+    "npc_players_with_reputation": [],
     "marginal_tax_rate_levels":
     {
         "credits": [

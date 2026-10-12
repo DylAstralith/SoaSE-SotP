@@ -1,0 +1,31 @@
+{
+    "version": 1,
+    "glow_texture": "pulse_beam_pattern",
+    "core_texture": "pulse_beam_pattern_core",
+    "glow_color": "ffff6c34",
+    "core_color": "ffffa334",
+    "width": 6.0,
+    "glow_tiling_animation_rate": 1.0,
+    "core_tiling_animation_rate": 1.0,
+    "core_fade_in_duration": 0.010,
+    "core_fade_out_duration": 0.030,
+    "use_length_based_fade": true,
+    "back_fade_distance": 5.0,
+    "front_fade_distance": 1.0,
+    "front_fade_speed_multiplier": 3.20,
+    "back_fade_speed_multiplier": 3.10,
+    "back_fade_delay": 0.10,
+    "basic_constants": {
+        "emissive_factor": 1.50,
+        "depth_fade_opacity": 4.0,
+        "depth_fade_distance": 3.0,
+        "alpha_ramp_curvature": 2.0,
+        "alpha_ramp_steepness": 1.0
+    },
+    "particle_effects": [
+        {
+            "particle_effect": "zentr_beam",
+            "interval_distance": [0.0, 8.0]
+        }
+    ]
+}

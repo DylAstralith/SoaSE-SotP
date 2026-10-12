@@ -1,37 +1,39 @@
 {
     "version": 1,
-    "glow_texture": "super_beam",
-    "core_texture": "super_beam_core",
-    "glow_color": "ffff0000",
+    "glow_texture": "advent_beam_pattern",
+    "core_texture": "advent_beam_pattern_core",
+    "glow_color": "ffff4e00",
     "core_color": "ffffc22d",
-    "width": 180.0,
-    "glow_tiling_animation_rate": 2.0,
-    "core_tiling_animation_rate": 3.0,
-    "core_fade_in_duration": 0.50,
-    "core_fade_out_duration": 3.0,
+    "width": 300.0,
+    "glow_tiling_animation_rate": 1.0,
+    "core_tiling_animation_rate": 1.0,
+    "core_fade_in_duration": 0.0,
+    "core_fade_out_duration": 0.0,
     "use_length_based_fade": true,
-    "back_fade_distance": 10.0,
-    "front_fade_distance": 1.0,
-    "bolt_travel_speed_multiplier": 15.0,
-    "back_fade_speed_multiplier": 5.0,
-    "back_fade_delay": 5.0,
-    "front_width_multiplier": 5.0,
+    "back_fade_distance": 1000.0,
+    "bolt_travel_speed_multiplier": 10.0,
+    "front_fade_speed_multiplier": 3.0,
+    "back_fade_speed_multiplier": 6.0,
+    "back_fade_delay": 2.0,
+    "front_width_multiplier": 3.0,
+    "back_width_multiplier": 0.010,
     "light": {
         "type": "point_finite",
-        "color": "ffffffff",
-        "intensity": 0.0,
-        "surface_radius": 0.0
+        "color": "ffff4e00",
+        "intensity": 5.0,
+        "surface_radius": 5.0
     },
     "basic_constants": {
-        "alpha_ramp_curvature": 0.550,
-        "alpha_ramp_steepness": 0.0,
-        "alpha_ramp_growth_delay": 1.10,
-        "alpha_ramp_max_alpha_scalar": 1.810
+        "emissive_factor": 5.0,
+        "depth_fade_opacity": 4.0,
+        "depth_fade_distance": 3.0,
+        "alpha_ramp_curvature": 2.0,
+        "alpha_ramp_steepness": 1.0
     },
     "particle_effects": [
         {
-            "particle_effect": "macross_cannon",
-            "interval_distance": [250.0, 250.0]
+            "particle_effect": "advent_beam",
+            "interval_distance": [40.0, 40.0]
         }
     ]
 }

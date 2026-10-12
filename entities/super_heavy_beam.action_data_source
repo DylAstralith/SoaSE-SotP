@@ -94,7 +94,7 @@
             "action_value_id": "beam_charge_value",
             "action_value": {
                 "values": [
-                    6
+                    3
                 ]
             }
         },
@@ -102,7 +102,7 @@
             "action_value_id": "cooldown_time_value",
             "action_value": {
                 "values": [
-                    30
+                    20
                 ]
             }
         },
@@ -110,7 +110,7 @@
             "action_value_id": "damage_rate_value",
             "action_value": {
                 "values": [
-                    250
+                    500
                 ]
             }
         },
@@ -126,7 +126,7 @@
             "action_value_id": "execution_interval_count_value",
             "action_value": {
                 "values": [
-                    3
+                    2.5
                 ]
             }
         },
@@ -139,20 +139,20 @@
             }
         },
         {
+            "action_value_id": "beam_splash_radius_value",
             "action_value": {
                 "values": [
-                    1500
+                    1000
                 ]
-            },
-            "action_value_id": "beam_splash_radius_value"
+            }
         },
         {
+            "action_value_id": "beam_splash_damage_rate_value",
             "action_value": {
                 "values": [
-                    75
+                    100
                 ]
-            },
-            "action_value_id": "beam_splash_damage_rate_value"
+            }
         }
     ]
 }

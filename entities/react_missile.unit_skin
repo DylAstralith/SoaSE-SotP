@@ -42,6 +42,6 @@
                 "engine": "engine_techsupportship"
             }
         },
-        "death_sequence_group": "react_missile"
+        "death_sequence_group": "explosion_large"
     }]
 }

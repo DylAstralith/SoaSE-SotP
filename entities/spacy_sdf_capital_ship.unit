@@ -1,24 +1,16 @@
 {
     "version": 0,
     "spatial": {
-        "radius": 435.347107,
+        "radius": 281.406,
         "box": {
-            "center": [
-                18.832748,
-                2.213356,
-                16.210709
-            ],
-            "extents": [
-                86.857849,
-                104.722931,
-                418.563782
-            ]
+            "center": [0.000, 13.593, 10.430],
+            "extents": [115.261, 73.008, 269.350]
         },
         "collision_rank": 2
     },
     "physics": {
         "can_move_linear": true,
-        "max_linear_speed": 675.0,
+        "max_linear_speed": 270,
         "time_to_max_linear_speed": 7.5,
         "arrival_tolerance_spatial_radius_scalar": 0.25,
         "death_linear_speed_range": [
@@ -35,7 +27,7 @@
         ],
         "linear_acceleration_angle": 75.0,
         "can_strafe_linear": true,
-        "strafe_max_linear_speed": 225.0,
+        "strafe_max_linear_speed": 90,
         "time_to_strafe_max_linear_speed": 15.0,
         "strafe_max_linear_distance_spatial_radius_scalar": 5.0,
         "strafe_start_angle": 0.0,
@@ -99,23 +91,8 @@
             {
                 "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.001",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [-0.090, 51.431, 8.478],
+                "non_turret_muzzle_positions": [[6.910, 51.431, 8.478], [-7.090, 51.431, 8.478]],
                 "forward": [
                     0.0,
                     0.0,
@@ -138,23 +115,8 @@
             {
                 "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.002",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [-44.270, 20.258, 25.791],
+                "non_turret_muzzle_positions": [[-37.270, 20.258, 25.791], [-51.270, 20.258, 25.791]],
                 "forward": [
                     0.0,
                     0.0,
@@ -177,28 +139,8 @@
             {
                 "weapon": "medium_beam_triple",
                 "mesh_point": "turret_muzzle.003",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [-0.096, 40.877, 92.156],
+                "non_turret_muzzle_positions": [[6.904, 40.877, 92.156], [-0.096, 40.877, 92.156], [-7.096, 40.877, 92.156]],
                 "forward": [
                     0.0,
                     0.0,
@@ -221,23 +163,8 @@
             {
                 "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.004",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [-0.184, -26.131, 108.578],
+                "non_turret_muzzle_positions": [[6.816, -26.131, 108.578], [-7.184, -26.131, 108.578]],
                 "forward": [
                     0.0,
                     0.0,
@@ -260,23 +187,8 @@
             {
                 "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.005",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [-43.560, 9.693, 82.697],
+                "non_turret_muzzle_positions": [[-36.560, 9.693, 82.697], [-50.560, 9.693, 82.697]],
                 "forward": [
                     0.0,
                     0.0,
@@ -299,23 +211,8 @@
             {
                 "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.006",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [43.783, 9.886, 82.697],
+                "non_turret_muzzle_positions": [[50.783, 9.886, 82.697], [36.783, 9.886, 82.697]],
                 "forward": [
                     0.0,
                     0.0,
@@ -338,23 +235,8 @@
             {
                 "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.007",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [-38.462, 38.300, -196.153],
+                "non_turret_muzzle_positions": [[-31.462, 38.300, -196.153], [-45.462, 38.300, -196.153]],
                 "forward": [
                     0.0,
                     0.0,
@@ -377,23 +259,8 @@
             {
                 "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.008",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [38.497, 38.300, -197.693],
+                "non_turret_muzzle_positions": [[45.497, 38.300, -197.693], [31.497, 38.300, -197.693]],
                 "forward": [
                     0.0,
                     0.0,
@@ -416,23 +283,8 @@
             {
                 "weapon": "light_beam_dual",
                 "mesh_point": "turret_muzzle.009",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [-33.849, 10.697, 202.545],
+                "non_turret_muzzle_positions": [[-26.849, 10.697, 202.545], [-40.849, 10.697, 202.545]],
                 "forward": [
                     0.0,
                     0.0,
@@ -455,23 +307,8 @@
             {
                 "weapon": "light_beam_dual",
                 "mesh_point": "turret_muzzle.010",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [-73.467, 16.217, -10.525],
+                "non_turret_muzzle_positions": [[-66.467, 16.217, -10.525], [-80.467, 16.217, -10.525]],
                 "forward": [
                     -1.0,
                     0.0,
@@ -494,23 +331,8 @@
             {
                 "weapon": "light_beam_dual",
                 "mesh_point": "turret_muzzle.011",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [33.849, 10.719, 202.545],
+                "non_turret_muzzle_positions": [[40.849, 10.719, 202.545], [26.849, 10.719, 202.545]],
                 "forward": [
                     0.0,
                     0.0,
@@ -533,23 +355,8 @@
             {
                 "weapon": "light_beam_dual",
                 "mesh_point": "turret_muzzle.012",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [73.467, 16.217, -10.616],
+                "non_turret_muzzle_positions": [[80.467, 16.217, -10.616], [66.467, 16.217, -10.616]],
                 "forward": [
                     1.0,
                     0.0,
@@ -572,23 +379,8 @@
             {
                 "weapon": "light_beam_dual_alt1",
                 "mesh_point": "turret_muzzle.013",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [-72.736, -30.139, -10.400],
+                "non_turret_muzzle_positions": [[-65.736, -30.139, -10.400], [-79.736, -30.139, -10.400]],
                 "forward": [
                     -1.0,
                     0.0,
@@ -611,23 +403,8 @@
             {
                 "weapon": "light_beam_dual_alt1",
                 "mesh_point": "turret_muzzle.014",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [73.467, -29.536, -10.435],
+                "non_turret_muzzle_positions": [[80.467, -29.536, -10.435], [66.467, -29.536, -10.435]],
                 "forward": [
                     1.0,
                     0.0,
@@ -650,23 +427,8 @@
             {
                 "weapon": "medium_beam_dual",
                 "mesh_point": "turret_muzzle.015",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [44.270, 20.360, 25.791],
+                "non_turret_muzzle_positions": [[51.270, 20.360, 25.791], [37.270, 20.360, 25.791]],
                 "forward": [
                     0.0,
                     0.0,
@@ -689,18 +451,8 @@
             {
                 "weapon": "spacy_mm_bank_7",
                 "mesh_point": "turret_muzzle",
-                "weapon_position": [
-                    -40.210075,
-                    37.011925,
-                    11.770761
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        -40.210075,
-                        37.011925,
-                        11.770761
-                    ]
-                ],
+                "weapon_position": [-40.210, 37.012, 3.340],
+                "non_turret_muzzle_positions": [[-40.210, 37.012, 3.340]],
                 "forward": [
                     -0.71095725498002782,
                     -0.43447387804335036,
@@ -723,18 +475,8 @@
             {
                 "weapon": "spacy_mm_bank_0",
                 "mesh_point": "turret_muzzle.016",
-                "weapon_position": [
-                    -15.503186,
-                    26.236109,
-                    36.839108
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        -15.503186,
-                        26.236109,
-                        36.839108
-                    ]
-                ],
+                "weapon_position": [-15.503, 26.236, 28.408],
+                "non_turret_muzzle_positions": [[-15.503, 26.236, 28.408]],
                 "forward": [
                     -0.69540066835763026,
                     0.42496707510744075,
@@ -757,18 +499,8 @@
             {
                 "weapon": "spacy_mm_bank_1",
                 "mesh_point": "turret_muzzle.017",
-                "weapon_position": [
-                    -25.340055,
-                    21.027172,
-                    141.227127
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        -25.340055,
-                        21.027172,
-                        141.227127
-                    ]
-                ],
+                "weapon_position": [-25.340, 21.027, 132.796],
+                "non_turret_muzzle_positions": [[-25.340, 21.027, 132.796]],
                 "forward": [
                     -0.6131213321914778,
                     0.49816108240557572,
@@ -791,18 +523,8 @@
             {
                 "weapon": "spacy_mm_bank_2",
                 "mesh_point": "turret_muzzle.018",
-                "weapon_position": [
-                    -26.426111,
-                    24.217176,
-                    199.554428
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        -26.426111,
-                        24.217176,
-                        199.554428
-                    ]
-                ],
+                "weapon_position": [-26.426, 24.217, 191.123],
+                "non_turret_muzzle_positions": [[-26.426, 24.217, 191.123]],
                 "forward": [
                     -0.48247525236638361,
                     0.70515613807394517,
@@ -825,18 +547,8 @@
             {
                 "weapon": "spacy_mm_bank_3",
                 "mesh_point": "turret_muzzle.019",
-                "weapon_position": [
-                    40.210068,
-                    37.011925,
-                    11.770764
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        40.210068,
-                        37.011925,
-                        11.770764
-                    ]
-                ],
+                "weapon_position": [40.210, 37.012, 3.340],
+                "non_turret_muzzle_positions": [[40.210, 37.012, 3.340]],
                 "forward": [
                     0.73131034097352587,
                     0.19245008972987526,
@@ -859,18 +571,8 @@
             {
                 "weapon": "spacy_mm_bank_4",
                 "mesh_point": "turret_muzzle.020",
-                "weapon_position": [
-                    15.503181,
-                    26.236109,
-                    36.839108
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        15.503181,
-                        26.236109,
-                        36.839108
-                    ]
-                ],
+                "weapon_position": [15.503, 26.236, 28.408],
+                "non_turret_muzzle_positions": [[15.503, 26.236, 28.408]],
                 "forward": [
                     0.72542337090515185,
                     -0.22908106449636376,
@@ -893,18 +595,8 @@
             {
                 "weapon": "spacy_mm_bank_5",
                 "mesh_point": "turret_muzzle.021",
-                "weapon_position": [
-                    25.194923,
-                    21.027176,
-                    141.227127
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        25.194923,
-                        21.027176,
-                        141.227127
-                    ]
-                ],
+                "weapon_position": [25.195, 21.027, 132.796],
+                "non_turret_muzzle_positions": [[25.195, 21.027, 132.796]],
                 "forward": [
                     0.45584230583855179,
                     -0.68376345875782774,
@@ -927,18 +619,8 @@
             {
                 "weapon": "spacy_mm_bank_6",
                 "mesh_point": "turret_muzzle.022",
-                "weapon_position": [
-                    26.136194,
-                    24.21718,
-                    199.554214
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        26.136194,
-                        24.21718,
-                        199.554214
-                    ]
-                ],
+                "weapon_position": [26.136, 24.217, 191.123],
+                "non_turret_muzzle_positions": [[26.136, 24.217, 191.123]],
                 "forward": [
                     0.44597648774829973,
                     -0.59463531699773309,
@@ -961,18 +643,8 @@
             {
                 "weapon": "spacy_mm_bank_7",
                 "mesh_point": "turret_muzzle.023",
-                "weapon_position": [
-                    -59.323677,
-                    15.992242,
-                    20.371658
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        -59.323677,
-                        15.992242,
-                        20.371658
-                    ]
-                ],
+                "weapon_position": [-59.324, 15.992, 11.941],
+                "non_turret_muzzle_positions": [[-59.324, 15.992, 11.941]],
                 "forward": [
                     -0.71095725498002782,
                     -0.43447387804335036,
@@ -995,18 +667,8 @@
             {
                 "weapon": "spacy_mm_bank_0",
                 "mesh_point": "turret_muzzle.024",
-                "weapon_position": [
-                    -37.269417,
-                    30.871933,
-                    -135.748062
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        -37.269417,
-                        30.871933,
-                        -135.748062
-                    ]
-                ],
+                "weapon_position": [-37.269, 30.872, -144.179],
+                "non_turret_muzzle_positions": [[-37.269, 30.872, -144.179]],
                 "forward": [
                     -0.69540066835763026,
                     0.42496707510744075,
@@ -1029,18 +691,8 @@
             {
                 "weapon": "spacy_mm_bank_1",
                 "mesh_point": "turret_muzzle.025",
-                "weapon_position": [
-                    -98.548584,
-                    15.635612,
-                    -94.895821
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        -98.548584,
-                        15.635612,
-                        -94.895821
-                    ]
-                ],
+                "weapon_position": [-98.549, 15.636, -103.326],
+                "non_turret_muzzle_positions": [[-98.549, 15.636, -103.326]],
                 "forward": [
                     -0.6131213321914778,
                     0.49816108240557572,
@@ -1063,18 +715,8 @@
             {
                 "weapon": "spacy_mm_bank_2",
                 "mesh_point": "turret_muzzle.026",
-                "weapon_position": [
-                    -97.751526,
-                    13.023112,
-                    -88.652443
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        -97.751526,
-                        13.023112,
-                        -88.652443
-                    ]
-                ],
+                "weapon_position": [-97.752, 13.023, -97.083],
+                "non_turret_muzzle_positions": [[-97.752, 13.023, -97.083]],
                 "forward": [
                     -0.48247525236638361,
                     0.70515613807394517,
@@ -1097,18 +739,8 @@
             {
                 "weapon": "spacy_mm_bank_3",
                 "mesh_point": "turret_muzzle.027",
-                "weapon_position": [
-                    -97.021347,
-                    8.992053,
-                    -83.463531
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        -97.021347,
-                        8.992053,
-                        -83.463531
-                    ]
-                ],
+                "weapon_position": [-97.021, 8.992, -91.894],
+                "non_turret_muzzle_positions": [[-97.021, 8.992, -91.894]],
                 "forward": [
                     -0.73131034097352587,
                     0.19245008972987526,
@@ -1131,18 +763,8 @@
             {
                 "weapon": "spacy_mm_bank_4",
                 "mesh_point": "turret_muzzle.028",
-                "weapon_position": [
-                    59.323677,
-                    15.992248,
-                    20.371662
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        59.323677,
-                        15.992248,
-                        20.371662
-                    ]
-                ],
+                "weapon_position": [59.324, 15.992, 11.941],
+                "non_turret_muzzle_positions": [[59.324, 15.992, 11.941]],
                 "forward": [
                     0.72542337090515185,
                     -0.22908106449636376,
@@ -1165,18 +787,8 @@
             {
                 "weapon": "spacy_mm_bank_5",
                 "mesh_point": "turret_muzzle.029",
-                "weapon_position": [
-                    37.541599,
-                    30.871937,
-                    -135.748062
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        37.541599,
-                        30.871937,
-                        -135.748062
-                    ]
-                ],
+                "weapon_position": [37.542, 30.872, -144.179],
+                "non_turret_muzzle_positions": [[37.542, 30.872, -144.179]],
                 "forward": [
                     0.45584230583855179,
                     -0.68376345875782774,
@@ -1199,18 +811,8 @@
             {
                 "weapon": "spacy_mm_bank_6",
                 "mesh_point": "turret_muzzle.030",
-                "weapon_position": [
-                    97.021347,
-                    8.992061,
-                    -83.463516
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        97.021347,
-                        8.992061,
-                        -83.463516
-                    ]
-                ],
+                "weapon_position": [97.021, 8.992, -91.894],
+                "non_turret_muzzle_positions": [[97.021, 8.992, -91.894]],
                 "forward": [
                     0.44597648774829973,
                     -0.59463531699773309,
@@ -1233,18 +835,8 @@
             {
                 "weapon": "spacy_mm_bank_7",
                 "mesh_point": "turret_muzzle.031",
-                "weapon_position": [
-                    98.548584,
-                    15.635621,
-                    -94.895805
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        98.548584,
-                        15.635621,
-                        -94.895805
-                    ]
-                ],
+                "weapon_position": [98.549, 15.636, -103.326],
+                "non_turret_muzzle_positions": [[98.549, 15.636, -103.326]],
                 "forward": [
                     0.71095725498002782,
                     -0.43447387804335036,
@@ -1267,18 +859,8 @@
             {
                 "weapon": "spacy_mm_bank_0",
                 "mesh_point": "turret_muzzle.032",
-                "weapon_position": [
-                    97.751526,
-                    13.02312,
-                    -88.652428
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        97.751526,
-                        13.02312,
-                        -88.652428
-                    ]
-                ],
+                "weapon_position": [97.752, 13.023, -97.083],
+                "non_turret_muzzle_positions": [[97.752, 13.023, -97.083]],
                 "forward": [
                     0.69540066835763026,
                     0.42496707510744075,
@@ -1301,23 +883,8 @@
             {
                 "weapon": "heavy_beam",
                 "mesh_point": "turret_muzzle.033",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [-68.085, -20.893, 71.458],
+                "non_turret_muzzle_positions": [[-61.085, -20.893, 71.458], [-75.085, -20.893, 71.458]],
                 "forward": [
                     0.0,
                     0.0,
@@ -1340,23 +907,8 @@
             {
                 "weapon": "heavy_beam",
                 "mesh_point": "turret_muzzle.034",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [-68.085, 7.794, 71.458],
+                "non_turret_muzzle_positions": [[-61.085, 7.794, 71.458], [-75.085, 7.794, 71.458]],
                 "forward": [
                     0.0,
                     0.0,
@@ -1379,23 +931,8 @@
             {
                 "weapon": "heavy_beam",
                 "mesh_point": "turret_muzzle.035",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [68.085, -20.893, 71.458],
+                "non_turret_muzzle_positions": [[75.085, -20.893, 71.458], [61.085, -20.893, 71.458]],
                 "forward": [
                     0.0,
                     0.0,
@@ -1418,23 +955,8 @@
             {
                 "weapon": "heavy_beam",
                 "mesh_point": "turret_muzzle.036",
-                "weapon_position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        7.0,
-                        0.0,
-                        0.0
-                    ],
-                    [
-                        -7.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
+                "weapon_position": [68.085, 7.794, 71.458],
+                "non_turret_muzzle_positions": [[75.085, 7.794, 71.458], [61.085, 7.794, 71.458]],
                 "forward": [
                     0.0,
                     0.0,
@@ -1999,11 +1521,7 @@
         "hangar_data": [
             {
                 "launch_basis": {
-                    "position": [
-                        18.0,
-                        18.0,
-                        -60.0
-                    ],
+                    "position": [102.918, -12.434, -103.326],
                     "rotation": [
                         0.0,
                         0.0,
@@ -2017,11 +1535,7 @@
                     ]
                 },
                 "land_basis": {
-                    "position": [
-                        18.0,
-                        18.0,
-                        -60.0
-                    ],
+                    "position": [102.918, -12.434, -103.326],
                     "rotation": [
                         0.0,
                         0.0,
@@ -2037,11 +1551,7 @@
             },
             {
                 "launch_basis": {
-                    "position": [
-                        -18.0,
-                        18.0,
-                        -60.0
-                    ],
+                    "position": [-102.918, -12.434, -103.326],
                     "rotation": [
                         0.0,
                         0.0,
@@ -2055,11 +1565,7 @@
                     ]
                 },
                 "land_basis": {
-                    "position": [
-                        -18.0,
-                        18.0,
-                        -60.0
-                    ],
+                    "position": [-102.918, -12.434, -103.326],
                     "rotation": [
                         0.0,
                         0.0,
@@ -2075,11 +1581,7 @@
             },
             {
                 "launch_basis": {
-                    "position": [
-                        18.0,
-                        18.0,
-                        -116.5
-                    ],
+                    "position": [102.918, -12.434, -153.942],
                     "rotation": [
                         0.0,
                         0.0,
@@ -2093,11 +1595,7 @@
                     ]
                 },
                 "land_basis": {
-                    "position": [
-                        18.0,
-                        18.0,
-                        -116.5
-                    ],
+                    "position": [102.918, -12.434, -153.942],
                     "rotation": [
                         0.0,
                         0.0,
@@ -2113,11 +1611,7 @@
             },
             {
                 "launch_basis": {
-                    "position": [
-                        -18.0,
-                        18.0,
-                        -116.5
-                    ],
+                    "position": [-102.918, -12.434, -153.942],
                     "rotation": [
                         0.0,
                         0.0,
@@ -2131,11 +1625,7 @@
                     ]
                 },
                 "land_basis": {
-                    "position": [
-                        -18.0,
-                        18.0,
-                        -116.5
-                    ],
+                    "position": [-102.918, -12.434, -153.942],
                     "rotation": [
                         0.0,
                         0.0,
@@ -2177,9 +1667,9 @@
     "abilities": [
         {
             "abilities": [
-                "trader_colony_capital_ship_inspiring_broadcast",
+                "minmay_attack",
                 "trader_colony_capital_ship_mobile_trade_port",
-                "trader_battle_capital_ship_adaptive_force_field",
+                "omni_directional_barrier",
                 "macross_cannon",
                 "mm_splash"
             ]
@@ -2194,6 +1684,270 @@
             "skins": [
                 "spacy_sdf_capital_ship"
             ]
+        }
+    ],
+    "child_meshes": [
+        {
+            "mesh_alias_name": "arm_left_cover",
+            "mesh_point": "child.arm_left_cover",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "arm_left_inner",
+            "mesh_point": "child.arm_left_inner",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "arm_left_outer",
+            "mesh_point": "child.arm_left_outer",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "arm_left_turrets",
+            "mesh_point": "child.arm_left_turrets",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "arm_right_cover",
+            "mesh_point": "child.arm_right_cover",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "arm_right_inner",
+            "mesh_point": "child.arm_right_inner",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "arm_right_outer",
+            "mesh_point": "child.arm_right_outer",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "arm_right_turrets",
+            "mesh_point": "child.arm_right_turrets",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "armd_left",
+            "mesh_point": "child.armd_left",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "armd_right",
+            "mesh_point": "child.armd_right",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "body_ass",
+            "mesh_point": "child.body_ass",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "body_bridge",
+            "mesh_point": "child.body_bridge",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "body_chest",
+            "mesh_point": "child.body_chest",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "body_mid",
+            "mesh_point": "child.body_mid",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "body_pelvis",
+            "mesh_point": "child.body_pelvis",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "body_shoulders",
+            "mesh_point": "child.body_shoulders",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "cannon_left_back",
+            "mesh_point": "child.cannon_left_back",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "ability_name": "macross_cannon",
+            "transition_time": 3.000,
+            "transition_delay": 0.000,
+            "default_state_index": 2,
+            "position_states": [
+                {
+                    "state_name": "on_ability_cast",
+                    "position_offset": [5.000, 0.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                },
+                {
+                    "state_name": "on_ability_cast",
+                    "position_offset": [5.000, 0.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                },
+                {
+                    "state_name": "cruiser_mode",
+                    "position_offset": [0.000, 0.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "cannon_left_front",
+            "mesh_point": "child.cannon_left_front",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "ability_name": "macross_cannon",
+            "transition_time": 3.000,
+            "transition_delay": 0.000,
+            "default_state_index": 2,
+            "position_states": [
+                {
+                    "state_name": "on_ability_cast",
+                    "position_offset": [15.000, 10.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                },
+                {
+                    "state_name": "on_ability_cast",
+                    "position_offset": [5.000, 0.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                },
+                {
+                    "state_name": "cruiser_mode",
+                    "position_offset": [0.000, 0.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "cannon_left_mid",
+            "mesh_point": "child.cannon_left_mid",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "ability_name": "macross_cannon",
+            "transition_time": 3.000,
+            "transition_delay": 0.000,
+            "default_state_index": 2,
+            "position_states": [
+                {
+                    "state_name": "on_ability_cast",
+                    "position_offset": [5.000, 0.000, 0.000],
+                    "rotation_offset": [0.000, -1.000, 0.000, 1.000, 0.000, 0.000, 0.000, 0.000, 1.000]
+                },
+                {
+                    "state_name": "on_ability_cast",
+                    "position_offset": [5.000, 0.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                },
+                {
+                    "state_name": "cruiser_mode",
+                    "position_offset": [0.000, 0.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "cannon_right_back",
+            "mesh_point": "child.cannon_right_back",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "ability_name": "macross_cannon",
+            "transition_time": 3.000,
+            "transition_delay": 0.000,
+            "default_state_index": 2,
+            "position_states": [
+                {
+                    "state_name": "on_ability_cast",
+                    "position_offset": [-5.000, 0.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                },
+                {
+                    "state_name": "on_ability_cast",
+                    "position_offset": [-5.000, 0.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                },
+                {
+                    "state_name": "cruiser_mode",
+                    "position_offset": [0.000, 0.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "cannon_right_front",
+            "mesh_point": "child.cannon_right_front",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "ability_name": "macross_cannon",
+            "transition_time": 3.000,
+            "transition_delay": 0.000,
+            "default_state_index": 2,
+            "position_states": [
+                {
+                    "state_name": "on_ability_cast",
+                    "position_offset": [-15.000, 10.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                },
+                {
+                    "state_name": "on_ability_cast",
+                    "position_offset": [-5.000, 0.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                },
+                {
+                    "state_name": "cruiser_mode",
+                    "position_offset": [0.000, 0.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "cannon_right_mid",
+            "mesh_point": "child.cannon_right_mid",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "ability_name": "macross_cannon",
+            "transition_time": 3.000,
+            "transition_delay": 0.000,
+            "default_state_index": 2,
+            "position_states": [
+                {
+                    "state_name": "on_ability_cast",
+                    "position_offset": [-5.000, 0.000, 0.000],
+                    "rotation_offset": [0.000, 1.000, 0.000, -1.000, 0.000, 0.000, 0.000, 0.000, 1.000]
+                },
+                {
+                    "state_name": "on_ability_cast",
+                    "position_offset": [-5.000, 0.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                },
+                {
+                    "state_name": "cruiser_mode",
+                    "position_offset": [0.000, 0.000, 0.000],
+                    "rotation_offset": [1.000, 0.000, 0.000, 0.000, 1.000, 0.000, 0.000, 0.000, 1.000]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "left_leg",
+            "mesh_point": "child.left_leg",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "left_thigh",
+            "mesh_point": "child.left_thigh",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "right_leg",
+            "mesh_point": "child.right_leg",
+            "is_weapon_effects_destination": true
+        },
+        {
+            "mesh_alias_name": "right_thigh",
+            "mesh_point": "child.right_thigh",
+            "is_weapon_effects_destination": true
         }
     ],
     "action_effect_size": "medium_unit",

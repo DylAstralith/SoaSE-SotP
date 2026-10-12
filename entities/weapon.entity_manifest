@@ -3,9 +3,12 @@
         "pulse_beam",
         "pulse_beam_dual",
         "pulse_beam_triple",
+        "pulse_beam_dual_aft",
         "pulse_beam_aa",
         "gunpod",
         "defender_des_turret",
+        "spacy_pd",
+        "lasers",
         "light_beam",
         "light_beam_alt1",
         "light_beam_alt2",
@@ -25,7 +28,7 @@
         "medium_beam_triple",
         "heavy_beam",
         "heavy_beam_triple",
-        "sts_missile",
+        "heavy_missile",
         "spacy_mm_bank_0",
         "spacy_mm_bank_1",
         "spacy_mm_bank_2",
@@ -41,6 +44,7 @@
         "zentr_mm_bank_4",
         "zentr_mm_bank_5",
         "zentr_mm_bank_6",
-        "zentr_mm_bank_7"
+        "zentr_mm_bank_7",
+        "glaug_pulse_beam_aa"
     ]
 }

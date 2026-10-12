@@ -117,9 +117,9 @@
             "action_value_id": "damage_rate_value",
             "action_value": {
                 "values": [
-                    4500,
-                    4750,
-                    5000
+                    5500,
+                    5750,
+                    6000
                 ]
             }
         },
@@ -137,9 +137,9 @@
             "action_value_id": "execution_interval_count_value",
             "action_value": {
                 "values": [
-                    4,
-                    4,
-                    4
+                    3,
+                    3,
+                    3
                 ]
             }
         },
@@ -147,31 +147,31 @@
             "action_value_id": "range_value",
             "action_value": {
                 "values": [
-                    20000,
-                    20000,
-                    20000
+                    30000,
+                    30000,
+                    30000
                 ]
             }
         },
         {
+            "action_value_id": "beam_splash_radius_value",
             "action_value": {
                 "values": [
-                    1500,
-                    1500,
-                    1500
+                    5500,
+                    5500,
+                    5500
                 ]
-            },
-            "action_value_id": "beam_splash_radius_value"
+            }
         },
         {
+            "action_value_id": "beam_splash_damage_rate_value",
             "action_value": {
                 "values": [
-                    3250,
-                    3375,
-                    3500
+                    4250,
+                    4375,
+                    4500
                 ]
-            },
-            "action_value_id": "beam_splash_damage_rate_value"
+            }
         }
     ]
 }

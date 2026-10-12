@@ -72,7 +72,7 @@
                                 "operator_type": "play_point_effect",
                                 "effect_definition": {
                                     "binding": "unit_skin",
-                                    "mesh_point": "center",
+                                    "mesh_point": "ability",
                                     "effect": "react_missile_weapon_muzzle"
                                 },
                                 "effect_destination_unit": {

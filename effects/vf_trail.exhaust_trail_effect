@@ -1,11 +1,11 @@
 {
     "texture": "exhausttrail_clr",
-    "start_width": 2.0,
-    "middle_width": 4.0,
+    "start_width": 4.0,
+    "middle_width": 2.0,
     "middle_offset": 1,
     "max_width_scalar": 10.0,
     "segment_duration": 1.0,
-    "max_trail_length": 350.0,
+    "max_trail_length": 200.0,
     "render_with_player_color": true,
     "basic_constants":
     {

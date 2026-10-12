@@ -1,0 +1,29 @@
+{
+    "no_owner_carrier_self_destruct_duration": 60,
+    "strikecraft_kinds": [
+    {
+        "name": "interceptor",
+        "localized_name": "foo"
+    },
+    {
+        "name": "bomber",
+        "localized_name": "bar"
+    },
+    {
+        "name": "gunship",
+        "localized_name": "strikecraft_kind_name.gunship"
+    },
+    {
+        "name": "snub",
+        "localized_name": "strikecraft_kind_name.snub"
+    },
+    {
+        "name": "battroid",
+        "localized_name": "strikecraft_kind_name.battroid"
+    },
+    {
+        "name": "special_strikecraft",
+        "localized_name": "strikecraft_kind_name.special_strikecraft"
+    }
+]
+}

@@ -21,6 +21,218 @@
                 "shader": "ship",
                 "is_shadow_blocker": true
             },
+            "child_mesh_alias_bindings": {
+                "map": [
+                    {
+                        "mesh_alias_name": "arm_left_cover",
+                        "mesh_definition": {
+                            "mesh": "arm_left_cover",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "arm_left_inner",
+                        "mesh_definition": {
+                            "mesh": "arm_left_inner",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "arm_left_outer",
+                        "mesh_definition": {
+                            "mesh": "arm_left_outer",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "arm_left_turrets",
+                        "mesh_definition": {
+                            "mesh": "arm_left_turrets",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "arm_right_cover",
+                        "mesh_definition": {
+                            "mesh": "arm_right_cover",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "arm_right_inner",
+                        "mesh_definition": {
+                            "mesh": "arm_right_inner",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "arm_right_outer",
+                        "mesh_definition": {
+                            "mesh": "arm_right_outer",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "arm_right_turrets",
+                        "mesh_definition": {
+                            "mesh": "arm_right_turrets",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "armd_left",
+                        "mesh_definition": {
+                            "mesh": "armd_left",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "armd_right",
+                        "mesh_definition": {
+                            "mesh": "armd_right",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "body_ass",
+                        "mesh_definition": {
+                            "mesh": "body_ass",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "body_bridge",
+                        "mesh_definition": {
+                            "mesh": "body_bridge",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "body_chest",
+                        "mesh_definition": {
+                            "mesh": "body_chest",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "body_mid",
+                        "mesh_definition": {
+                            "mesh": "body_mid",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "body_pelvis",
+                        "mesh_definition": {
+                            "mesh": "body_pelvis",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "body_shoulders",
+                        "mesh_definition": {
+                            "mesh": "body_shoulders",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "cannon_left_back",
+                        "mesh_definition": {
+                            "mesh": "cannon_left_back",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "cannon_left_front",
+                        "mesh_definition": {
+                            "mesh": "cannon_left_front",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "cannon_left_mid",
+                        "mesh_definition": {
+                            "mesh": "cannon_left_mid",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "cannon_right_back",
+                        "mesh_definition": {
+                            "mesh": "cannon_right_back",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "cannon_right_front",
+                        "mesh_definition": {
+                            "mesh": "cannon_right_front",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "cannon_right_mid",
+                        "mesh_definition": {
+                            "mesh": "cannon_right_mid",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "left_leg",
+                        "mesh_definition": {
+                            "mesh": "left_leg",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "left_thigh",
+                        "mesh_definition": {
+                            "mesh": "left_thigh",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "right_leg",
+                        "mesh_definition": {
+                            "mesh": "right_leg",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "right_thigh",
+                        "mesh_definition": {
+                            "mesh": "right_thigh",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    }
+                ]
+            },
             "main_view_icon": {
                 "group": "capital_ship",
                 "icon": "trader_battle_capital_ship_main_view_icon",
@@ -31,7 +243,7 @@
                 "exhaust_effects": {
                     "particle_effects": [
                         {
-                            "particle_effect": "exhaust_tech_large_01"
+                            "particle_effect": "spacy_exhaust_medium"
                         }
                     ]
                 },
@@ -71,16 +283,15 @@
                 "shield_effect": "trader_battle_capital_ship",
                 "effect_alias_bindings": [
                     {
-                        "alias_name": "trader_battle_capital_ship_adaptive_force_field_buff_start",
+                        "alias_name": "omni_directional_barrier_buff_start",
                         "alias_binding": {
-                            "particle_effect": "buff_trader_adaptive_forcefield_start",
-                            "sounds": ["ability_activate_tech_adaptive_forcefield"]
+                            "sounds": ["fold_entry"]
                         }
                     },
                     {
-                        "alias_name": "trader_ship_adaptive_force_field",
+                        "alias_name": "omni_directional_barrier",
                         "alias_binding": {
-                            "particle_effect": "buff_trader_adaptive_forcefield"
+                            "particle_effect": "omni_directional_barrier"
                         }
                     },
                     {
@@ -93,14 +304,14 @@
                     {
                         "alias_name": "super_heavy_beam_charge",
                         "alias_binding": {
-                            "particle_effect": "trader_robotics_cruiser_emp_droids_buff_large_default",
+                            "particle_effect": "macross_cannon_charge",
                             "sounds": ["macross_cannon_charge"]
                         }
                     },
                     {
                         "alias_name": "super_heavy_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "macross_cannon_beam_impact",
+                            "particle_effect": "explosion_large",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
@@ -118,28 +329,34 @@
                         }
                     },
                     {
-                        "alias_name": "trader_colony_capital_ship_inspiring_broadcast_buff_on_target_large",
+                        "alias_name": "minmay_attack_buff_on_ally_large",
                         "alias_binding": {
                             "particle_effect": "inspiring_broadcast_target_capital"
                         }
                     },
                     {
-                        "alias_name": "trader_colony_capital_ship_inspiring_broadcast_buff_on_target_medium",
+                        "alias_name": "minmay_attack_buff_on_ally_medium",
                         "alias_binding": {
                             "particle_effect": "inspiring_broadcast_target_cruiser"
                         }
                     },
                     {
-                        "alias_name": "trader_colony_capital_ship_inspiring_broadcast_buff_on_target_small",
+                        "alias_name": "minmay_attack_buff_on_ally_small",
                         "alias_binding": {
                             "particle_effect": "inspiring_broadcast_target_corvette"
                         }
                     },
                     {
-                        "alias_name": "trader_colony_capital_ship_inspiring_broadcast_on_spawner",
+                        "alias_name": "minmay_attack_on_spawner",
                         "alias_binding": {
-                            "particle_effect": "inspiring_broadcast",
-                            "sounds": ["minmay_broadcast"]
+                            "particle_effect": "minmay_broadcast",
+                            "sounds": ["minmay_broadcast", "minmay_broadcast_2"]
+                        }
+                    },
+                    {
+                        "alias_name": "minmay_attack_on_enemy",
+                        "alias_binding": {
+                            "particle_effect": "minmay_attack_on_enemy"
                         }
                     },
                     {
@@ -152,14 +369,14 @@
                     {
                         "alias_name": "weapon_medium_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
+                            "particle_effect": "explosion_tiny",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
                         "alias_name": "weapon_medium_beam_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
+                            "particle_effect": "explosion_tiny",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
@@ -167,19 +384,6 @@
                         "alias_name": "weapon_medium_beam_muzzle",
                         "alias_binding": {
                             "particle_effect": "spacy_beam_muzzle"
-                        }
-                    },
-                    {
-                        "alias_name": "trader_battle_capital_ship_light_autocannon_weapon_hit_hull",
-                        "alias_binding": {
-                            "particle_effect": "light_autocannon_impact",
-                            "sounds": [
-                                "weapon_impact_physical_light_hithull",
-                                "weapon_impact_physical_light_hithull_01",
-                                "weapon_impact_physical_light_hithull_02",
-                                "weapon_impact_physical_light_hithull_03",
-                                "weapon_impact_physical_light_hithull_04"
-                            ]
                         }
                     },
                     {
@@ -192,14 +396,14 @@
                     {
                         "alias_name": "weapon_light_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
+                            "particle_effect": "explosion_tiny",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
                         "alias_name": "weapon_light_beam_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
+                            "particle_effect": "explosion_tiny",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
@@ -213,14 +417,14 @@
                         "alias_name": "mm_missile_weapon_muzzle",
                         "alias_binding": {
                             "particle_effect": "Buff_FighterBlinkActivate",
-                            "sounds": ["mm_launch", "mm_launch2"]
+                            "sounds": ["missile_launch", "missile_launch2"]
                         }
                     },
                     {
                         "alias_name": "mm_missile_weapon_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "explosion2",
-                            "sounds": ["mm_explode", "mm_explode2", "mm_explode3"]
+                            "particle_effect": "explosion_small",
+                            "sounds": ["explode", "explode2", "explode3"]
                         }
                     },
                     {
@@ -233,14 +437,14 @@
                     {
                         "alias_name": "weapon_heavy_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
+                            "particle_effect": "explosion_small",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
                         "alias_name": "weapon_heavy_beam_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
+                            "particle_effect": "explosion_small",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },

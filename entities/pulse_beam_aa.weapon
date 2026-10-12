@@ -11,7 +11,7 @@
     "attack_target_type_groups": [
         "torpedo_strikecraft"
     ],
-    "always_check_is_dead_soon": true,
+    "always_check_is_dead_soon": false,
     "weapon_type": "normal",
     "damage_affect_type": "hull_and_armor_and_shields",
     "damage": 15.0,
@@ -25,7 +25,7 @@
     "firing":
     {
         "firing_type": "beam",
-        "beam_duration": 0.5
+        "beam_duration": 1.0
     },
     "effects":
     {

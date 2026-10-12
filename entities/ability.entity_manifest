@@ -4,6 +4,8 @@
         "super_heavy_beam",
         "mm_splash",
         "react_missile_vf1a",
-        "react_missile_armd"
+        "react_missile_armd",
+        "minmay_attack",
+        "omni_directional_barrier"
     ]
 }

@@ -1,0 +1,161 @@
+{
+    "version": 0,
+    "skin_stages": [
+    {
+        "is_main_view_icon_visible_camera_distance": 1629.594155,
+        "min_camera_distance": 41.496881,
+        "gui":
+        {
+            "hud_icon": "spacy_lancer_strikecraft_hud_icon",
+            "hud_monochrome_icon": "spacy_lancer_strikecraft_main_view_icon",
+            "hud_picture": "spacy_lancer_strikecraft_hud_picture",
+            "tooltip_picture": "spacy_lancer_strikecraft_tooltip_picture",
+            "name": "spacy_lancer_strikecraft_name",
+            "description": "spacy_lancer_strikecraft_description"
+        },
+        "unit_mesh":
+        {
+            "mesh": "spacy_lancer_strikecraft",
+            "shader": "ship",
+            "is_shadow_blocker": true
+        },
+        "main_view_icon":
+        {
+            "group": "ship",
+            "icon": "vasari_interceptor_strikecraft_main_view_icon",
+            "selected_icon": "vasari_interceptor_strikecraft_main_view_icon_selected",
+            "sub_selected_icon": "vasari_interceptor_strikecraft_main_view_icon_sub_selected"
+        },
+        "effects":
+        {
+            "exhaust_effects":
+            {
+                "particle_effects": [
+                {
+                    "particle_effect": "spacy_exhaust_tiny"
+                }]
+            },
+            "shield_effect": "vasari_interceptor_strikecraft",
+            "effect_alias_bindings": [
+            {
+                "alias_name": "weapon_pulse_beam_beam",
+                "alias_binding":
+                {
+                    "beam": "spacy_pulse",
+                    "sounds": [
+                        "lancer_laser"]
+                }
+            },
+            {
+                "alias_name": "weapon_pulse_beam_hit_hull",
+                "alias_binding":
+                {
+                    "particle_effect": "explosion_tiny",
+                    "sounds": [
+                        "hithull_sfx1",
+                        "hithull_sfx2",
+                        "hithull_sfx3"
+                    ]
+                }
+            },
+            {
+                "alias_name": "weapon_pulse_beam_hit_shield",
+                "alias_binding":
+                {
+                    "particle_effect": "explosion_tiny",
+                    "sounds": [
+                        "hithull_sfx1",
+                        "hithull_sfx2",
+                        "hithull_sfx3"
+                    ]
+                }
+            },
+            {
+                "alias_name": "weapon_pulse_beam_muzzle",
+                "alias_binding":
+                {
+                    "particle_effect": "pulse_beam_muzzle_spacy"
+                }
+            },
+            {
+                "alias_name": "mm_missile_weapon_muzzle",
+                "alias_binding":
+                {
+                    "particle_effect": "Buff_FighterBlinkActivate",
+                    "sounds": [
+                        "missile_launch",
+                        "missile_launch2"
+                    ]
+                }
+            },
+            {
+                "alias_name": "mm_missile_weapon_hit_hull",
+                "alias_binding":
+                {
+                    "particle_effect": "explosion_small",
+                    "sounds": [
+                        "explode",
+                        "explode2",
+                        "explode3"
+                    ]
+                }
+            }
+        ]
+        },
+        "sounds":
+        {
+            "move_sounds":
+            {
+                "engine": "spacy_engine_light"
+            },
+            "dialogue":
+            {
+                "selected":
+                {
+                    "neutral": [
+                        "trader_interceptor_strikecraft_selected_neutral_0",
+                        "trader_interceptor_strikecraft_selected_neutral_1",
+                        "trader_interceptor_strikecraft_selected_neutral_2"
+                    ],
+                    "scared": [
+                        "trader_interceptor_strikecraft_selected_scared_0",
+                        "trader_interceptor_strikecraft_selected_scared_1",
+                        "trader_interceptor_strikecraft_selected_scared_2"
+                    ]
+                },
+                "order_issued":
+                {
+                    "neutral": [
+                        "trader_interceptor_strikecraft_order_issued_neutral_0",
+                        "trader_interceptor_strikecraft_order_issued_neutral_1",
+                        "trader_interceptor_strikecraft_order_issued_neutral_2"
+                    ],
+                    "scared": [
+                        "trader_interceptor_strikecraft_order_issued_scared_0",
+                        "trader_interceptor_strikecraft_order_issued_scared_1",
+                        "trader_interceptor_strikecraft_order_issued_scared_2"
+                    ]
+                },
+                "attack_order_issued":
+                {
+                    "neutral": [
+                        "trader_interceptor_strikecraft_attack_order_issued_neutral_0",
+                        "trader_interceptor_strikecraft_attack_order_issued_neutral_1",
+                        "trader_interceptor_strikecraft_attack_order_issued_neutral_2"
+                    ],
+                    "scared": [
+                        "trader_interceptor_strikecraft_attack_order_issued_scared_0",
+                        "trader_interceptor_strikecraft_attack_order_issued_scared_1",
+                        "trader_interceptor_strikecraft_attack_order_issued_scared_2"
+                    ],
+                    "smug": [
+                        "trader_interceptor_strikecraft_attack_order_issued_smug_0",
+                        "trader_interceptor_strikecraft_attack_order_issued_smug_1",
+                        "trader_interceptor_strikecraft_attack_order_issued_smug_2"
+                    ]
+                }
+            }
+        },
+        "death_sequence_group": "explosion_small"
+    }]
+}

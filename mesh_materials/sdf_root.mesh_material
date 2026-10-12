@@ -1,0 +1,16 @@
+{
+    "has_transparency": true,
+    "base_color_texture": "sdf_root_clr",
+    "normal_texture": "nrm",
+    "mask_texture": "msk",
+    "occlusion_roughness_metallic_texture": "orm",
+    "emissive_hue_strength": 1,
+    "base_color_factor": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "roughness_factor": 1,
+    "metallic_factor": 1
+}

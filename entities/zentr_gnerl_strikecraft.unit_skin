@@ -32,7 +32,7 @@
             {
                 "particle_effects": [
                 {
-                    "particle_effect": "mm_glow_zentr"
+                    "particle_effect": "zentr_exhaust_tiny"
                 }]
             },
             "shield_effect": "vasari_interceptor_strikecraft",
@@ -50,7 +50,7 @@
                 "alias_name": "weapon_pulse_beam_hit_hull",
                 "alias_binding":
                 {
-                    "particle_effect": "zentr_beam_impact",
+                    "particle_effect": "explosion_tiny",
                     "sounds": [
                         "hithull_sfx1",
                         "hithull_sfx2",
@@ -62,7 +62,7 @@
                 "alias_name": "weapon_pulse_beam_hit_shield",
                 "alias_binding":
                 {
-                    "particle_effect": "zentr_beam_impact",
+                    "particle_effect": "explosion_tiny",
                     "sounds": [
                         "hithull_sfx1",
                         "hithull_sfx2",
@@ -83,7 +83,8 @@
                 {
                     "particle_effect": "Buff_FighterBlinkActivate",
                     "sounds": [
-                        "mm_launch"
+                        "missile_launch",
+                        "missile_launch2"
                     ]
                 }
             },
@@ -91,11 +92,11 @@
                 "alias_name": "mm_missile_weapon_hit_hull",
                 "alias_binding":
                 {
-                    "particle_effect": "explosion2",
+                    "particle_effect": "explosion_small",
                     "sounds": [
-                        "mm_explode",
-                        "mm_explode2",
-                        "mm_explode3"
+                        "explode",
+                        "explode2",
+                        "explode3"
                     ]
                 }
             }
@@ -155,6 +156,6 @@
                 }
             }
         },
-        "death_sequence_group": "mm_torpedo"
+        "death_sequence_group": "explosion_small"
     }]
 }

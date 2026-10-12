@@ -1,0 +1,203 @@
+{
+    "version": 2,
+    "nodes": [
+        {
+            "id": 1,
+            "name": "Root",
+            "x": [0.0, 0.0],
+            "y": [0.0, 0.0],
+            "z": [0.0, 0.0],
+            "yaw": [0.0, 0.0],
+            "pitch": [0.0, 0.0],
+            "roll": [0.0, 0.0]
+        }
+    ],
+    "emitters": [
+        {
+            "id": 10,
+            "name": "Macross Outer Orange Halo",
+            "type": "point",
+            "emit_max_particle_count": [1.0, 1.0],
+            "emit_rate": {
+                "primary_emit_rate": [100.0, 100.0]
+            },
+            "particle": {
+                "type": "billboard",
+                "render_layer": 0,
+                "max_duration": [4.50, 4.50],
+                "camera_offset": [-0.50, -0.50],
+                "color": "bfff6a14",
+                "fade_in_time": [0.040, 0.040],
+                "fade_out_time": [3.0, 3.0],
+                "billboard": {
+                    "render_with_additive_blending": true,
+                    "width": [520.50, 520.50],
+                    "texture_0": "soft_circle_large",
+                    "initial_erosion_noise_offset_u": [0.0, 0.0],
+                    "initial_erosion_noise_offset_v": [0.0, 0.0],
+                    "uber_constants": {
+                        "basic_constants": {
+                            "emissive_factor": 3.0,
+                            "depth_fade_opacity": 5.0,
+                            "alpha_ramp_steepness": 1.0,
+                            "alpha_ramp_growth_delay": 1.0
+                        }
+                    }
+                },
+                "mesh": {},
+                "light": {
+                    "type": "point_finite",
+                    "color": "bfff6a14",
+                    "intensity": 3.0,
+                    "surface_radius": 3.0
+                }
+            },
+            "forward_velocity": [0.0, 0.0],
+            "angle_variance": [0.0, 3.141593]
+        },
+        {
+            "id": 11,
+            "name": "Macross Solid Fireball",
+            "type": "point",
+            "emit_max_particle_count": [1.0, 1.0],
+            "emit_rate": {
+                "primary_emit_rate": [100.0, 100.0]
+            },
+            "particle": {
+                "type": "billboard",
+                "render_layer": 2,
+                "max_duration": [2.780, 2.780],
+                "camera_offset": [-1.0, -1.0],
+                "color": "ffffb83d",
+                "fade_in_time": [0.0250, 0.0250],
+                "fade_out_time": [0.40, 0.40],
+                "billboard": {
+                    "render_with_additive_blending": true,
+                    "width": [485.200012, 485.200012],
+                    "texture_0": "soft_circle_large",
+                    "initial_erosion_noise_offset_u": [0.0, 0.0],
+                    "initial_erosion_noise_offset_v": [0.0, 0.0],
+                    "uber_constants": {
+                        "basic_constants": {
+                            "emissive_factor": 0.0,
+                            "depth_fade_opacity": 5.0,
+                            "alpha_ramp_steepness": 1.0,
+                            "alpha_ramp_growth_delay": 1.0
+                        }
+                    }
+                },
+                "mesh": {}
+            },
+            "forward_velocity": [0.0, 0.0],
+            "angle_variance": [0.0, 3.141593]
+        },
+        {
+            "id": 12,
+            "name": "Macross White Hot Core",
+            "type": "point",
+            "emit_max_particle_count": [1.0, 1.0],
+            "emit_rate": {
+                "primary_emit_rate": [100.0, 100.0]
+            },
+            "particle": {
+                "type": "billboard",
+                "render_layer": 3,
+                "max_duration": [2.460, 2.460],
+                "camera_offset": [-1.50, -1.50],
+                "color": "ffff8000",
+                "fade_in_time": [0.0150, 0.0150],
+                "fade_out_time": [0.380, 0.380],
+                "billboard": {
+                    "render_with_additive_blending": true,
+                    "width": [483.399994, 483.399994],
+                    "texture_0": "soft_circle_large",
+                    "initial_erosion_noise_offset_u": [0.0, 0.0],
+                    "initial_erosion_noise_offset_v": [0.0, 0.0],
+                    "uber_constants": {
+                        "basic_constants": {
+                            "emissive_factor": 0.0,
+                            "depth_fade_opacity": 5.0,
+                            "alpha_ramp_steepness": 1.0,
+                            "alpha_ramp_growth_delay": 1.0
+                        }
+                    }
+                },
+                "mesh": {},
+                "light": {
+                    "type": "point_finite",
+                    "color": "ffff9a32",
+                    "intensity": 2.250,
+                    "surface_radius": 0.0
+                }
+            },
+            "forward_velocity": [0.0, 0.0],
+            "angle_variance": [0.0, 3.141593]
+        }
+    ],
+    "modifiers": [
+        {
+            "id": 20,
+            "name": "Fast Fireball Bloom",
+            "type": "float_property",
+            "property_type": "width_and_height_scale",
+            "property_value": {
+                "type": "ease",
+                "range": [0.0, 0.0],
+                "easing_function": "out_sine",
+                "easing_values": [0.120, 1.0]
+            }
+        },
+        {
+            "id": 21,
+            "name": "Halo Bloom",
+            "type": "float_property",
+            "property_type": "width_and_height_scale",
+            "property_value": {
+                "type": "ease",
+                "range": [0.0, 0.0],
+                "easing_function": "in_out_sine",
+                "easing_values": [0.30, 0.80]
+            }
+        },
+        {
+            "id": 22,
+            "name": "Sparkle Mist Dissipation Bloom",
+            "type": "float_property",
+            "property_type": "width_and_height_scale",
+            "property_value": {
+                "type": "ease",
+                "range": [0.0, 0.0],
+                "easing_function": "out_sine",
+                "easing_values": [0.820, 1.080]
+            }
+        }
+    ],
+    "emitter_to_node_attachments": [
+        {
+            "attacher_id": 10,
+            "attachee_id": 1
+        },
+        {
+            "attacher_id": 11,
+            "attachee_id": 1
+        },
+        {
+            "attacher_id": 12,
+            "attachee_id": 1
+        }
+    ],
+    "modifier_to_emitter_attachments": [
+        {
+            "attacher_id": 21,
+            "attachee_id": 10
+        },
+        {
+            "attacher_id": 20,
+            "attachee_id": 11
+        },
+        {
+            "attacher_id": 20,
+            "attachee_id": 12
+        }
+    ]
+}

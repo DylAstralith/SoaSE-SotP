@@ -32,7 +32,7 @@
             {
                 "particle_effects": [
                 {
-                    "particle_effect": "mm_glow_spacy"
+                    "particle_effect": "spacy_exhaust_tiny"
                 }],
                 "trail_effects": [
                 {
@@ -44,7 +44,7 @@
                 "alias_name": "gunpod_weapon_hit_hull",
                 "alias_binding":
                 {
-                    "particle_effect": "light_autocannon_impact",
+                    "particle_effect": "explosion_tiny",
                     "sounds": [
                         "hithull_sfx1",
                         "hithull_sfx2",
@@ -56,7 +56,7 @@
                 "alias_name": "gunpod_weapon_hit_shield",
                 "alias_binding":
                 {
-                    "particle_effect": "light_autocannon_impact",
+                    "particle_effect": "explosion_tiny",
                     "sounds": [
                         "hithull_sfx1",
                         "hithull_sfx2",
@@ -87,8 +87,8 @@
                 {
                     "particle_effect": "Buff_FighterBlinkActivate",
                     "sounds": [
-                        "mm_launch",
-                        "mm_launch2"
+                        "missile_launch",
+                        "missile_launch2"
                     ]
                 }
             },
@@ -96,26 +96,26 @@
                 "alias_name": "mm_missile_weapon_muzzle",
                 "alias_binding": {
                     "particle_effect": "Buff_FighterBlinkActivate",
-                    "sounds": ["mm_launch", "mm_launch2"]
+                    "sounds": ["missile_launch", "missile_launch2"]
                 }
             },
             {
                 "alias_name": "mm_missile_weapon_hit_hull",
                 "alias_binding":
                 {
-                    "particle_effect": "explosion2",
+                    "particle_effect": "explosion_small",
                     "sounds": [
-                        "mm_explode",
-                        "mm_explode2",
-                        "mm_explode3"
+                        "explode",
+                        "explode2",
+                        "explode3"
                     ]
                 }
             },
             {
-                "alias_name": "sts_missile_weapon_muzzle",
+                "alias_name": "heavy_missile_weapon_muzzle",
                 "alias_binding": {
                     "particle_effect": "Buff_FighterBlinkActivate",
-                    "sounds": ["sts_missile"]
+                    "sounds": ["heavy_missile_launch"]
                 }
             }
         ]

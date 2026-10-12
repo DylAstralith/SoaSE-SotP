@@ -68,5 +68,76 @@
             "include_star_phase_lanes": false,
             "include_wormhole_phase_lanes": false
         }
-    }]
+    },
+    {
+        "player_definition_id": "zentr",
+        "starting_assets":
+        {
+            "credits": 0.0,
+            "metal": 4800.0,
+            "crystal": 6000.0
+        },
+        "starting_exotics": [
+        {
+            "exotic_type": "offense",
+            "count": 2
+        },
+        {
+            "exotic_type": "defense",
+            "count": 2
+        },
+        {
+            "exotic_type": "utility",
+            "count": 2
+        },
+        {
+            "exotic_type": "economic",
+            "count": 2
+        }],
+        "free_starting_capital_ship": false,
+        "home_planet":
+        {
+            "starting_units_in_gravity_well":
+            {},
+            "starting_units_in_hyperspace":
+            {
+                "required_units": [
+                {
+                    "unit": "zentr_thurvel_cruiser",
+                    "options":
+                    {
+    "is_temporary_ruler_ship": true
+}
+                },
+                {
+                    "unit": "zentr_picket_frigate",
+                    "count": [3, 3]
+                },
+                {
+                    "unit": "zentr_quiltra_cruiser",
+                    "count": [1, 1]
+                },
+                {
+                    "unit": "vasari_scout_corvette",
+                    "count": [2, 2]
+                }]
+            },
+            "starting_units_in_hyperspace_duration": 6.0,
+            "home_planet_starting_population": [240, 240]
+        },
+        "starting_research":
+        {
+            "starting_research_subjects": []
+        },
+        "starting_player_inventory_items": [],
+        "additional_starting_planets":
+        {
+            "count": 0,
+            "allowed_planet_types": [],
+            "max_jumps": 0,
+            "include_star_phase_lanes": false,
+            "include_wormhole_phase_lanes": false
+        }
+    }
+]
 }

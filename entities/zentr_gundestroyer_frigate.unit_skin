@@ -47,7 +47,7 @@
                 "exhaust_effects": {
                     "particle_effects": [
                         {
-                            "particle_effect": "advent_trail_cruiser"
+                            "particle_effect": "zentr_exhaust_large"
                         }
                     ]
                 },
@@ -80,8 +80,8 @@
                     {
                         "alias_name": "mm_missile_weapon_muzzle",
                         "alias_binding": {
-                            "particle_effect": "javelis_torpedo_muzzle",
-                            "sounds": ["mm_launch"]
+                            "particle_effect": "Buff_FighterBlinkActivate",
+                            "sounds": ["missile_launch"]
                         }
                     },
                     {
@@ -94,35 +94,35 @@
                     {
                         "alias_name": "super_heavy_beam_charge",
                         "alias_binding": {
-                            "particle_effect": "trader_robotics_cruiser_emp_droids_buff_large_default",
+                            "particle_effect": "zentr_beam_super_heavy_charge",
                             "sounds": ["super_heavy_beam_charge"]
                         }
                     },
                     {
                         "alias_name": "super_heavy_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "meltr_beam_super_heavy_impact",
+                            "particle_effect": "explosion_large",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
                         "alias_name": "super_heavy_beam_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "meltr_beam_super_heavy_impact",
+                            "particle_effect": "explosion_large",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
                         "alias_name": "super_heavy_beam_muzzle",
                         "alias_binding": {
-                            "particle_effect": "meltr_beam_super_heavy_muzzle"
+                            "particle_effect": "Buff_FighterBlinkActivate"
                         }
                     }
                 ]
             },
             "sounds": {
                 "move_sounds": {
-                    "engine": "engine_heavy",
+                    "engine": "engine_medium",
                     "hyperspace_travel": "fold_loop"
                 },
                 "dialogue": {
@@ -178,7 +178,7 @@
                     }
                 }
             },
-            "death_sequence_group": "capitalship0"
+            "death_sequence_group": "cruiser0"  
         }
     ]
 }

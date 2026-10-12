@@ -18,7 +18,7 @@
     },
     "physics": {
         "can_move_linear": true,
-        "max_linear_speed": 750.0,
+        "max_linear_speed": 300,
         "time_to_max_linear_speed": 5.0,
         "arrival_tolerance_spatial_radius_scalar": 0.25,
         "death_linear_speed_range": [
@@ -35,7 +35,7 @@
         ],
         "linear_acceleration_angle": 90.0,
         "can_strafe_linear": true,
-        "strafe_max_linear_speed": 218.75,
+        "strafe_max_linear_speed": 87.5,
         "time_to_strafe_max_linear_speed": 12.5,
         "strafe_max_linear_distance_spatial_radius_scalar": 8.0,
         "strafe_start_angle": 0.0,
@@ -72,7 +72,7 @@
         "attack_target_type_groups_to_ignore": [
             "torpedo_strikecraft"
         ],
-        "attack_target_type_groups_matching_weapon": "sts_missile",
+        "attack_target_type_groups_matching_weapon": "heavy_missile",
         "auto_follow_target_priority": 5.0,
         "pursuit": {
             "min_target_speed": 300.0,
@@ -294,81 +294,99 @@
                 }
             },
             {
-                "weapon": "sts_missile",
-                "mesh_point": "turret_muzzle.016",
-                "weapon_position": [
-                    -34.621597,
-                    -1.324329,
-                    -27.507858
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        -27.621597,
-                        -1.324329,
-                        -27.507858
-                    ],
-                    [
-                        -41.621597,
-                        -1.324329,
-                        -27.507858
-                    ]
-                ],
-                "forward": [
-                    0.0,
-                    0.0,
-                    1.0
-                ],
-                "up": [
-                    0.0,
-                    1.0,
-                    0.0
-                ],
+                "weapon": "heavy_missile",
+                "mesh_point": "turret_muzzle.015",
+                "weapon_position": [7.064, 13.540, -48.435],
+                "non_turret_muzzle_positions": [[14.064, 13.540, -48.435], [0.064, 13.540, -48.435]],
+                "forward": [0.000, 1.000, -0.016],
+                "up": [0.000, -0.016, -1.000],
                 "yaw_arc": {
-                    "min_angle": -90.0,
-                    "max_angle": 90.0
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
                 },
                 "pitch_arc": {
-                    "min_angle": -90.0,
-                    "max_angle": 90.0
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
                 }
             },
             {
-                "weapon": "sts_missile",
-                "mesh_point": "turret_muzzle.019",
-                "weapon_position": [
-                    32.548393,
-                    -1.32432,
-                    -27.507851
-                ],
-                "non_turret_muzzle_positions": [
-                    [
-                        39.548393,
-                        -1.32432,
-                        -27.507851
-                    ],
-                    [
-                        25.548393,
-                        -1.32432,
-                        -27.507851
-                    ]
-                ],
-                "forward": [
-                    0.0,
-                    0.0,
-                    1.0
-                ],
-                "up": [
-                    0.0,
-                    1.0,
-                    0.0
-                ],
+                "weapon": "heavy_missile",
+                "mesh_point": "turret_muzzle.016",
+                "weapon_position": [2.931, 13.937, -35.749],
+                "non_turret_muzzle_positions": [[9.931, 13.937, -35.749], [-4.069, 13.937, -35.749]],
+                "forward": [0.000, 1.000, -0.016],
+                "up": [0.000, -0.016, -1.000],
                 "yaw_arc": {
-                    "min_angle": -90.0,
-                    "max_angle": 90.0
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
                 },
                 "pitch_arc": {
-                    "min_angle": -90.0,
-                    "max_angle": 90.0
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "heavy_missile",
+                "mesh_point": "turret_muzzle.017",
+                "weapon_position": [2.931, 13.937, -31.333],
+                "non_turret_muzzle_positions": [[9.931, 13.937, -31.333], [-4.069, 13.937, -31.333]],
+                "forward": [0.000, 1.000, -0.016],
+                "up": [0.000, -0.016, -1.000],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "heavy_missile",
+                "mesh_point": "turret_muzzle.018",
+                "weapon_position": [12.586, 13.540, -48.435],
+                "non_turret_muzzle_positions": [[19.586, 13.540, -48.435], [5.586, 13.540, -48.435]],
+                "forward": [0.000, 1.000, -0.016],
+                "up": [0.000, -0.016, -1.000],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "heavy_missile",
+                "mesh_point": "turret_muzzle.019",
+                "weapon_position": [16.355, 13.937, -35.749],
+                "non_turret_muzzle_positions": [[23.355, 13.937, -35.749], [9.355, 13.937, -35.749]],
+                "forward": [0.000, 1.000, -0.016],
+                "up": [0.000, -0.016, -1.000],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "heavy_missile",
+                "mesh_point": "turret_muzzle.020",
+                "weapon_position": [16.355, 13.937, -31.257],
+                "non_turret_muzzle_positions": [[23.355, 13.937, -31.257], [9.355, 13.937, -31.257]],
+                "forward": [0.000, 1.000, -0.016],
+                "up": [0.000, -0.016, -1.000],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
                 }
             },
             {

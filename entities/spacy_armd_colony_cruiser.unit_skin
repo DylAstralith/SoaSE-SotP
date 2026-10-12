@@ -1,0 +1,227 @@
+{
+    "version": 0,
+    "skin_stages": [
+        {
+            "is_main_view_icon_visible_camera_distance": 15708.285945,
+            "min_camera_distance": 581.140518,
+            "gui": {
+                "hud_icon": "spacy_armd_colony_cruiser_hud_icon",
+                "hud_monochrome_icon": "spacy_armd_colony_cruiser_main_view_icon",
+                "hud_picture": "spacy_armd_colony_cruiser_hud_picture",
+                "tooltip_picture": "spacy_armd_colony_cruiser_tooltip_picture",
+                "name": "spacy_armd_colony_cruiser_name",
+                "description": "spacy_armd_colony_cruiser_description"
+            },
+            "unit_mesh": {
+                "mesh": "spacy_armd_colony_cruiser",
+                "shader": "ship",
+                "is_shadow_blocker": true
+            },
+            "child_mesh_alias_bindings": {
+                "map": [
+                    {
+                        "mesh_alias_name": "defender_des_base",
+                        "mesh_definition": {
+                            "mesh": "defender_des_base",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "defender_des_mount",
+                        "mesh_definition": {
+                            "mesh": "defender_des_mount",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    },
+                    {
+                        "mesh_alias_name": "defender_des_barrel",
+                        "mesh_definition": {
+                            "mesh": "defender_des_barrel",
+                            "shader": "ship",
+                            "is_shadow_blocker": true
+                        }
+                    }
+                ]
+            },
+            "main_view_icon": {
+                "group": "ship",
+                "icon": "trader_carrier_cruiser_main_view_icon",
+                "selected_icon": "trader_carrier_cruiser_main_view_icon_selected",
+                "sub_selected_icon": "trader_carrier_cruiser_main_view_icon_sub_selected"
+            },
+            "effects": {
+                "exhaust_effects": {
+                    "particle_effects": [
+                        {
+                            "particle_effect": "spacy_exhaust_medium"
+                        }
+                    ]
+                },
+                "hyperspace_effects": 
+                {
+                    "charge_effect": "fold_chargeup_small",
+                    "charge_effect_between_stars": "fold_chargeup_small",
+                    "charge_effect_destabilized": "fold_chargeup_small",
+                    "travel_effect": "fold_travel_small",
+                    "travel_effect_between_stars": "fold_travel_small",
+                    "travel_effect_destabilized": "fold_travel_small",
+                    "exit_effect": "fold_exit_small",
+                    "charge_sound": "fold_chargeup",
+                    "enter_sound": "fold_entry",
+                    "exit_sound": "fold_exit"
+                },
+                "damage_effects": {
+                    "max_damage_effect_count": 1,
+                    "damage_effects": [
+                        {
+                            "max_count": 1,
+                            "weight": 3,
+                            "hull_percentage_threshold": 0.99,
+                            "particle_effect": "damage_electricity",
+                            "sound": "damaged_loop_sfx1"
+                        }
+                    ]
+                },
+                "flair_effects": [
+                    {
+                        "mesh_point_name": "center",
+                        "particle_effect": "tec_damage_cruiser",
+                        "constraint": "is_crippled"
+                    }
+                ],
+                "shield_effect": "trader_carrier_cruiser",
+                "effect_alias_bindings": [
+                    {
+                        "alias_name": "trader_colony_shuttle",
+                        "alias_binding":
+                        {
+                            "particle_effect": "trader_colony_shuttle",
+                            "sounds": [
+                                "ability_activate_tech_shuttlelaunch"]
+                        }
+                    },
+                    {
+                        "alias_name": "weapon_light_beam_beam",
+                        "alias_binding": {
+                            "beam": "spacy_beam_light",
+                            "sounds": ["spacy_beam", "spacy_beam2"]
+                        }
+                    },
+                    {
+                        "alias_name": "weapon_light_beam_hit_hull",
+                        "alias_binding": {
+                            "particle_effect": "explosion_tiny",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                        }
+                    },
+                    {
+                        "alias_name": "weapon_light_beam_hit_shield",
+                        "alias_binding": {
+                            "particle_effect": "explosion_tiny",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                        }
+                    },
+                    {
+                        "alias_name": "weapon_light_beam_muzzle",
+                        "alias_binding": {
+                            "particle_effect": "spacy_beam_muzzle"
+                        }
+                    },
+                    {
+                        "alias_name": "react_missile_weapon_muzzle",
+                        "alias_binding":
+                        {
+                            "particle_effect": "Buff_FighterBlinkActivate",
+                            "sounds": [
+                                "react_launch"
+                            ]
+                        }
+                    },
+                    {
+                        "alias_name": "mm_missile_weapon_muzzle",
+                        "alias_binding": {
+                            "particle_effect": "Buff_FighterBlinkActivate",
+                            "sounds": ["missile_launch", "missile_launch2"]
+                        }
+                    },
+                    {
+                        "alias_name": "mm_missile_weapon_hit_hull",
+                        "alias_binding": {
+                            "particle_effect": "explosion_small",
+                            "sounds": ["explode", "explode2", "explode3"]
+                        }
+                    },
+                                        {
+                        "alias_name": "defender_des_weapon_muzzle",
+                        "alias_binding": {
+                            "particle_effect": "gunpod_muzzle",
+                            "sounds": ["spacy_gunpod"]
+                        }
+                    },
+                    {
+                        "alias_name": "defender_des_weapon_beam",
+                        "alias_binding": {
+                            "beam": "pd_bullet_stream",
+                            "sounds": ["spacy_gunpod"]
+                        }
+                    },
+                    {
+                        "alias_name": "defender_des_weapon_hit_hull",
+                        "alias_binding": {
+                            "particle_effect": "explosion_tiny",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                        }
+                    },
+                    {
+                        "alias_name": "defender_des_weapon_hit_shield",
+                        "alias_binding": {
+                            "particle_effect": "explosion_tiny",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                        }
+                    }
+                ]
+            },
+            "sounds": {
+                "move_sounds": {
+                    "engine": "engine_medium",
+                    "hyperspace_travel": "fold_loop"
+                },
+                "dialogue": {
+                    "spawned": {
+                        "neutral": ["trader_carrier_cruiser_spawned_neutral_0"]
+                    },
+                    "selected": {
+                        "neutral": [
+                            "trader_carrier_cruiser_selected_neutral_0",
+                            "trader_carrier_cruiser_selected_neutral_1",
+                            "trader_carrier_cruiser_selected_neutral_2"
+                        ],
+                        "scared": [
+                            "trader_carrier_cruiser_selected_scared_0_placeholder",
+                            "trader_carrier_cruiser_selected_scared_1_placeholder",
+                            "trader_carrier_cruiser_selected_scared_2_placeholder"
+                        ]
+                    },
+                    "order_issued": {
+                        "neutral": [
+                            "trader_carrier_cruiser_order_issued_neutral_0",
+                            "trader_carrier_cruiser_order_issued_neutral_1",
+                            "trader_carrier_cruiser_order_issued_neutral_2"
+                        ],
+                        "scared": [
+                            "trader_carrier_cruiser_order_issued_scared_0_placeholder",
+                            "trader_carrier_cruiser_order_issued_scared_1_placeholder",
+                            "trader_carrier_cruiser_order_issued_scared_2_placeholder"
+                        ]
+                    },
+                    "hyperspace_charge_started": {
+                        "neutral": ["trader_carrier_cruiser_hyperspace_charge_started_neutral_0"]
+                    }
+                }
+            },
+            "death_sequence_group": "cruiser0"
+        }
+    ]
+}

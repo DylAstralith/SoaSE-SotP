@@ -8,6 +8,10 @@
         4
     ],
     "active_actions": {
+        "execute_time": 0.0,
+        "stop_time": 12.0,
+        "stop_use_type": "on_stop_time_elapsed",
+        "channeling_will_disable_weapons": false,
         "cooldown_time": "cooldown_time_value",
         "antimatter_cost": "antimatter_cost_value",
         "actions": {

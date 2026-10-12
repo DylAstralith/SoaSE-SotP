@@ -31,16 +31,16 @@
                     }],
                     "particle_effects": [
                     {
-                        "particle_effect": "mm_glow_spacy"
+                        "particle_effect": "spacy_exhaust_tiny"
                     }]
                 }
             },
             "sounds": {
                 "move_sounds": {
-                    "engine": "engine_techsupportship"
+                    "engine": "missile_flight"
                 }
             },
-            "death_sequence_group": "mm_torpedo"
+            "death_sequence_group": "explosion_small"
         }
     ]
 }

@@ -1,0 +1,24 @@
+{
+    "version": 1,
+    "glow_texture": "lasers_bullet_stream",
+    "core_texture": "lasers_bullet_stream",
+    "glow_color": "ff7dffc9",
+    "core_color": "ff00ff95",
+    "width": 4.0,
+    "glow_tiling_animation_rate": 15.0,
+    "core_tiling_animation_rate": 15.0,
+    "core_fade_in_duration": 0.010,
+    "core_fade_out_duration": 0.030,
+    "use_length_based_fade": true,
+    "back_fade_distance": 1.0,
+    "front_fade_distance": 2.0,
+    "bolt_travel_speed_multiplier": 2.0,
+    "front_fade_speed_multiplier": 10.0,
+    "back_fade_speed_multiplier": 17.0,
+    "back_fade_delay": 0.30,
+    "front_width_multiplier": 2.0,
+    "back_width_multiplier": 2.0,
+    "basic_constants": {
+        "emissive_factor": 2.0
+    }
+}

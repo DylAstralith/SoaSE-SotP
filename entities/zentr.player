@@ -30,7 +30,7 @@
             "vasari_exodus_debris_reclamation_center"
         ],
         "starting_is_colonized": false,
-        "starting_militia_supply": 30,
+        "starting_militia_supply": 0,
         "establish_price":
         {
             "metal": 1600.0,
@@ -362,22 +362,19 @@
     {
         "required_units": [
         {
-            "unit": "vasari_colony_capital_ship",
+            "unit": "zentr_thurvel_cruiser",
             "options":
             {
-                "is_temporary_ruler_ship": true,
-                "forced_leveled_up_abilities": ["vasari_colony_capital_ship_colonize"],
-                "items": [
-                    "vasari_loyalist_exodus_package"]
+                "is_temporary_ruler_ship": true
             }
         },
         {
-            "unit": "vasari_light_frigate",
-            "count": [3, 3]
+            "unit": "zentr_picket_frigate",
+            "count": [4, 4]
         },
         {
-            "unit": "vasari_scout_corvette",
-            "count": [2, 2]
+            "unit": "zentr_quiltra_cruiser",
+            "count": [1, 1]
         }]
     },
     "starting_units_in_hyperspace_duration": 6.0,
@@ -416,7 +413,7 @@
     }],
     "buildable_units": [
         "zentr_picket_frigate",
-        "zentr_thurvel_capital_ship",
+        "zentr_thurvel_cruiser",
         "zentr_quiltra_cruiser",
         "zentr_gundestroyer_frigate"
     ],
@@ -424,7 +421,8 @@
     "buildable_strikecraft": [
         "zentr_gnerl_strikecraft",
         "zentr_regult_strikecraft",
-        "zentr_regult_m_strikecraft"
+        "zentr_regult_m_strikecraft",
+        "zentr_glaug_strikecraft"
     ],
     "structure_build_groups": [
     {
@@ -4675,11 +4673,11 @@
     "gui":
     {
         "hud_skin_name": "vasari_hud_skin",
-        "race_name": "player_race_name.vasari",
-        "race_description": "player_race_description.vasari",
-        "faction_name": "player_faction_name.vasari_loyalist",
-        "faction_short_name": "player_faction_short_name.vasari_loyalist",
-        "faction_description": "player_faction_description.vasari_loyalist",
+        "race_name": "player_race_name.zentr",
+        "race_description": "player_race_description.zentr",
+        "faction_name": "player_faction_name.zentr",
+        "faction_short_name": "player_faction_short_name.zentr",
+        "faction_description": "player_faction_description.zentr",
         "faction_icon": "vasari_loyalist_faction_icon",
         "load_screen_character_brush": "vasari_load_screen_character",
         "no_credit_income_description": "vasari_no_credit_income_description",

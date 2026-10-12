@@ -55,5 +55,53 @@
             "include_wormhole_phase_lanes": false
         },
         "free_starting_capital_ship": false
-    }]
+    },
+    {
+        "player_definition_id": "zentr",
+        "starting_assets":
+        {
+            "credits": 0.0,
+            "metal": 1200.0,
+            "crystal": 1800.0
+        },
+        "home_planet":
+        {
+            "starting_units_in_gravity_well":
+            {},
+            "starting_units_in_hyperspace":
+            {
+                "required_units": [
+                {
+                    "unit": "zentr_quiltra_cruiser",
+                    "options":
+                    {
+                        "is_temporary_ruler_ship": true,
+                        "items": [
+                            "vasari_loyalist_exodus_package"]
+                    }
+                },
+                {
+                    "unit": "zentr_picket_frigate",
+                    "count": [3, 3]
+                }]
+            },
+            "starting_units_in_hyperspace_duration": 6.0,
+            "home_planet_starting_population": [180, 180]
+        },
+        "starting_research":
+        {
+            "starting_research_subjects": []
+        },
+        "starting_player_inventory_items": [],
+        "additional_starting_planets":
+        {
+            "count": 0,
+            "allowed_planet_types": [],
+            "max_jumps": 0,
+            "include_star_phase_lanes": false,
+            "include_wormhole_phase_lanes": false
+        },
+        "free_starting_capital_ship": false
+    }
+]
 }

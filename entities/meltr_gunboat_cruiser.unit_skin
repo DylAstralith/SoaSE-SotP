@@ -74,21 +74,21 @@
                     {
                         "alias_name": "super_heavy_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "meltr_beam_super_heavy_impact",
+                            "particle_effect": "explosion_large",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
                         "alias_name": "super_heavy_beam_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "meltr_beam_super_heavy_impact",
+                            "particle_effect": "explosion_large",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
                         "alias_name": "super_heavy_beam_muzzle",
                         "alias_binding": {
-                            "particle_effect": "meltr_beam_super_heavy_muzzle"
+                            "particle_effect": "Buff_FighterBlinkActivate"
                         }
                     },
                     {
@@ -101,21 +101,21 @@
                     {
                         "alias_name": "weapon_heavy_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
+                            "particle_effect": "explosion_small",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
                         "alias_name": "weapon_heavy_beam_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
+                            "particle_effect": "explosion_small",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
                         "alias_name": "weapon_heavy_beam_muzzle",
                         "alias_binding": {
-                            "particle_effect": "meltr_beam_heavy_muzzle"
+                            "particle_effect": "meltr_beam_muzzle"
                         }
                     },
                     {
@@ -128,14 +128,14 @@
                     {
                         "alias_name": "weapon_medium_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
+                            "particle_effect": "explosion_tiny",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
                         "alias_name": "weapon_medium_beam_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
+                            "particle_effect": "explosion_tiny",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
@@ -155,14 +155,14 @@
                     {
                         "alias_name": "weapon_light_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
+                            "particle_effect": "explosion_tiny",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
                         "alias_name": "weapon_light_beam_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
+                            "particle_effect": "explosion_tiny",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },

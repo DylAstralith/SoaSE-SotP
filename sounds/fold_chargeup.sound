@@ -2,6 +2,6 @@
     "is_positionable": true,
     "is_looping": false,
     "is_streaming": false,
-    "min_attenuation_distance": 2000.0,
+    "min_attenuation_distance": 1000.0,
     "sound_group": "hyperspace_charge"
 }

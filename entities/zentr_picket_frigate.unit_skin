@@ -27,7 +27,7 @@
                 "exhaust_effects": {
                     "particle_effects": [
                         {
-                            "particle_effect": "zentr_exhaust"
+                            "particle_effect": "zentr_exhaust_medium"
                         }
                     ]
                 },
@@ -75,20 +75,15 @@
                     {
                         "alias_name": "weapon_light_beam_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
+                            "particle_effect": "explosion_tiny",
                             "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
                         "alias_name": "weapon_light_beam_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
-                            "sounds": [
-                                "weapon_impact_generic_medium_hitshields",
-                                "weapon_impact_generic_medium_hitshields_01",
-                                "weapon_impact_generic_medium_hitshields_02",
-                                "weapon_impact_generic_medium_hitshields_03"
-                            ]
+                            "particle_effect": "explosion_tiny",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
@@ -107,31 +102,21 @@
                     {
                         "alias_name": "weapon_pulse_beam_aa_hit_hull",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
-                            "sounds": [
-                                "weapon_impact_generic_medium_hitshields",
-                                "weapon_impact_generic_medium_hitshields_01",
-                                "weapon_impact_generic_medium_hitshields_02",
-                                "weapon_impact_generic_medium_hitshields_03"
-                            ]
+                            "particle_effect": "explosion_tiny",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
                         "alias_name": "weapon_pulse_beam_aa_hit_shield",
                         "alias_binding": {
-                            "particle_effect": "explosion1",
-                            "sounds": [
-                                "weapon_impact_generic_medium_hitshields",
-                                "weapon_impact_generic_medium_hitshields_01",
-                                "weapon_impact_generic_medium_hitshields_02",
-                                "weapon_impact_generic_medium_hitshields_03"
-                            ]
+                            "particle_effect": "explosion_tiny",
+                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
                         }
                     },
                     {
                         "alias_name": "weapon_pulse_beam_aa_muzzle",
                         "alias_binding": {
-                            "particle_effect": "zentr_beam_muzzle"
+                            "particle_effect": "pulse_beam_muzzle"
                         }
                     }
                 ]

@@ -446,13 +446,17 @@
     }],
     "buildable_units": [
         "spacy_sdf_capital_ship",
+        "spacy_megaroad_capital_ship",
         "spacy_armd_cruiser",
-        "spacy_oberth_frigate"
+        "spacy_oberth_frigate",
+        "spacy_armd_colony_cruiser"
     ],
     "faction_buildable_units": [],
     "buildable_strikecraft": [
         "spacy_vfmass_strikecraft",
-        "spacy_vf1a_react_strikecraft"
+        "spacy_vf1a_react_strikecraft",
+        "spacy_vfx4_strikecraft",
+        "spacy_lancer_strikecraft"
     ],
     "structure_build_groups": [
     {

@@ -64,7 +64,7 @@
             "heavy",
             "antistructure_antiarmor"
         ],
-        "attack_target_type_groups_matching_weapon": "sts_missile",
+        "attack_target_type_groups_matching_weapon": "heavy_missile",
         "auto_follow_target_priority": -1.0,
         "pursuit": {
             "min_target_speed": 500.0,
@@ -132,7 +132,7 @@
                 }
             },
             {
-                "weapon": "sts_missile",
+                "weapon": "heavy_missile",
                 "mesh_point": "turret_muzzle.001",
                 "weapon_position": [
                     -2.219911,
@@ -166,7 +166,7 @@
                 }
             },
             {
-                "weapon": "sts_missile",
+                "weapon": "heavy_missile",
                 "mesh_point": "turret_muzzle.002",
                 "weapon_position": [
                     -3.111887,
@@ -200,7 +200,7 @@
                 }
             }
         ],
-        "max_range_weapon_index": 1
+        "max_range_weapon_index": 0
     },
     "formation": {
         "leader_priority": 0,
@@ -232,7 +232,7 @@
     },
     "strikecraft": {
         "kind": "bomber",
-        "build_time": 60.0,
+        "build_time": 80.0,
         "squadron_size": 2,
         "launch_destination_formation_offset": {
             "rank": 0,

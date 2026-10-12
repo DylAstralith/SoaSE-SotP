@@ -13,9 +13,10 @@
     "back_fade_distance": 5.0,
     "front_fade_distance": 1.0,
     "front_fade_speed_multiplier": 3.20,
-    "back_fade_speed_multiplier": 2.20,
+    "back_fade_speed_multiplier": 3.0,
+    "back_fade_delay": 0.10,
     "basic_constants": {
-        "emissive_factor": 3.0,
+        "emissive_factor": 1.50,
         "depth_fade_opacity": 4.0,
         "depth_fade_distance": 3.0,
         "alpha_ramp_curvature": 2.0,

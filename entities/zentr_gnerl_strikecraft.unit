@@ -52,7 +52,6 @@
             "use_weapon_cooldown": true,
             "weapon_cooldown_percent_to_start_strafe": 0.8,
             "pull_away_angle_range": 45.0
-
         }
     },
     "ai": {
@@ -184,23 +183,23 @@
         "round_max_points_up_to_5": false,
         "levels": [
             {
-                "max_hull_points": 20.0,
+                "max_hull_points": 10.0,
                 "hull_point_restore_rate": 1.0,
                 "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
                 "hull_point_restore_scalar_after_damage_taken": 0.0,
-                "max_armor_points": 35.0,
+                "max_armor_points": 25.0,
                 "armor_point_restore_rate": 1.5,
                 "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
                 "armor_point_restore_scalar_after_damage_taken": 0.0,
-                "armor_strength": 25.0,
+                "armor_strength": 15.0,
                 "experience_given_on_death": 3.5
             }
         ]
     },
     "strikecraft": {
-        "kind": "interceptor",
-        "build_time": 60.0,
-        "squadron_size": 4,
+        "kind": "snub",
+        "build_time": 30.0,
+        "squadron_size": 5,
         "launch_destination_formation_offset": {
             "rank": 0,
             "group": 0
