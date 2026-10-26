@@ -55,7 +55,7 @@
                             "weight": 3,
                             "hull_percentage_threshold": 0.99,
                             "particle_effect": "damage_electricity",
-                            "sound": "damaged_loop_sfx1"
+                            "sound": "damaged_loop_1"
                         }
                     ]
                 },
@@ -91,56 +91,55 @@
                     {
                         "alias_name": "minmay_attack_on_spawner",
                         "alias_binding": {
-                            "particle_effect": "minmay_broadcast",
-                            "sounds": ["minmay_broadcast_3"]
+                            "particle_effect": "spacy_minmay_broadcast",
+                            "sounds": ["spacy_minmay_broadcast_3"]
                         }
                     },
                     {
                         "alias_name": "minmay_attack_on_enemy",
                         "alias_binding": {
-                            "particle_effect": "minmay_attack_on_enemy"
+                            "particle_effect": "spacy_minmay_attack_on_enemy"
                         }
                     },
                     {
                         "alias_name": "mm_missile_weapon_muzzle",
                         "alias_binding": {
                             "particle_effect": "Buff_FighterBlinkActivate",
-                            "sounds": ["missile_launch", "missile_launch2"]
+                            "sounds": ["missile_launch_1", "missile_launch_2"]
                         }
                     },
                     {
                         "alias_name": "mm_missile_weapon_hit_hull",
                         "alias_binding": {
                             "particle_effect": "explosion_small",
-                            "sounds": ["explode", "explode2", "explode3"]
+                            "sounds": ["explode_1", "explode_2", "explode_3"]
                         }
                     },
                     {
                         "alias_name": "spacy_pd_weapon_muzzle",
                         "alias_binding": {
-                            "particle_effect": "gunpod_muzzle",
-                            "sounds": ["spacy_gunpod"]
+                            "particle_effect": "spacy_gunpod_muzzle",
+                            "sounds": ["spacy_gunpod_1", "spacy_gunpod_2"]
                         }
                     },
                     {
                         "alias_name": "spacy_pd_weapon_beam",
                         "alias_binding": {
-                            "beam": "pd_bullet_stream",
-                            "sounds": ["spacy_gunpod"]
+                            "beam": "spacy_pd_bullet_stream"
                         }
                     },
                     {
                         "alias_name": "spacy_pd_weapon_hit_hull",
                         "alias_binding": {
                             "particle_effect": "explosion_tiny",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "spacy_pd_weapon_hit_shield",
                         "alias_binding": {
                             "particle_effect": "explosion_tiny",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
@@ -161,54 +160,54 @@
                 },
                 "dialogue": {
                     "spawned": {
-                        "neutral": ["sdf_select_01"]
+                        "neutral": ["vo_spacy_sdf1_select_01"]
                     },
                     "selected": {
                         "neutral": [
-                            "sdf_select_01",
-                            "sdf_select_02"
+                            "vo_spacy_sdf1_select_01",
+                            "vo_spacy_sdf1_select_02"
                         ],
                         "scared": [
-                            "sdf_select_01",
-                            "sdf_select_02"
+                            "vo_spacy_sdf1_select_01",
+                            "vo_spacy_sdf1_select_02"
                         ]
                     },
                     "order_issued": {
                         "neutral": [
-                            "sdf_order_issued_01"
+                            "vo_spacy_sdf1_order_issued_01"
                         ],
                         "scared": [
-                            "sdf_order_issued_01"
+                            "vo_spacy_sdf1_order_issued_01"
 
                         ]
                     },
                     "attack_order_issued": {
                         "neutral": [
-                            "sdf_attack_01",
-                            "sdf_attack_02",
-                            "sdf_attack_03",
-                            "sdf_attack_04",
-                            "sdf_attack_05",
-                            "sdf_attack_06",
-                            "sdf_attack_07"
+                            "vo_spacy_sdf1_attack_01",
+                            "vo_spacy_sdf1_attack_02",
+                            "vo_spacy_sdf1_attack_03",
+                            "vo_spacy_sdf1_attack_04",
+                            "vo_spacy_sdf1_attack_05",
+                            "vo_spacy_sdf1_attack_06",
+                            "vo_spacy_sdf1_attack_07"
                         ],
                         "scared": [
-                            "sdf_attack_01",
-                            "sdf_attack_02",
-                            "sdf_attack_03",
-                            "sdf_attack_04",
-                            "sdf_attack_05",
-                            "sdf_attack_06",
-                            "sdf_attack_07"
+                            "vo_spacy_sdf1_attack_01",
+                            "vo_spacy_sdf1_attack_02",
+                            "vo_spacy_sdf1_attack_03",
+                            "vo_spacy_sdf1_attack_04",
+                            "vo_spacy_sdf1_attack_05",
+                            "vo_spacy_sdf1_attack_06",
+                            "vo_spacy_sdf1_attack_07"
                         ],
                         "smug": [
-                            "sdf_attack_01",
-                            "sdf_attack_02",
-                            "sdf_attack_03",
-                            "sdf_attack_04",
-                            "sdf_attack_05",
-                            "sdf_attack_06",
-                            "sdf_attack_07"
+                            "vo_spacy_sdf1_attack_01",
+                            "vo_spacy_sdf1_attack_02",
+                            "vo_spacy_sdf1_attack_03",
+                            "vo_spacy_sdf1_attack_04",
+                            "vo_spacy_sdf1_attack_05",
+                            "vo_spacy_sdf1_attack_06",
+                            "vo_spacy_sdf1_attack_07"
                         ]
                     },
                     "retreat": {
@@ -217,9 +216,9 @@
                     },
                     "hyperspace_charge_started": {
                         "neutral": [
-                            "sdf_order_issued_01",
-                            "sdf_select_01",
-                            "sdf_select_02"
+                            "vo_spacy_sdf1_order_issued_01",
+                            "vo_spacy_sdf1_select_01",
+                            "vo_spacy_sdf1_select_02"
                         ]
                     },
                     "cannot_hyperspace": {

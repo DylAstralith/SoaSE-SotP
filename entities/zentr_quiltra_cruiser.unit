@@ -815,16 +815,18 @@
         "strikecraft_kinds": [
             "interceptor",
             "bomber",
-            "snub",
-            "special_strikecraft"
+            "battroid",
+            "special_strikecraft",
+            "snub"
         ],
         "strikecraft_kind_capacities": [
-            {"kind": "snub", "max_squadron_capacity": 1},
             {"kind": "interceptor", "max_squadron_capacity": 4},
             {"kind": "bomber", "max_squadron_capacity": 4},
-            {"kind": "special_strikecraft", "max_squadron_capacity": 1}
+            {"kind": "battroid", "max_squadron_capacity": 4},
+            {"kind": "special_strikecraft", "max_squadron_capacity": 1},
+            {"kind": "snub", "max_squadron_capacity": 1}
         ],
-        "launch_destination_formation": "capital_ship_strikecraft",
+        "launch_destination_formation": "capital_ship_strikecraft_zentr",
         "launch_destination_formation_offset": {
             "rank": 3,
             "group": 2

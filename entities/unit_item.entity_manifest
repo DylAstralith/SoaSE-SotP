@@ -1,5 +1,8 @@
 {
     "ids": [
-        "defender_des_weapons"
+        "spacy_defender_des_weapons",
+        "vf_strikecraft_armor",
+        "vf_strike_armor_standard",
+        "vf_strike_armor_upgrade"
     ]
 }

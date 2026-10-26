@@ -1,7 +1,7 @@
 {
     "version": 0,
     "spatial": {
-        "radius": 8.274259,
+        "radius": 5.274259,
         "box": {
             "center": [
                 7E-06,
@@ -90,7 +90,7 @@
             {
                 "max_hull_points": 1,
                 "max_armor_points": 1,
-                "armor_strength": 25.0
+                "armor_strength": 1.0
             }
         ]
     },

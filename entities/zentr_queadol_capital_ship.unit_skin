@@ -1,0 +1,305 @@
+{
+    "version": 0,
+    "name": { "group": "capital_ship" },
+    "skin_stages": [
+    {
+        "is_main_view_icon_visible_camera_distance": 17263.444912,
+        "min_camera_distance": 623.70366,
+        "gui":
+        {
+            "hud_icon": "zentr_queadol_capital_ship_hud_icon",
+            "hud_monochrome_icon": "zentr_queadol_capital_ship_main_view_icon",
+            "hud_picture": "zentr_queadol_capital_ship_hud_picture",
+            "tooltip_picture": "zentr_queadol_capital_ship_tooltip_picture",
+            "name": "zentr_queadol_capital_ship_name",
+            "description": "zentr_queadol_capital_ship_description"
+        },
+        "unit_mesh":
+        {
+            "mesh": "zentr_queadol_capital_ship",
+            "shader": "ship",
+            "is_shadow_blocker": true
+        },
+        "main_view_icon":
+        {
+            "group": "ship",
+            "icon": "vasari_heavy_cruiser_main_view_icon",
+            "selected_icon": "vasari_heavy_cruiser_main_view_icon_selected",
+            "sub_selected_icon": "vasari_heavy_cruiser_main_view_icon_sub_selected"
+        },
+        "effects":
+        {
+            "level_up_effect": "capitalship_levelup",
+            "level_up_sound": "capitalship_levelup",
+            "exhaust_effects":
+            {
+                "particle_effects": [
+                {
+                    "particle_effect": "zentr_exhaust_large"
+                }]
+            },
+            "hyperspace_effects":
+            {
+                "charge_effect": "fold_chargeup_large",
+                "charge_effect_between_stars": "fold_chargeup_large",
+                "charge_effect_destabilized": "fold_chargeup_large",
+                "travel_effect": "fold_travel_large",
+                "travel_effect_between_stars": "fold_travel_large",
+                "travel_effect_destabilized": "fold_travel_large",
+                "exit_effect": "fold_exit_large",
+                "charge_sound": "fold_chargeup",
+                "enter_sound": "fold_entry",
+                "exit_sound": "fold_exit"
+            },
+            "damage_effects": 
+            {
+                "max_damage_effect_count": 1,
+                "damage_effects": [
+                    {
+                        "max_count": 1,
+                        "weight": 3,
+                        "hull_percentage_threshold": 0.99,
+                        "particle_effect": "damage_electricity",
+                        "sound": "damaged_loop_1"
+                    }
+                ]
+            },
+            "flair_effects": [
+            {
+                "mesh_point_name": "center",
+                "particle_effect": "vasari_damage_capital_1",
+                "constraint": "is_crippled"
+            }],
+            "shield_effect": "vasari_heavy_cruiser",
+            "effect_alias_bindings": [
+            {
+                "alias_name": "weapon_medium_beam_beam",
+                "alias_binding": {
+                    "beam": "zentr_beam"
+                }
+            },
+            {
+                "alias_name": "weapon_medium_beam_hit_hull",
+                "alias_binding": {
+                    "particle_effect": "explosion_tiny",
+                    "sounds": ["hithull_1", "hithull_2", "hithull_3"]
+                }
+            },
+            {
+                "alias_name": "weapon_medium_beam_hit_shield",
+                "alias_binding": {
+                    "particle_effect": "explosion_tiny",
+                    "sounds": ["hithull_1", "hithull_2", "hithull_3"]
+                }
+            },
+            {
+                "alias_name": "weapon_medium_beam_muzzle",
+                "alias_binding": {
+                    "particle_effect": "zentr_beam_muzzle",
+                    "sounds": [
+                        "zentr_beam_1",
+                        "zentr_beam_2",
+                        "zentr_beam_3",
+                        "zentr_beam_4"
+                    ]
+                }
+            },
+            {
+                "alias_name": "weapon_heavy_beam_beam",
+                "alias_binding": {
+                    "beam": "zentr_beam_heavy"
+                }
+            },
+            {
+                "alias_name": "weapon_heavy_beam_hit_hull",
+                "alias_binding": {
+                    "particle_effect": "explosion_small",
+                    "sounds": ["hithull_1", "hithull_2", "hithull_3"]
+                }
+            },
+            {
+                "alias_name": "weapon_heavy_beam_hit_shield",
+                "alias_binding": {
+                    "particle_effect": "explosion_small",
+                    "sounds": ["hithull_1", "hithull_2", "hithull_3"]
+                }
+            },
+            {
+                "alias_name": "weapon_heavy_beam_muzzle",
+                "alias_binding": {
+                    "particle_effect": "zentr_beam_muzzle",
+                    "sounds": [
+                        "zentr_beam_1",
+                        "zentr_beam_2"
+                    ]
+                }
+            },
+            {
+                "alias_name": "mm_missile_weapon_muzzle",
+                "alias_binding": {
+                    "particle_effect": "Buff_FighterBlinkActivate",
+                    "sounds": ["missile_launch_1", "missile_launch_2"]
+                }
+            },
+            {
+                "alias_name": "mm_missile_weapon_hit_hull",
+                "alias_binding": {
+                    "particle_effect": "explosion_small",
+                    "sounds": ["explode_1", "explode_2", "explode_3"]
+                }
+            },
+            {
+                "alias_name": "weapon_pulse_beam_aa_beam",
+                "alias_binding": {
+                    "beam": "zentr_pulse_aa"
+                }
+            },
+            {
+                "alias_name": "weapon_pulse_beam_aa_hit_hull",
+                "alias_binding": {
+                    "particle_effect": "explosion_tiny",
+                    "sounds": [
+                        "hithull_1",
+                        "hithull_2",
+                        "hithull_3"
+                    ]
+                }
+            },
+            {
+                "alias_name": "weapon_pulse_beam_aa_hit_shield",
+                "alias_binding": {
+                    "particle_effect": "explosion_tiny",
+                    "sounds": [
+                        "hithull_1",
+                        "hithull_2",
+                        "hithull_3"
+                    ]
+                }
+            },
+            {
+                "alias_name": "weapon_pulse_beam_aa_muzzle",
+                "alias_binding": {
+                    "particle_effect": "zentr_pulse_beam_muzzle",
+                    "sounds": [
+                        "zentr_pulse",
+                        "zentr_pulse2",
+                        "zentr_pulse3",
+                        "zentr_beam_3",
+                        "zentr_beam_4"
+                    ]
+                }
+            },
+            {
+                "alias_name": "weapon_light_beam_beam",
+                "alias_binding": {
+                    "beam": "zentr_beam_light"
+                }
+            },
+            {
+                "alias_name": "weapon_light_beam_hit_hull",
+                "alias_binding": {
+                    "particle_effect": "explosion_tiny",
+                    "sounds": ["hithull_1", "hithull_2", "hithull_3"]
+                }
+            },
+            {
+                "alias_name": "weapon_light_beam_hit_shield",
+                "alias_binding": {
+                    "particle_effect": "explosion_tiny",
+                    "sounds": ["hithull_1", "hithull_2", "hithull_3"]
+                }
+            },
+            {
+                "alias_name": "weapon_light_beam_muzzle",
+                "alias_binding": {
+                    "particle_effect": "zentr_beam_muzzle",
+                    "sounds": [
+                        "zentr_beam_1",
+                        "zentr_beam_2",
+                        "zentr_beam_3",
+                        "zentr_beam_4"
+                    ]
+                }
+            },
+            {
+                "alias_name": "trader_colony_shuttle",
+                "alias_binding":
+                {
+                    "particle_effect": "trader_colony_shuttle",
+                    "sounds": [
+                        "ability_activate_tech_shuttlelaunch"]
+                }
+            }
+        ]
+        },
+        "sounds":
+        {
+            "move_sounds":
+            {
+                "engine": "engine_heavy",
+                "hyperspace_travel": "fold_loop"
+            },
+            "dialogue":
+            {
+                "spawned":
+                {
+                    "neutral": [
+                        "vasari_heavy_cruiser_spawned_neutral_0"]
+                },
+                "selected":
+                {
+                    "neutral": [
+                        "vasari_heavy_cruiser_selected_neutral_0",
+                        "vasari_heavy_cruiser_selected_neutral_1",
+                        "vasari_heavy_cruiser_selected_neutral_2"
+                    ],
+                    "scared": [
+                        "vasari_heavy_cruiser_selected_scared_0_placeholder",
+                        "vasari_heavy_cruiser_selected_scared_1_placeholder",
+                        "vasari_heavy_cruiser_selected_scared_2_placeholder"
+                    ]
+                },
+                "order_issued":
+                {
+                    "neutral": [
+                        "vasari_heavy_cruiser_order_issued_neutral_0",
+                        "vasari_heavy_cruiser_order_issued_neutral_1",
+                        "vasari_heavy_cruiser_order_issued_neutral_2"
+                    ],
+                    "scared": [
+                        "vasari_heavy_cruiser_order_issued_scared_0_placeholder",
+                        "vasari_heavy_cruiser_order_issued_scared_1_placeholder",
+                        "vasari_heavy_cruiser_order_issued_scared_2_placeholder"
+                    ]
+                },
+                "attack_order_issued":
+                {
+                    "neutral": [
+                        "vasari_heavy_cruiser_attack_order_issued_neutral_0",
+                        "vasari_heavy_cruiser_attack_order_issued_neutral_1",
+                        "vasari_heavy_cruiser_attack_order_issued_neutral_2",
+                        "vasari_heavy_cruiser_attack_order_issued_neutral_3_placeholder"
+                    ],
+                    "scared": [
+                        "vasari_heavy_cruiser_attack_order_issued_scared_0_placeholder",
+                        "vasari_heavy_cruiser_attack_order_issued_scared_1_placeholder",
+                        "vasari_heavy_cruiser_attack_order_issued_scared_2_placeholder",
+                        "vasari_heavy_cruiser_attack_order_issued_scared_3_placeholder"
+                    ],
+                    "smug": [
+                        "vasari_heavy_cruiser_attack_order_issued_smug_0_placeholder",
+                        "vasari_heavy_cruiser_attack_order_issued_smug_1_placeholder",
+                        "vasari_heavy_cruiser_attack_order_issued_smug_2_placeholder",
+                        "vasari_heavy_cruiser_attack_order_issued_smug_3_placeholder"
+                    ]
+                },
+                "hyperspace_charge_started":
+                {
+                    "neutral": [
+                        "vasari_heavy_cruiser_hyperspace_charge_started_neutral_0"]
+                }
+            }
+        },
+        "death_sequence_group": "capitalship0"
+    }]
+}

@@ -136,9 +136,57 @@
             },
             {
                 "weapon": "heavy_missile",
-                "mesh_point": "turret_muzzle.003",
-                "weapon_position": [-0.036, 7.200, 1.116],
-                "non_turret_muzzle_positions": [[-0.036, 7.200, 1.116]],
+                "mesh_point": "weapon.heavy_missile",
+                "weapon_position": [1.616, 7.849, 1.116],
+                "non_turret_muzzle_positions": [[1.616, 7.849, 1.116]],
+                "forward": [0.000, 0.000, 1.000],
+                "up": [0.000, 1.000, 0.000],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                }
+            },
+            {
+                "weapon": "heavy_missile",
+                "mesh_point": "weapon.heavy_missile.001",
+                "weapon_position": [-1.64, 7.849, 1.116],
+                "non_turret_muzzle_positions": [[-1.64, 7.849, 1.116]],
+                "forward": [0.000, 0.000, 1.000],
+                "up": [0.000, 1.000, 0.000],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                }
+            },
+            {
+                "weapon": "heavy_missile",
+                "mesh_point": "weapon.heavy_missile.002",
+                "weapon_position": [1.616, 6.549, 1.116],
+                "non_turret_muzzle_positions": [[1.616, 6.549, 1.116]],
+                "forward": [0.000, 0.000, 1.000],
+                "up": [0.000, 1.000, 0.000],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                }
+            },
+            {
+                "weapon": "heavy_missile",
+                "mesh_point": "weapon.heavy_missile.003",
+                "weapon_position": [-1.64, 6.549, 1.116],
+                "non_turret_muzzle_positions": [[-1.64, 6.549, 1.116]],
                 "forward": [0.000, 0.000, 1.000],
                 "up": [0.000, 1.000, 0.000],
                 "yaw_arc": {
@@ -166,6 +214,7 @@
         "release_time_after_death": 5.0,
         "can_collide_duration_after_death": 0.1,
         "round_max_points_up_to_5": false,
+        "durability": 25,
         "levels": [
             {
                 "max_hull_points": 25.0,

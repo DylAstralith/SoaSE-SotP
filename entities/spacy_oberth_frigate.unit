@@ -87,7 +87,7 @@
     "weapons": {
         "weapons": [
             {
-                "weapon": "light_beam",
+                "weapon": "light_beam_alt1",
                 "mesh_point": "turret_muzzle.001",
                 "weapon_position": [3.71264029, 1.35548639, 15.48568249],
                 "non_turret_muzzle_positions": [
@@ -105,7 +105,7 @@
                 }
             },
             {
-                "weapon": "light_beam",
+                "weapon": "light_beam_alt2",
                 "mesh_point": "turret_muzzle.003",
                 "weapon_position": [-3.7126503, 1.35548782, 15.48568249],
                 "non_turret_muzzle_positions": [

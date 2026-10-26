@@ -55,6 +55,7 @@
         }
     },
     "ai": {
+        "attack_target_type_groups_to_ignore": ["fighter_ignore_torpedoes"],
         "attack_target_type_groups": [
             "strikecraft_torpedo",
             "corvette"

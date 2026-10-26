@@ -41,9 +41,7 @@
                 "alias_name": "weapon_pulse_beam_beam",
                 "alias_binding":
                 {
-                    "beam": "zentr_pulse",
-                    "sounds": [
-                        "gnerl_laser"]
+                    "beam": "zentr_pulse"
                 }
             },
             {
@@ -52,9 +50,9 @@
                 {
                     "particle_effect": "explosion_tiny",
                     "sounds": [
-                        "hithull_sfx1",
-                        "hithull_sfx2",
-                        "hithull_sfx3"
+                        "hithull_1",
+                        "hithull_2",
+                        "hithull_3"
                     ]
                 }
             },
@@ -64,9 +62,9 @@
                 {
                     "particle_effect": "explosion_tiny",
                     "sounds": [
-                        "hithull_sfx1",
-                        "hithull_sfx2",
-                        "hithull_sfx3"
+                        "hithull_1",
+                        "hithull_2",
+                        "hithull_3"
                     ]
                 }
             },
@@ -74,7 +72,10 @@
                 "alias_name": "weapon_pulse_beam_muzzle",
                 "alias_binding":
                 {
-                    "particle_effect": "pulse_beam_muzzle"
+                    "particle_effect": "zentr_pulse_beam_muzzle",
+                    "sounds": [
+                        "zentr_gnerl_laser"
+                    ]
                 }
             },
             {
@@ -83,8 +84,8 @@
                 {
                     "particle_effect": "Buff_FighterBlinkActivate",
                     "sounds": [
-                        "missile_launch",
-                        "missile_launch2"
+                        "missile_launch_1",
+                        "missile_launch_2"
                     ]
                 }
             },
@@ -94,9 +95,9 @@
                 {
                     "particle_effect": "explosion_small",
                     "sounds": [
-                        "explode",
-                        "explode2",
-                        "explode3"
+                        "explode_1",
+                        "explode_2",
+                        "explode_3"
                     ]
                 }
             }

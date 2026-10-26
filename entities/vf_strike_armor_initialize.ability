@@ -1,0 +1,8 @@
+{
+    "version": 0,
+    "action_data_source": "vf_strikecraft_armor_unit_item",
+    "level_source": "fixed_level_0",
+    "passive_actions": {
+        "persistant_buff": "vf_strike_armor_initialize"
+    }
+}

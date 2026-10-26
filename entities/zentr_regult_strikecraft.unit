@@ -52,7 +52,7 @@
             "strikecraft_torpedo",
             "corvette"
         ],
-        "attack_target_type_groups_matching_weapon": "vasari_interceptor_strikecraft_beam",
+        "attack_target_type_groups_matching_weapon": "pulse_beam_dual",
         "auto_follow_target_priority": -1.0,
         "pursuit": {
             "min_target_speed": 500.0,
@@ -160,6 +160,7 @@
         "release_time_after_death": 5.0,
         "can_collide_duration_after_death": 0.1,
         "round_max_points_up_to_5": false,
+        "durability": 25,
         "levels": [
             {
                 "max_hull_points": 25.0,

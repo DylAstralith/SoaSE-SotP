@@ -3,12 +3,14 @@
         "mm_splash_on_launcher",
         "mm_splash_on_torpedo",
         "super_heavy_beam_on_self",
-        "react_missile_on_self", 
-        "react_missile_splash_on_torpedo",
-
-        "minmay_attack_on_spawner",
-        "minmay_attack_on_ally",
-        "minmay_attack_on_enemy",
-        "omni_directional_barrier_on_self"
+        "spacy_react_missile_on_self",
+        "spacy_react_missile_splash_on_torpedo",
+        "spacy_minmay_attack_on_spawner",
+        "spacy_minmay_attack_on_ally",
+        "spacy_minmay_attack_on_enemy",
+        "spacy_omni_directional_barrier_on_self",
+        "vf_strikecraft_armor_unit_item_on_strikecraft",
+        "vf_strikecraft_armor_unit_item_on_spawner",
+        "vf_strike_armor_initialize"
     ]
 }

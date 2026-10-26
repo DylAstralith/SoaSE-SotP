@@ -1,0 +1,6 @@
+{
+    "normal_state": {
+        "texture": "player_icon_zentr_1_large",
+        "shader_type": "focused"
+    }
+}

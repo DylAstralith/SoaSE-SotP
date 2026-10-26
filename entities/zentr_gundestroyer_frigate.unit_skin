@@ -71,7 +71,7 @@
                             "weight": 3,
                             "hull_percentage_threshold": 0.99,
                             "particle_effect": "damage_electricity",
-                            "sound": "damaged_loop_sfx1"
+                            "sound": "damaged_loop_1"
                         }
                     ]
                 },
@@ -81,7 +81,7 @@
                         "alias_name": "mm_missile_weapon_muzzle",
                         "alias_binding": {
                             "particle_effect": "Buff_FighterBlinkActivate",
-                            "sounds": ["missile_launch"]
+                            "sounds": ["missile_launch_1"]
                         }
                     },
                     {
@@ -102,20 +102,23 @@
                         "alias_name": "super_heavy_beam_hit_hull",
                         "alias_binding": {
                             "particle_effect": "explosion_large",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "super_heavy_beam_hit_shield",
                         "alias_binding": {
                             "particle_effect": "explosion_large",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "super_heavy_beam_muzzle",
                         "alias_binding": {
-                            "particle_effect": "Buff_FighterBlinkActivate"
+                            "particle_effect": "Buff_FighterBlinkActivate",
+                            "sounds": [
+                                "super_heavy_beam_fire"
+                            ]
                         }
                     }
                 ]

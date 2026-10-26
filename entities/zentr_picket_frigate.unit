@@ -591,11 +591,11 @@
         "strikecraft_kinds": [
             "snub"
         ],
-        "launch_destination_formation": "carrier_frigate_strikecraft",
+        "launch_destination_formation": "capital_ship_strikecraft_zentr",
         "launch_destination_formation_offset":
         {
-            "rank": 2,
-            "group": 0
+            "rank": 3,
+            "group": 2
         },
         "hangar_data": [
         {

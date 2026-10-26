@@ -1,0 +1,16 @@
+{
+    "base_color_texture": "spacy_sdf_marks_clr",
+    "normal_texture": "spacy_sdf_marks_nrm",
+    "mask_texture": "spacy_sdf_marks_msk",
+    "occlusion_roughness_metallic_texture": "orm",
+    "emissive_hue_strength": 1,
+    "has_transparency": true,
+    "base_color_factor": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "roughness_factor": 1,
+    "metallic_factor": 1
+}

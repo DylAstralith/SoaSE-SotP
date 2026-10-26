@@ -1,0 +1,329 @@
+{
+    "version": 0,
+    "skin_stages": [
+    {
+        "is_main_view_icon_visible_camera_distance": 27282.231366,
+        "min_camera_distance": 659.976325,
+        "gui":
+        {
+            "hud_icon": "zentr_thuverl_cruiser_hud_icon",
+            "hud_monochrome_icon": "zentr_thuverl_cruiser_main_view_icon",
+            "hud_picture": "zentr_thuverl_cruiser_hud_picture",
+            "tooltip_picture": "zentr_thuverl_cruiser_tooltip_picture",
+            "name": "zentr_thuverl_cruiser_name",
+            "description": "zentr_thuverl_cruiser_description"
+        },
+        "unit_mesh":
+        {
+            "mesh": "zentr_thuverl_cruiser",
+            "shader": "ship",
+            "is_shadow_blocker": true
+        },
+        "main_view_icon":
+        {
+            "group": "ship",
+            "icon": "vasari_heavy_cruiser_main_view_icon",
+            "selected_icon": "vasari_heavy_cruiser_main_view_icon_selected",
+            "sub_selected_icon": "vasari_heavy_cruiser_main_view_icon_sub_selected"
+        },
+        "effects":
+        {
+            "exhaust_effects":
+            {
+                "particle_effects": [
+                {
+                    "particle_effect": "zentr_exhaust_huge"
+                }]
+            },
+            "hyperspace_effects":
+            {
+                "charge_effect": "fold_chargeup_large",
+                "charge_effect_between_stars": "fold_chargeup_large",
+                "charge_effect_destabilized": "fold_chargeup_large",
+                "travel_effect": "fold_travel_large",
+                "travel_effect_between_stars": "fold_travel_large",
+                "travel_effect_destabilized": "fold_travel_large",
+                "exit_effect": "fold_exit_large",
+                "charge_sound": "fold_chargeup",
+                "enter_sound": "fold_entry",
+                "exit_sound": "fold_exit"
+            },
+            "damage_effects": {
+                "max_damage_effect_count": 1,
+                "damage_effects": [
+                    {
+                        "max_count": 1,
+                        "weight": 3,
+                        "hull_percentage_threshold": 0.99,
+                        "particle_effect": "damage_electricity",
+                        "sound": "damaged_loop_1"
+                    }
+                ]
+            },
+            "flair_effects": [
+            {
+                "mesh_point_name": "center",
+                "particle_effect": "vasari_damage_capital_1",
+                "constraint": "is_crippled"
+            }],
+            "shield_effect": "vasari_battle_capital_ship",
+            "effect_alias_bindings": [
+            {
+                "alias_name": "weapon_medium_beam_beam",
+                "alias_binding": {
+                    "beam": "zentr_beam"
+                }
+            },
+            {
+                "alias_name": "weapon_medium_beam_hit_hull",
+                "alias_binding": {
+                    "particle_effect": "explosion_tiny",
+                    "sounds": ["hithull_1", "hithull_2", "hithull_3"]
+                }
+            },
+            {
+                "alias_name": "weapon_medium_beam_hit_shield",
+                "alias_binding": {
+                    "particle_effect": "explosion_tiny",
+                    "sounds": ["hithull_1", "hithull_2", "hithull_3"]
+                }
+            },
+            {
+                "alias_name": "weapon_medium_beam_muzzle",
+                "alias_binding": {
+                    "particle_effect": "zentr_beam_muzzle",
+                    "sounds": [
+                        "zentr_beam_1",
+                        "zentr_beam_2",
+                        "zentr_beam_3",
+                        "zentr_beam_4"
+                    ]
+                }
+            },
+            {
+                "alias_name": "weapon_heavy_beam_beam",
+                "alias_binding": {
+                    "beam": "zentr_beam_heavy"
+                }
+            },
+            {
+                "alias_name": "weapon_heavy_beam_hit_hull",
+                "alias_binding": {
+                    "particle_effect": "explosion_small",
+                    "sounds": ["hithull_1", "hithull_2", "hithull_3"]
+                }
+            },
+            {
+                "alias_name": "weapon_heavy_beam_hit_shield",
+                "alias_binding": {
+                    "particle_effect": "explosion_small",
+                    "sounds": ["hithull_1", "hithull_2", "hithull_3"]
+                }
+            },
+            {
+                "alias_name": "weapon_heavy_beam_muzzle",
+                "alias_binding": {
+                    "particle_effect": "zentr_beam_muzzle",
+                    "sounds": [
+                        "zentr_beam_1",
+                        "zentr_beam_2"
+                    ]
+                }
+            },
+            {
+                "alias_name": "mm_missile_weapon_muzzle",
+                "alias_binding": {
+                    "particle_effect": "Buff_FighterBlinkActivate",
+                    "sounds": ["missile_launch_1", "missile_launch_2"]
+                }
+            },
+            {
+                "alias_name": "mm_missile_weapon_hit_hull",
+                "alias_binding": {
+                    "particle_effect": "explosion_small",
+                    "sounds": ["explode_1", "explode_2", "explode_3"]
+                }
+            },
+            {
+                "alias_name": "weapon_pulse_beam_aa_beam",
+                "alias_binding": {
+                    "beam": "zentr_pulse_aa"
+                }
+            },
+            {
+                "alias_name": "weapon_pulse_beam_aa_hit_hull",
+                "alias_binding": {
+                    "particle_effect": "explosion_tiny",
+                    "sounds": [
+                        "hithull_1",
+                        "hithull_2",
+                        "hithull_3"
+                    ]
+                }
+            },
+            {
+                "alias_name": "weapon_pulse_beam_aa_hit_shield",
+                "alias_binding": {
+                    "particle_effect": "explosion_tiny",
+                    "sounds": [
+                        "hithull_1",
+                        "hithull_2",
+                        "hithull_3"
+                    ]
+                }
+            },
+            {
+                "alias_name": "weapon_pulse_beam_aa_muzzle",
+                "alias_binding": {
+                    "particle_effect": "zentr_pulse_beam_muzzle",
+                    "sounds": [
+                        "zentr_pulse",
+                        "zentr_pulse2",
+                        "zentr_pulse3",
+                        "zentr_beam_3",
+                        "zentr_beam_4"
+                    ]
+                }
+            }
+        ]
+        },
+        "sounds":
+        {
+            "move_sounds":
+            {
+                "engine": "engine_heavy",
+                "hyperspace_travel": "fold_loop"
+            },
+            "dialogue":
+            {
+                "spawned":
+                {
+                    "neutral": [
+                        "vasari_battle_capital_ship_spawned_neutral_0"]
+                },
+                "selected":
+                {
+                    "neutral": [
+                        "vasari_battle_capital_ship_selected_neutral_0",
+                        "vasari_battle_capital_ship_selected_neutral_1",
+                        "vasari_battle_capital_ship_selected_neutral_2"
+                    ],
+                    "scared": [
+                        "vasari_battle_capital_ship_selected_scared_0",
+                        "vasari_battle_capital_ship_selected_scared_1",
+                        "vasari_battle_capital_ship_selected_scared_2"
+                    ]
+                },
+                "order_issued":
+                {
+                    "neutral": [
+                        "vasari_battle_capital_ship_order_issued_neutral_0",
+                        "vasari_battle_capital_ship_order_issued_neutral_1",
+                        "vasari_battle_capital_ship_order_issued_neutral_2"
+                    ],
+                    "scared": [
+                        "vasari_battle_capital_ship_order_issued_scared_0",
+                        "vasari_battle_capital_ship_order_issued_scared_1",
+                        "vasari_battle_capital_ship_order_issued_scared_2"
+                    ]
+                },
+                "attack_order_issued":
+                {
+                    "neutral": [
+                        "vasari_battle_capital_ship_attack_order_issued_neutral_0",
+                        "vasari_battle_capital_ship_attack_order_issued_neutral_2",
+                        "vasari_battle_capital_ship_attack_order_issued_neutral_3",
+                        "vasari_battle_capital_ship_attack_order_issued_neutral_1_placeholder"
+                    ],
+                    "scared": [
+                        "vasari_battle_capital_ship_attack_order_issued_scared_0",
+                        "vasari_battle_capital_ship_attack_order_issued_scared_1",
+                        "vasari_battle_capital_ship_attack_order_issued_scared_2",
+                        "vasari_battle_capital_ship_attack_order_issued_scared_3"
+                    ],
+                    "smug": [
+                        "vasari_battle_capital_ship_attack_order_issued_smug_0",
+                        "vasari_battle_capital_ship_attack_order_issued_smug_1",
+                        "vasari_battle_capital_ship_attack_order_issued_smug_2",
+                        "vasari_battle_capital_ship_attack_order_issued_smug_3"
+                    ]
+                },
+                "retreat":
+                {
+                    "neutral": [
+                        "vasari_battle_capital_ship_retreat_neutral_0"
+                    ],
+                    "scared": [
+                        "vasari_battle_capital_ship_retreat_scared_0"]
+                },
+                "hyperspace_charge_started":
+                {
+                    "neutral": [
+                        "vasari_battle_capital_ship_hyperspace_charge_started_neutral_0"
+                    ]
+                },
+                "cannot_hyperspace":
+                {
+                    "neutral": [
+                        "vasari_battle_capital_ship_cannot_hyperspace_neutral_0"
+                    ],
+                    "scared": [
+                        "vasari_battle_capital_ship_cannot_hyperspace_scared_0"]
+                },
+                "shields_down":
+                {
+                    "neutral": [
+                        "vasari_battle_capital_ship_shields_down_neutral_0"
+                    ],
+                    "scared": [
+                        "vasari_battle_capital_ship_shields_down_scared_0"]
+                },
+                "armor_down":
+                {
+                    "scared": [
+                        "vasari_battle_capital_ship_armor_down_scared_0"]
+                },
+                "became_crippled":
+                {
+                    "neutral": [
+                        "vasari_battle_capital_ship_became_crippled_neutral_0"
+                    ],
+                    "scared": [
+                        "vasari_battle_capital_ship_became_crippled_scared_0"]
+                },
+                "destroyed":
+                {
+                    "neutral": [
+                        "vasari_battle_capital_ship_destroyed_neutral_0"
+                    ],
+                    "scared": [
+                        "vasari_battle_capital_ship_destroyed_scared_0"]
+                },
+                "ship_component_finished_building":
+                {
+                    "neutral": [
+                        "vasari_battle_capital_ship_ship_component_finished_building_neutral_0"
+                    ]
+                },
+                "ability_cooldown_is_not_completed":
+                {
+                    "neutral": [
+                        "vasari_battle_capital_ship_ability_cooldown_is_not_completed_neutral_0"
+                    ],
+                    "scared": [
+                        "vasari_battle_capital_ship_ability_cooldown_is_not_completed_scared_0"
+                    ]
+                },
+                "insufficient_antimatter":
+                {
+                    "neutral": [
+                        "vasari_battle_capital_ship_insufficient_antimatter_neutral_0"
+                    ],
+                    "scared": [
+                        "vasari_battle_capital_ship_insufficient_antimatter_scared_0"]
+                }
+            }
+        },
+        "death_sequence_group": "capitalship0"
+    }]
+}

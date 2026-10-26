@@ -26,7 +26,7 @@
                     {
                         "mesh_alias_name": "arm_left_cover",
                         "mesh_definition": {
-                            "mesh": "arm_left_cover",
+                            "mesh": "spacy_sdf_arm_left_cover",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -34,7 +34,7 @@
                     {
                         "mesh_alias_name": "arm_left_inner",
                         "mesh_definition": {
-                            "mesh": "arm_left_inner",
+                            "mesh": "spacy_sdf_arm_left_inner",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -42,7 +42,7 @@
                     {
                         "mesh_alias_name": "arm_left_outer",
                         "mesh_definition": {
-                            "mesh": "arm_left_outer",
+                            "mesh": "spacy_sdf_arm_left_outer",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -50,7 +50,7 @@
                     {
                         "mesh_alias_name": "arm_left_turrets",
                         "mesh_definition": {
-                            "mesh": "arm_left_turrets",
+                            "mesh": "spacy_sdf_arm_left_turrets",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -58,7 +58,7 @@
                     {
                         "mesh_alias_name": "arm_right_cover",
                         "mesh_definition": {
-                            "mesh": "arm_right_cover",
+                            "mesh": "spacy_sdf_arm_right_cover",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -66,7 +66,7 @@
                     {
                         "mesh_alias_name": "arm_right_inner",
                         "mesh_definition": {
-                            "mesh": "arm_right_inner",
+                            "mesh": "spacy_sdf_arm_right_inner",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -74,7 +74,7 @@
                     {
                         "mesh_alias_name": "arm_right_outer",
                         "mesh_definition": {
-                            "mesh": "arm_right_outer",
+                            "mesh": "spacy_sdf_arm_right_outer",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -82,7 +82,7 @@
                     {
                         "mesh_alias_name": "arm_right_turrets",
                         "mesh_definition": {
-                            "mesh": "arm_right_turrets",
+                            "mesh": "spacy_sdf_arm_right_turrets",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -90,7 +90,7 @@
                     {
                         "mesh_alias_name": "armd_left",
                         "mesh_definition": {
-                            "mesh": "armd_left",
+                            "mesh": "spacy_sdf_armd_left",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -98,7 +98,7 @@
                     {
                         "mesh_alias_name": "armd_right",
                         "mesh_definition": {
-                            "mesh": "armd_right",
+                            "mesh": "spacy_sdf_armd_right",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -106,7 +106,7 @@
                     {
                         "mesh_alias_name": "body_ass",
                         "mesh_definition": {
-                            "mesh": "body_ass",
+                            "mesh": "spacy_sdf_body_ass",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -114,7 +114,7 @@
                     {
                         "mesh_alias_name": "body_bridge",
                         "mesh_definition": {
-                            "mesh": "body_bridge",
+                            "mesh": "spacy_sdf_body_bridge",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -122,7 +122,7 @@
                     {
                         "mesh_alias_name": "body_chest",
                         "mesh_definition": {
-                            "mesh": "body_chest",
+                            "mesh": "spacy_sdf_body_chest",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -130,7 +130,7 @@
                     {
                         "mesh_alias_name": "body_mid",
                         "mesh_definition": {
-                            "mesh": "body_mid",
+                            "mesh": "spacy_sdf_body_mid",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -138,7 +138,7 @@
                     {
                         "mesh_alias_name": "body_pelvis",
                         "mesh_definition": {
-                            "mesh": "body_pelvis",
+                            "mesh": "spacy_sdf_body_pelvis",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -146,7 +146,7 @@
                     {
                         "mesh_alias_name": "body_shoulders",
                         "mesh_definition": {
-                            "mesh": "body_shoulders",
+                            "mesh": "spacy_sdf_body_shoulders",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -154,7 +154,7 @@
                     {
                         "mesh_alias_name": "cannon_left_back",
                         "mesh_definition": {
-                            "mesh": "cannon_left_back",
+                            "mesh": "spacy_sdf_cannon_left_back",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -162,7 +162,7 @@
                     {
                         "mesh_alias_name": "cannon_left_front",
                         "mesh_definition": {
-                            "mesh": "cannon_left_front",
+                            "mesh": "spacy_sdf_cannon_left_front",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -170,7 +170,7 @@
                     {
                         "mesh_alias_name": "cannon_left_mid",
                         "mesh_definition": {
-                            "mesh": "cannon_left_mid",
+                            "mesh": "spacy_sdf_cannon_left_mid",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -178,7 +178,7 @@
                     {
                         "mesh_alias_name": "cannon_right_back",
                         "mesh_definition": {
-                            "mesh": "cannon_right_back",
+                            "mesh": "spacy_sdf_cannon_right_back",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -186,7 +186,7 @@
                     {
                         "mesh_alias_name": "cannon_right_front",
                         "mesh_definition": {
-                            "mesh": "cannon_right_front",
+                            "mesh": "spacy_sdf_cannon_right_front",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -194,7 +194,7 @@
                     {
                         "mesh_alias_name": "cannon_right_mid",
                         "mesh_definition": {
-                            "mesh": "cannon_right_mid",
+                            "mesh": "spacy_sdf_cannon_right_mid",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -202,7 +202,7 @@
                     {
                         "mesh_alias_name": "left_leg",
                         "mesh_definition": {
-                            "mesh": "left_leg",
+                            "mesh": "spacy_sdf_left_leg",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -210,7 +210,7 @@
                     {
                         "mesh_alias_name": "left_thigh",
                         "mesh_definition": {
-                            "mesh": "left_thigh",
+                            "mesh": "spacy_sdf_left_thigh",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -218,7 +218,7 @@
                     {
                         "mesh_alias_name": "right_leg",
                         "mesh_definition": {
-                            "mesh": "right_leg",
+                            "mesh": "spacy_sdf_right_leg",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -226,7 +226,7 @@
                     {
                         "mesh_alias_name": "right_thigh",
                         "mesh_definition": {
-                            "mesh": "right_thigh",
+                            "mesh": "spacy_sdf_right_thigh",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -267,7 +267,7 @@
                             "weight": 3,
                             "hull_percentage_threshold": 0.99,
                             "particle_effect": "damage_electricity",
-                            "sound": "damaged_loop_sfx1"
+                            "sound": "damaged_loop_1"
                         }
                     ]
                 },
@@ -291,41 +291,44 @@
                     {
                         "alias_name": "omni_directional_barrier",
                         "alias_binding": {
-                            "particle_effect": "omni_directional_barrier"
+                            "particle_effect": "spacy_omni_directional_barrier"
                         }
                     },
                     {
                         "alias_name": "super_heavy_beam_beam",
                         "alias_binding": {
-                            "beam": "macross_cannon_beam",
-                            "sounds": ["macross_cannon_fire"]
+                            "beam": "spacy_macross_cannon_beam",
+                            "sounds": ["spacy_macross_cannon_fire"]
                         }
                     },
                     {
                         "alias_name": "super_heavy_beam_charge",
                         "alias_binding": {
-                            "particle_effect": "macross_cannon_charge",
-                            "sounds": ["macross_cannon_charge"]
+                            "particle_effect": "spacy_macross_cannon_charge",
+                            "sounds": ["spacy_macross_cannon_charge"]
                         }
                     },
                     {
                         "alias_name": "super_heavy_beam_hit_hull",
                         "alias_binding": {
                             "particle_effect": "explosion_large",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "super_heavy_beam_hit_shield",
                         "alias_binding": {
                             "particle_effect": "macross_cannon_beam_impact",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "super_heavy_beam_muzzle",
                         "alias_binding": {
-                            "particle_effect": "macross_cannon_beam_muzzle"
+                            "particle_effect": "spacy_macross_cannon_beam_muzzle",
+                            "sounds": [
+                                "spacy_macross_cannon_fire"
+                            ]
                         }
                     },
                     {
@@ -349,109 +352,118 @@
                     {
                         "alias_name": "minmay_attack_on_spawner",
                         "alias_binding": {
-                            "particle_effect": "minmay_broadcast",
-                            "sounds": ["minmay_broadcast", "minmay_broadcast_2"]
+                            "particle_effect": "spacy_minmay_broadcast",
+                            "sounds": ["spacy_minmay_broadcast_1", "spacy_minmay_broadcast_2"]
                         }
                     },
                     {
                         "alias_name": "minmay_attack_on_enemy",
                         "alias_binding": {
-                            "particle_effect": "minmay_attack_on_enemy"
+                            "particle_effect": "spacy_minmay_attack_on_enemy"
                         }
                     },
                     {
                         "alias_name": "weapon_medium_beam_beam",
                         "alias_binding": {
-                            "beam": "spacy_beam",
-                            "sounds": ["spacy_beam", "spacy_beam2"]
+                            "beam": "spacy_beam"
                         }
                     },
                     {
                         "alias_name": "weapon_medium_beam_hit_hull",
                         "alias_binding": {
                             "particle_effect": "explosion_tiny",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "weapon_medium_beam_hit_shield",
                         "alias_binding": {
                             "particle_effect": "explosion_tiny",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "weapon_medium_beam_muzzle",
                         "alias_binding": {
-                            "particle_effect": "spacy_beam_muzzle"
+                            "particle_effect": "spacy_beam_muzzle",
+                            "sounds": [
+                                "spacy_beam",
+                                "spacy_beam2"
+                            ]
                         }
                     },
                     {
                         "alias_name": "weapon_light_beam_beam",
                         "alias_binding": {
-                            "beam": "spacy_beam_light",
-                            "sounds": ["spacy_beam", "spacy_beam2"]
+                            "beam": "spacy_beam_light"
                         }
                     },
                     {
                         "alias_name": "weapon_light_beam_hit_hull",
                         "alias_binding": {
                             "particle_effect": "explosion_tiny",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "weapon_light_beam_hit_shield",
                         "alias_binding": {
                             "particle_effect": "explosion_tiny",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "weapon_light_beam_muzzle",
                         "alias_binding": {
-                            "particle_effect": "spacy_beam_muzzle"
+                            "particle_effect": "spacy_beam_muzzle",
+                            "sounds": [
+                                "spacy_beam",
+                                "spacy_beam2"
+                            ]
                         }
                     },
                     {
                         "alias_name": "mm_missile_weapon_muzzle",
                         "alias_binding": {
                             "particle_effect": "Buff_FighterBlinkActivate",
-                            "sounds": ["missile_launch", "missile_launch2"]
+                            "sounds": ["missile_launch_1", "missile_launch_2"]
                         }
                     },
                     {
                         "alias_name": "mm_missile_weapon_hit_hull",
                         "alias_binding": {
                             "particle_effect": "explosion_small",
-                            "sounds": ["explode", "explode2", "explode3"]
+                            "sounds": ["explode_1", "explode_2", "explode_3"]
                         }
                     },
                     {
                         "alias_name": "weapon_heavy_beam_beam",
                         "alias_binding": {
-                            "beam": "spacy_beam_heavy",
-                            "sounds": ["spacy_beam", "spacy_beam2"]
+                            "beam": "spacy_beam_heavy"
                         }
                     },
                     {
                         "alias_name": "weapon_heavy_beam_hit_hull",
                         "alias_binding": {
                             "particle_effect": "explosion_small",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "weapon_heavy_beam_hit_shield",
                         "alias_binding": {
                             "particle_effect": "explosion_small",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "weapon_heavy_beam_muzzle",
                         "alias_binding": {
-                            "particle_effect": "spacy_beam_muzzle"
+                            "particle_effect": "spacy_beam_muzzle",
+                            "sounds": [
+                                "spacy_beam",
+                                "spacy_beam2"
+                            ]
                         }
                     }
                 ]
@@ -463,54 +475,54 @@
                 },
                 "dialogue": {
                     "spawned": {
-                        "neutral": ["sdf_select_01"]
+                        "neutral": ["vo_spacy_sdf1_select_01"]
                     },
                     "selected": {
                         "neutral": [
-                            "sdf_select_01",
-                            "sdf_select_02"
+                            "vo_spacy_sdf1_select_01",
+                            "vo_spacy_sdf1_select_02"
                         ],
                         "scared": [
-                            "sdf_select_01",
-                            "sdf_select_02"
+                            "vo_spacy_sdf1_select_01",
+                            "vo_spacy_sdf1_select_02"
                         ]
                     },
                     "order_issued": {
                         "neutral": [
-                            "sdf_order_issued_01"
+                            "vo_spacy_sdf1_order_issued_01"
                         ],
                         "scared": [
-                            "sdf_order_issued_01"
+                            "vo_spacy_sdf1_order_issued_01"
 
                         ]
                     },
                     "attack_order_issued": {
                         "neutral": [
-                            "sdf_attack_01",
-                            "sdf_attack_02",
-                            "sdf_attack_03",
-                            "sdf_attack_04",
-                            "sdf_attack_05",
-                            "sdf_attack_06",
-                            "sdf_attack_07"
+                            "vo_spacy_sdf1_attack_01",
+                            "vo_spacy_sdf1_attack_02",
+                            "vo_spacy_sdf1_attack_03",
+                            "vo_spacy_sdf1_attack_04",
+                            "vo_spacy_sdf1_attack_05",
+                            "vo_spacy_sdf1_attack_06",
+                            "vo_spacy_sdf1_attack_07"
                         ],
                         "scared": [
-                            "sdf_attack_01",
-                            "sdf_attack_02",
-                            "sdf_attack_03",
-                            "sdf_attack_04",
-                            "sdf_attack_05",
-                            "sdf_attack_06",
-                            "sdf_attack_07"
+                            "vo_spacy_sdf1_attack_01",
+                            "vo_spacy_sdf1_attack_02",
+                            "vo_spacy_sdf1_attack_03",
+                            "vo_spacy_sdf1_attack_04",
+                            "vo_spacy_sdf1_attack_05",
+                            "vo_spacy_sdf1_attack_06",
+                            "vo_spacy_sdf1_attack_07"
                         ],
                         "smug": [
-                            "sdf_attack_01",
-                            "sdf_attack_02",
-                            "sdf_attack_03",
-                            "sdf_attack_04",
-                            "sdf_attack_05",
-                            "sdf_attack_06",
-                            "sdf_attack_07"
+                            "vo_spacy_sdf1_attack_01",
+                            "vo_spacy_sdf1_attack_02",
+                            "vo_spacy_sdf1_attack_03",
+                            "vo_spacy_sdf1_attack_04",
+                            "vo_spacy_sdf1_attack_05",
+                            "vo_spacy_sdf1_attack_06",
+                            "vo_spacy_sdf1_attack_07"
                         ]
                     },
                     "retreat": {
@@ -519,9 +531,9 @@
                     },
                     "hyperspace_charge_started": {
                         "neutral": [
-                            "sdf_order_issued_01",
-                            "sdf_select_01",
-                            "sdf_select_02"
+                            "vo_spacy_sdf1_order_issued_01",
+                            "vo_spacy_sdf1_select_01",
+                            "vo_spacy_sdf1_select_02"
                         ]
                     },
                     "cannot_hyperspace": {

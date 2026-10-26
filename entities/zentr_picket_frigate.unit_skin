@@ -52,7 +52,7 @@
                             "weight": 3,
                             "hull_percentage_threshold": 0.99,
                             "particle_effect": "damage_electricity",
-                            "sound": "damaged_loop_sfx1"
+                            "sound": "damaged_loop_1"
                         }
                     ]
                 },
@@ -68,55 +68,65 @@
                     {
                         "alias_name": "weapon_light_beam_beam",
                         "alias_binding": {
-                            "beam": "zentr_beam_light",
-                            "sounds": ["zentr_pulse", "zentr_pulse2", "zentr_pulse3", "zentr_beam3", "zentr_beam4"]
+                            "beam": "zentr_beam_light"
                         }
                     },
                     {
                         "alias_name": "weapon_light_beam_hit_hull",
                         "alias_binding": {
                             "particle_effect": "explosion_tiny",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "weapon_light_beam_hit_shield",
                         "alias_binding": {
                             "particle_effect": "explosion_tiny",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "weapon_light_beam_muzzle",
                         "alias_binding": {
-                            "particle_effect": "zentr_beam_muzzle"
+                            "particle_effect": "zentr_beam_muzzle",
+                            "sounds": [
+                                "zentr_pulse",
+                                "zentr_pulse2",
+                                "zentr_pulse3",
+                                "zentr_beam_3",
+                                "zentr_beam_4"
+                            ]
                         }
                     },
                     {
                         "alias_name": "weapon_pulse_beam_aa_beam",
                         "alias_binding": {
-                            "beam": "zentr_pulse_aa",
-                            "sounds": ["zentr_pulse", "zentr_pulse2", "zentr_pulse3"]
+                            "beam": "zentr_pulse_aa"
                         }
                     },
                     {
                         "alias_name": "weapon_pulse_beam_aa_hit_hull",
                         "alias_binding": {
                             "particle_effect": "explosion_tiny",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "weapon_pulse_beam_aa_hit_shield",
                         "alias_binding": {
                             "particle_effect": "explosion_tiny",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "weapon_pulse_beam_aa_muzzle",
                         "alias_binding": {
-                            "particle_effect": "pulse_beam_muzzle"
+                            "particle_effect": "zentr_pulse_beam_muzzle",
+                            "sounds": [
+                                "zentr_pulse",
+                                "zentr_pulse2",
+                                "zentr_pulse3"
+                            ]
                         }
                     }
                 ]

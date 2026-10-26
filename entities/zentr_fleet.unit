@@ -1,0 +1,16 @@
+{
+    "version": 0,
+    "spatial": {
+        "can_collide": false
+    },
+    "user_interface": {
+        "can_ever_be_selected": true
+    },
+    "fleet": {
+        "icons": [
+            "zentr_fleet_icon_1",
+            "zentr_fleet_icon_2",
+            "zentr_fleet_icon_3"
+        ]
+    }
+}

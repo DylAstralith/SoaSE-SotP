@@ -4,7 +4,7 @@
     "core_texture": "lasers_bullet_stream",
     "glow_color": "ff7dffc9",
     "core_color": "ff00ff95",
-    "width": 4.0,
+    "width": 3.0,
     "glow_tiling_animation_rate": 15.0,
     "core_tiling_animation_rate": 15.0,
     "core_fade_in_duration": 0.010,

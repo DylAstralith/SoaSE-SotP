@@ -27,7 +27,7 @@
                 {
                     "trail_effects": [
                     {
-                        "trail_effect": "mm_torpedo_spacy"
+                        "trail_effect": "spacy_mm_torpedo"
                     }],
                     "particle_effects": [
                     {

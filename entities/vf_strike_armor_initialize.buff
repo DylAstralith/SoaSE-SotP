@@ -1,0 +1,48 @@
+{
+    "version": 0,
+    "make_dead_on_source_ability_released": true,
+    "stacking_limit": {
+        "stacking_limit": "fixed_one",
+        "stacking_limit_met_behavior": "preserve_existing_buff"
+    },
+    "stacking_ownership_type": "for_all_players",
+    "trigger_event_actions": [
+        {
+            "trigger_event_type": "on_buff_started",
+            "action_group": {
+                "actions": [
+                    {
+                        "action_type": "use_unit_operators_on_single_unit",
+                        "destination_unit": {
+                            "unit_type": "current_spawner"
+                        },
+                        "operators": [
+                            {
+                                "operator_type": "remove_unit_item",
+                                "unit_item": "vf_strike_armor_upgrade"
+                            },
+                            {
+                                "operator_type": "add_unit_item",
+                                "unit_item": "vf_strike_armor_standard"
+                            }
+                        ],
+                        "operators_constraint": {
+                            "constraint_type": "unit_passes_unit_constraint",
+                            "unit": {
+                                "unit_type": "operand_destination"
+                            },
+                            "unit_constraint": {
+                                "constraint_type": "composite_not",
+                                "constraint": {
+                                    "constraint_type": "has_buff",
+                                    "buff": "vf_strikecraft_armor_unit_item_on_strikecraft",
+                                    "include_pending_buffs": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

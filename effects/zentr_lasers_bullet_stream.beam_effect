@@ -1,10 +1,10 @@
 {
     "version": 1,
-    "glow_texture": "lasers_bullet_stream",
-    "core_texture": "lasers_bullet_stream",
-    "glow_color": "ff52aaff",
-    "core_color": "ff69c6ff",
-    "width": 4.0,
+    "glow_texture": "spacy_gunpod_bullet_stream",
+    "core_texture": "spacy_gunpod_bullet_stream",
+    "glow_color": "ff0246a5",
+    "core_color": "ff3478e1",
+    "width": 3.0,
     "glow_tiling_animation_rate": 15.0,
     "core_tiling_animation_rate": 15.0,
     "core_fade_in_duration": 0.010,
@@ -15,10 +15,14 @@
     "bolt_travel_speed_multiplier": 2.0,
     "front_fade_speed_multiplier": 10.0,
     "back_fade_speed_multiplier": 17.0,
-    "back_fade_delay": 0.30,
+    "back_fade_delay": 0.80,
     "front_width_multiplier": 2.0,
     "back_width_multiplier": 2.0,
     "basic_constants": {
-        "emissive_factor": 2.0
+        "emissive_factor": 3.0,
+        "alpha_ramp_curvature": 0.0,
+        "alpha_ramp_steepness": 10.30,
+        "alpha_ramp_growth_delay": 1.0,
+        "alpha_ramp_max_alpha_scalar": 2.0
     }
 }

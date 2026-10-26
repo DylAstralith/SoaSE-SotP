@@ -28,7 +28,7 @@
                     {
                         "mesh_alias_name": "defender_des_base",
                         "mesh_definition": {
-                            "mesh": "defender_des_base",
+                            "mesh": "spacy_defender_des_base",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -36,7 +36,7 @@
                     {
                         "mesh_alias_name": "defender_des_mount",
                         "mesh_definition": {
-                            "mesh": "defender_des_mount",
+                            "mesh": "spacy_defender_des_mount",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -44,7 +44,7 @@
                     {
                         "mesh_alias_name": "defender_des_barrel",
                         "mesh_definition": {
-                            "mesh": "defender_des_barrel",
+                            "mesh": "spacy_defender_des_barrel",
                             "shader": "ship",
                             "is_shadow_blocker": true
                         }
@@ -61,7 +61,7 @@
                 "exhaust_effects": {
                     "particle_effects": [
                         {
-                            "particle_effect": "spacy_exhaust_medium"
+                            "particle_effect": "spacy_exhaust_small"
                         }
                     ]
                 },
@@ -86,7 +86,7 @@
                             "weight": 3,
                             "hull_percentage_threshold": 0.99,
                             "particle_effect": "damage_electricity",
-                            "sound": "damaged_loop_sfx1"
+                            "sound": "damaged_loop_1"
                         }
                     ]
                 },
@@ -102,28 +102,31 @@
                     {
                         "alias_name": "weapon_light_beam_beam",
                         "alias_binding": {
-                            "beam": "spacy_beam_light",
-                            "sounds": ["spacy_beam", "spacy_beam2"]
+                            "beam": "spacy_beam_light"
                         }
                     },
                     {
                         "alias_name": "weapon_light_beam_hit_hull",
                         "alias_binding": {
                             "particle_effect": "explosion_tiny",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "weapon_light_beam_hit_shield",
                         "alias_binding": {
                             "particle_effect": "explosion_tiny",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "weapon_light_beam_muzzle",
                         "alias_binding": {
-                            "particle_effect": "spacy_beam_muzzle"
+                            "particle_effect": "spacy_beam_muzzle",
+                            "sounds": [
+                                "spacy_beam",
+                                "spacy_beam2"
+                            ]
                         }
                     },
                     {
@@ -132,7 +135,7 @@
                         {
                             "particle_effect": "Buff_FighterBlinkActivate",
                             "sounds": [
-                                "react_launch"
+                                "spacy_react_launch"
                             ]
                         }
                     },
@@ -147,42 +150,41 @@
                         "alias_name": "mm_missile_weapon_muzzle",
                         "alias_binding": {
                             "particle_effect": "Buff_FighterBlinkActivate",
-                            "sounds": ["missile_launch", "missile_launch2"]
+                            "sounds": ["missile_launch_1", "missile_launch_2"]
                         }
                     },
                     {
                         "alias_name": "mm_missile_weapon_hit_hull",
                         "alias_binding": {
                             "particle_effect": "explosion_small",
-                            "sounds": ["explode", "explode2", "explode3"]
+                            "sounds": ["explode_1", "explode_2", "explode_3"]
                         }
                     },
                     {
                         "alias_name": "defender_des_weapon_muzzle",
                         "alias_binding": {
-                            "particle_effect": "gunpod_muzzle",
-                            "sounds": ["spacy_gunpod"]
+                            "particle_effect": "spacy_gunpod_muzzle",
+                            "sounds": ["spacy_gunpod_1"]
                         }
                     },
                     {
                         "alias_name": "defender_des_weapon_beam",
                         "alias_binding": {
-                            "beam": "pd_bullet_stream",
-                            "sounds": ["spacy_gunpod"]
+                            "beam": "spacy_pd_bullet_stream"
                         }
                     },
                     {
                         "alias_name": "defender_des_weapon_hit_hull",
                         "alias_binding": {
                             "particle_effect": "explosion_tiny",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     },
                     {
                         "alias_name": "defender_des_weapon_hit_shield",
                         "alias_binding": {
                             "particle_effect": "explosion_tiny",
-                            "sounds": ["hithull_sfx1", "hithull_sfx2", "hithull_sfx3"]
+                            "sounds": ["hithull_1", "hithull_2", "hithull_3"]
                         }
                     }
                 ]

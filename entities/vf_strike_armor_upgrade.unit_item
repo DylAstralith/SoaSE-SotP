@@ -1,0 +1,16 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_strikecraft_armor_unit_item_hud_icon",
+    "name": "vf_strikecraft_armor_unit_item_name",
+    "description": "",
+    "required_unit_tags": [
+        "strikecraft"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "build_time": 0,
+    "price": {},
+    "exotic_price": [],
+    "always_show_in_shop": false
+}

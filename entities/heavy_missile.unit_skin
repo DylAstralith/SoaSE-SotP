@@ -34,7 +34,7 @@
                 }],
                 "particle_effects": [
                 {
-                    "particle_effect": "exhaust_small_orange"
+                    "particle_effect": "spacy_exhaust_small_orange"
                 }]
             }
         },

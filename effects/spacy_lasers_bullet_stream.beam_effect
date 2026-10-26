@@ -1,10 +1,10 @@
 {
     "version": 1,
-    "glow_texture": "gunpod_bullet_stream",
-    "core_texture": "gunpod_bullet_stream",
+    "glow_texture": "spacy_gunpod_bullet_stream",
+    "core_texture": "spacy_gunpod_bullet_stream",
     "glow_color": "ff7dffc9",
     "core_color": "ff00ff95",
-    "width": 4.0,
+    "width": 3.0,
     "glow_tiling_animation_rate": 15.0,
     "core_tiling_animation_rate": 15.0,
     "core_fade_in_duration": 0.010,

@@ -9,9 +9,9 @@
         "base_color_texture": "starfieldsparse",
         "zoom": 3.4,
         "speed_scalar": 1.0
-    },
+    }, 
     {
-        "base_color_texture": "starfieldsparse2",
+        "base_color_texture": "starfieldsparse_colorful",
         "zoom": 3.0,
         "speed_scalar": 1.0
     }
@@ -19,10 +19,6 @@
     "skybox_layers": [
     {
         "base_color_texture": "starfield_cloud",
-        "speed_scalar": 1.0
-    },
-    {
-        "base_color_texture": "starfield_strip",
         "speed_scalar": 1.0
     }
     

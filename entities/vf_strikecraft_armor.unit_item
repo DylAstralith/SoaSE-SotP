@@ -1,0 +1,33 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_strikecraft_armor_unit_item_hud_icon",
+    "tooltip_picture": "vasari_strikecraft_armor_unit_item_tooltip_picture",
+    "name": "vf_strikecraft_armor_unit_item_name",
+    "description": "vf_strikecraft_armor_unit_item_description",
+    "build_time": 30.0,
+    "price":
+    {
+        "metal": 275.0,
+        "crystal": 375.0
+    },
+    "exotic_price": [],
+    "required_unit_tags": [
+        "cruiser",
+        "capital_ship",
+        "super_capital_ship",
+        "titan",
+        "frigate",
+        "corvette",
+        "structure",
+        "starbase"
+    ],
+    "build_prerequisites": [],
+    "owner_constraint":
+    {
+        "constraint_type": "is_carrier"
+    },
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "ability": "vf_strikecraft_armor_unit_item"
+}

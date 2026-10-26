@@ -362,7 +362,7 @@
     {
         "required_units": [
         {
-            "unit": "zentr_thurvel_cruiser",
+            "unit": "zentr_thuverl_cruiser",
             "options":
             {
                 "is_temporary_ruler_ship": true
@@ -378,7 +378,7 @@
         }]
     },
     "starting_units_in_hyperspace_duration": 6.0,
-    "fleet": "vasari_fleet",
+    "fleet": "zentr_fleet",
     "fleet_name_group": "fleet",
     "unit_build_groups": [
     {
@@ -413,16 +413,18 @@
     }],
     "buildable_units": [
         "zentr_picket_frigate",
-        "zentr_thurvel_cruiser",
+        "zentr_thuverl_cruiser",
         "zentr_quiltra_cruiser",
-        "zentr_gundestroyer_frigate"
+        "zentr_gundestroyer_frigate",
+        "zentr_queadol_capital_ship"
     ],
     "faction_buildable_units": [],
     "buildable_strikecraft": [
-        "zentr_gnerl_strikecraft",
         "zentr_regult_strikecraft",
         "zentr_regult_m_strikecraft",
-        "zentr_glaug_strikecraft"
+        "zentr_glaug_strikecraft",
+        "zentr_nous_strikecraft",
+        "zentr_gnerl_strikecraft"
     ],
     "structure_build_groups": [
     {
@@ -4678,7 +4680,7 @@
         "faction_name": "player_faction_name.zentr",
         "faction_short_name": "player_faction_short_name.zentr",
         "faction_description": "player_faction_description.zentr",
-        "faction_icon": "vasari_loyalist_faction_icon",
+        "faction_icon": "player_icon_zentr_1_medium",
         "load_screen_character_brush": "vasari_load_screen_character",
         "no_credit_income_description": "vasari_no_credit_income_description",
         "player_slot_plates": [

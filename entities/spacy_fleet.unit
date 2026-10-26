@@ -1,0 +1,19 @@
+{
+    "version": 0,
+    "spatial":
+    {
+        "can_collide": false
+    },
+    "user_interface":
+    {
+        "can_ever_be_selected": true
+    },
+    "fleet":
+    {
+        "icons": [
+            "spacy_fleet_icon_1",
+            "spacy_fleet_icon_2",
+            "spacy_fleet_icon_3"
+        ]
+    }
+}

@@ -126,7 +126,7 @@
                 "pitch_arc": { "min_angle": -90.0, "max_angle": 90.0 }
             },
             {
-                "weapon": "zentr_mm_bank_3",
+                "weapon": "zentr_mm_bank_0",
                 "mesh_point": "turret_muzzle.003",
                 "weapon_position": [-21.549438477, -6.784842968, -126.010246277],
                 "non_turret_muzzle_positions": [[-21.549438477, -6.784842968, -126.010246277]],
@@ -136,7 +136,7 @@
                 "pitch_arc": { "min_angle": -90.0, "max_angle": 90.0 }
             },
             {
-                "weapon": "zentr_mm_bank_4",
+                "weapon": "zentr_mm_bank_1",
                 "mesh_point": "turret_muzzle.004",
                 "weapon_position": [-22.158199310, -9.061644554, -118.899078369],
                 "non_turret_muzzle_positions": [[-22.158199310, -9.061644554, -118.899078369]],
@@ -146,7 +146,7 @@
                 "pitch_arc": { "min_angle": -90.0, "max_angle": 90.0 }
             },
             {
-                "weapon": "zentr_mm_bank_5",
+                "weapon": "zentr_mm_bank_2",
                 "mesh_point": "turret_muzzle.005",
                 "weapon_position": [-22.211921692, -11.143426895, -110.284324646],
                 "non_turret_muzzle_positions": [[-22.211921692, -11.143426895, -110.284324646]],
@@ -156,7 +156,7 @@
                 "pitch_arc": { "min_angle": -90.0, "max_angle": 90.0 }
             },
             {
-                "weapon": "zentr_mm_bank_1",
+                "weapon": "zentr_mm_bank_0",
                 "mesh_point": "turret_muzzle.009",
                 "weapon_position": [24.244749069, -4.315810680, -166.012908936],
                 "non_turret_muzzle_positions": [[24.244749069, -4.315810680, -166.012908936]],
@@ -166,7 +166,7 @@
                 "pitch_arc": { "min_angle": -90.0, "max_angle": 90.0 }
             },
             {
-                "weapon": "zentr_mm_bank_2",
+                "weapon": "zentr_mm_bank_1",
                 "mesh_point": "turret_muzzle.010",
                 "weapon_position": [24.367845535, -5.955003738, -158.703933716],
                 "non_turret_muzzle_positions": [[24.367845535, -5.955003738, -158.703933716]],
@@ -176,7 +176,7 @@
                 "pitch_arc": { "min_angle": -90.0, "max_angle": 90.0 }
             },
             {
-                "weapon": "zentr_mm_bank_3",
+                "weapon": "zentr_mm_bank_2",
                 "mesh_point": "turret_muzzle.011",
                 "weapon_position": [23.993131638, -7.138012409, -149.928359985],
                 "non_turret_muzzle_positions": [[23.993131638, -7.138012409, -149.928359985]],
@@ -186,7 +186,7 @@
                 "pitch_arc": { "min_angle": -90.0, "max_angle": 90.0 }
             },
             {
-                "weapon": "zentr_mm_bank_4",
+                "weapon": "zentr_mm_bank_0",
                 "mesh_point": "turret_muzzle.012",
                 "weapon_position": [21.543170929, -6.784842968, -126.010269165],
                 "non_turret_muzzle_positions": [[21.543170929, -6.784842968, -126.010269165]],
@@ -196,7 +196,7 @@
                 "pitch_arc": { "min_angle": -90.0, "max_angle": 90.0 }
             },
             {
-                "weapon": "zentr_mm_bank_5",
+                "weapon": "zentr_mm_bank_1",
                 "mesh_point": "turret_muzzle.013",
                 "weapon_position": [22.151935577, -9.061644554, -118.899078369],
                 "non_turret_muzzle_positions": [[22.151935577, -9.061644554, -118.899078369]],
@@ -206,7 +206,7 @@
                 "pitch_arc": { "min_angle": -90.0, "max_angle": 90.0 }
             },
             {
-                "weapon": "zentr_mm_bank_6",
+                "weapon": "zentr_mm_bank_2",
                 "mesh_point": "turret_muzzle.014",
                 "weapon_position": [22.205657959, -11.143426895, -110.284309387],
                 "non_turret_muzzle_positions": [[22.205657959, -11.143426895, -110.284309387]],
@@ -298,7 +298,8 @@
     "abilities": [
         {
             "abilities": [
-                "super_heavy_beam"
+                "super_heavy_beam",
+                "mm_splash"
             ]
         }
     ],

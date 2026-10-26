@@ -4,7 +4,7 @@
     "pitch_speed": 0.0,
     "yaw_speed": 0.0,
     "range": 12000.0,
-    "cooldown_duration": 12,
+    "cooldown_duration": 45,
     "uniforms_target_filter_id": "common_and_strikecraft_weapon",
     "attack_target_type_groups": [
         "strikecraft_torpedo",

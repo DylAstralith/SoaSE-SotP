@@ -1,7 +1,7 @@
 {
     "version": 0,
     "spatial": {
-        "radius": 8.274259,
+        "radius": 5.274259,
         "box": {
             "center": [
                 7E-06,
@@ -51,8 +51,8 @@
     },
     "ai": {
         "attack_target_type_groups": [
-            "strikecraft_torpedo",
-            "corvette_light",
+            "strikecraft_corvette",
+            "light",
             "defense"
         ],
         "attack_target_type_groups_to_ignore": []
@@ -89,8 +89,8 @@
         "levels": [
             {
                 "max_hull_points": 1,
-                "max_armor_points": 1,
-                "armor_strength": 25.0
+                "max_armor_points": 2.0,
+                "armor_strength": 5.0
             }
         ]
     },

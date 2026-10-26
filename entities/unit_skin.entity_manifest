@@ -2,8 +2,8 @@
     "ids": [
         "spacy_sdf_capital_ship",
         "spacy_megaroad_capital_ship",
-        "spacy_vfmass_strikecraft",
-        "spacy_vf1a_react_strikecraft",
+        "spacy_vf1_mass_strikecraft",
+        "spacy_vf1_react_strikecraft",
         "spacy_vfx4_strikecraft",
         "spacy_lancer_strikecraft",
         "spacy_armd_cruiser",
@@ -13,17 +13,19 @@
         "zentr_regult_strikecraft",
         "zentr_regult_m_strikecraft",
         "zentr_glaug_strikecraft",
+        "zentr_nous_strikecraft",
         "zentr_picket_frigate",
         "zentr_gnerl_strikecraft",
-        "zentr_thurvel_cruiser",
+        "zentr_thuverl_cruiser",
         "zentr_quiltra_cruiser",
         "zentr_gundestroyer_frigate",
+        "zentr_queadol_capital_ship",
 
         "meltr_gunboat_cruiser",
 
         "spacy_mm_torpedo",
         "zentr_mm_torpedo",
         "heavy_missile",
-        "react_missile"
+        "spacy_react_missile"
     ]
 }

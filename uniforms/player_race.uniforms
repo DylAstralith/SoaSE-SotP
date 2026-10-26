@@ -8,8 +8,7 @@
 				"trader_2"
             ],
             "icons": [
-                "trader_1",
-                "trader_2"
+                "spacy_0"
             ],            
             "music": 
             {
@@ -139,6 +138,26 @@
                             {
                                 "sound": "mus_spacy_ambient_25",
                                 "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_26",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_27",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_28",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_29",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_ambient_30",
+                                "weight": 1
                             }
                         ]
                     },
@@ -232,6 +251,10 @@
                             {
                                 "sound": "mus_spacy_battle_09",
                                 "weight": 1
+                            },
+                            {
+                                "sound": "mus_spacy_battle_10",
+                                "weight": 1
                             }
                         ]
                     },
@@ -277,8 +300,7 @@
 				"vasari_2"
             ],
             "icons": [
-                "vasari_1",
-                "vasari_2"
+                "zentr_0"
             ],            
             "music": 
             {
@@ -358,6 +380,14 @@
                             },
                             {
                                 "sound": "mus_zentr_ambient_12",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_zentr_ambient_13",
+                                "weight": 1
+                            },
+                            {
+                                "sound": "mus_zentr_ambient_14",
                                 "weight": 1
                             }
                         ]

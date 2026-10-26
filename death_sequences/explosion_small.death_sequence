@@ -5,12 +5,13 @@
             "attached_to_unit": false,
             "time": 0,
             "particle_effects": [
-                "explosion_small"
+                "explosion_small",
+                "explosion_crescent"
             ],
             "sounds": [
-            "explode",
-            "explode2",
-            "explode3"
+            "explode_1",
+            "explode_2",
+            "explode_3"
         ]
     }]
 }

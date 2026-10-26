@@ -411,7 +411,7 @@
         "specific_npcs": [
             "pirate_npc"]
     },
-    "fleet": "trader_fleet",
+    "fleet": "spacy_fleet",
     "fleet_name_group": "fleet",
     "unit_build_groups": [
     {
@@ -453,9 +453,8 @@
     ],
     "faction_buildable_units": [],
     "buildable_strikecraft": [
-        "spacy_vfmass_strikecraft",
-        "spacy_vf1a_react_strikecraft",
-        "spacy_vfx4_strikecraft",
+        "spacy_vf1_mass_strikecraft",
+        "spacy_vf1_react_strikecraft",
         "spacy_lancer_strikecraft"
     ],
     "structure_build_groups": [
@@ -1100,8 +1099,7 @@
     },
     "missing_ship_component_shop_build_time_scalar": 10.0,
     "ship_components": [
-        "defender_des_weapons",
-        
+        "spacy_defender_des_weapons",
         "trader_missile_armor",
         "trader_beam_armor",
         "trader_heavy_armor",
@@ -1156,7 +1154,10 @@
         "dlc2_trader_rebel_super_capital_ship_turret_beam",
         "dlc2_trader_rebel_super_capital_ship_turret_gauss",
         "dlc2_trader_rebel_super_capital_ship_turret_missile",
-        "dlc2_trader_faction_victory"
+        "dlc2_trader_faction_victory",
+        "vf_strikecraft_armor",
+        "vf_strike_armor_standard",
+        "vf_strike_armor_upgrade"
     ],
     "ship_component_build_groups": [
     {
@@ -5289,7 +5290,7 @@
         "faction_name": "player_faction_name.spacy",
         "faction_short_name": "player_faction_short_name.spacy",
         "faction_description": "player_faction_description.spacy",
-        "faction_icon": "trader_rebel_faction_icon",
+        "faction_icon": "player_icon_spacy_1_medium",
         "load_screen_character_brush": "trader_load_screen_character",
         "player_slot_plates": [
             "trader_rebel_player_slot_plate",
@@ -6226,17 +6227,8 @@
         }
     },
     "theme_picker_mesh_preview_units": [
-        "trader_interceptor_strikecraft",
-        "trader_light_frigate",
-        "trader_carrier_cruiser",
-        "trader_heavy_cruiser",
-        "trader_battle_capital_ship",
-        "trader_colony_capital_ship",
-        "trader_rebel_titan",
-        "trader_starbase",
-
         "spacy_sdf_capital_ship",
-        "spacy_vfmass_strikecraft"
+        "spacy_vf1_mass_strikecraft"
     ],
     "theme_picker_skybox": "skybox_cloud_16",
     "factional_victory":

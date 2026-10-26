@@ -15,6 +15,7 @@
     "strikecraft_kind_name.snub":  "Snub Fighter",
     "strikecraft_kind_name.battroid":  "Battroid",
 
+
     "spacy_vfmass_strikecraft_name":  "VF-1A Mass-Production",
     "spacy_vfmass_strikecraft_description":  "VF-1A Mass-Production desc (WIP)",
     "spacy_vfx4_strikecraft_name":  "VF-X-4",
@@ -34,6 +35,22 @@
     "spacy_megaroad_capital_ship_name":  "Megaroad Class Super-Long Range Colonization Ship",
     "spacy_megaroad_capital_ship_description":  "Megaroad-01 desc (WIP)",
 
+    "spacy_macross_cannon_ability_name":  "Macross Cannon",
+    "spacy_macross_cannon_ability_description":  "Macross Cannon desc (WIP)",
+    "tooltip.spacy_macross_cannon.splash_damage_rate":  "Area damage rate",
+    "spacy_minmay_attack_name":  "Minmay Attack",
+    "spacy_minmay_attack_description":  "KYUUN KYUUN KYUUN KYUUN!",
+    "spacy_omni_directional_barrier_ability_name":  "Omni-Directional Barrier",
+    "spacy_omni_directional_barrier_ability_description":  "Omni-Directional Barrier desc (WIP)",
+    "spacy_react_missile_ability_name":  "Reaction Missiles",
+    "spacy_react_missile_ability_description":  "Reaction Missiles desc (WIP)",
+    "spacy_react_missile_name":  "Reaction Missiles",
+    "spacy_react_missile_description":  "Reaction Missiles desc (WIP)",
+
+    "weapon_name.spacy_defender_des_turret":  "Destroid Defender",
+    "spacy_defender_des_weapons_unit_item_name":  "Destroid Defenders",
+    "spacy_defender_des_weapons_unit_item_description":  "Moves Destroid defenders to the hull, allowing them to shoot down enemy strikecraft and torpedoes.",
+
     "zentr_gnerl_strikecraft_name":  "Gnerl",
     "zentr_gnerl_strikecraft_description":  "Gnerl desc (WIP)",
     "zentr_regult_strikecraft_name":  "Regult Battle Pod",
@@ -42,26 +59,21 @@
     "zentr_regult_m_strikecraft_description":  "Regult Battle Pod (Heavy Missiles) desc (WIP)",
     "zentr_glaug_strikecraft_name":  "Glaug Officer Battle Pod",
     "zentr_glaug_strikecraft_description":  "Glaug Officer Battle Pod desc (WIP)",
+    "zentr_nous_strikecraft_name":  "Nousjadeul-Ger Battle Suit",
+    "zentr_nous_strikecraft_description":  "Nousjadeul-Ger Battle Suit desc (WIP)",
     "zentr_picket_frigate_name":  "Zentradi Picket Patrol Frigate",
     "zentr_picket_frigate_description":  "Zentradi Picket Patrol Frigate desc (WIP)",
-    "zentr_thurvel_cruiser_name":  "Thuverl-Salan Class Battleship",
-    "zentr_thurvel_cruiser_description":  "Thuverl-Salan Class Battleship desc (WIP)",
+    "zentr_thuverl_cruiser_name":  "Thuverl-Salan Class Battleship",
+    "zentr_thuverl_cruiser_description":  "Thuverl-Salan Class Battleship desc (WIP)",
     "zentr_quiltra_cruiser_name":  "Quiltra-Queleual Class Heavy Cruiser",
     "zentr_quiltra_cruiser_description":  "Quiltra-Queleual Class Heavy Cruiser desc (WIP)",
     "zentr_gundestroyer_frigate_name":  "Medium-Scale Gun Destroyer",
     "zentr_gundestroyer_frigate_description":  "Medium-Scale Gun Destroyer desc (WIP)",
+    "zentr_queadol_capital_ship_name":  "Queadol-Magdomilla Class Fleet Command Battleship",
+    "zentr_queadol_capital_ship_description":  "Queadol-Magdomilla Class Fleet Command Battleship desc (WIP)",
 
     "meltr_gunboat_cruiser_name":  "Meltrandi Gunboat Cruiser",
     "meltr_gunboat_cruiser_description":  "Meltrandi Gunboat Cruiser desc (WIP)",
-
-    "spacy_sdf_capital_ship_macross_cannon_ability_name":  "Macross Cannon",
-    "spacy_sdf_capital_ship_macross_cannon_ability_description":  "Macross Cannon desc (WIP)",
-
-    "minmay_attack_name":  "Minmay Attack",
-    "minmay_attack_description":  "KYUUN KYUUN KYUUN KYUUN!",
-
-    "omni_directional_barrier_ability_name":  "Omni-Directional Barrier",
-    "omni_directional_barrier_ability_description":  "Omni-Directional Barrier desc (WIP)",
 
     "weapon_name.pulse_beam":  "Light Pulse Beam",
     "weapon_name.pulse_beam_aa":  "Heavy Pulse Beam",
@@ -70,6 +82,7 @@
     "weapon_name.medium_beam":  "Medium Beam",
     "weapon_name.heavy_beam":  "Heavy Beam",
     "weapon_name.light_beam_dual":  "Dual Light Beam",
+    "weapon_name.light_beam_triple":  "Triple Light Beam",
     "weapon_name.medium_beam_dual":  "Dual Medium Beam",
     "weapon_name.medium_beam_triple":  "Triple Medium Beam",
     "weapon_name.heavy_beam_triple":  "Triple Heavy Beam",
@@ -78,17 +91,10 @@
     "weapon_name.spacy_pd":  "Point Defense Turret",
     "weapon_name.spacy_gunpod":  "GU-11 Gunpod",
 
-    "weapon_name.defender_des_turret":  "Destroid Defender",
-    "defender_des_weapons_unit_item_name":  "Destroid Defenders",
-    "defender_des_weapons_unit_item_description":  "Moves Destroid defenders to the hull, allowing them to shoot down enemy strikecraft and torpedoes.",
-
-
     "mm_splash_name":  "Micro-Missile Fragmentation",
     "mm_splash_description":  "Micro-missile impacts deal 25% of resolved impact damage to other enemy small crafts within 750 range",
     "tooltip.super_heavy_beam.splash_damage_rate":  "Area damage rate",
-    "tooltip.macross_cannon.splash_damage_rate":  "Area damage rate",
-    "react_missile_ability_name":  "Reaction Missiles",
-    "react_missile_ability_description":  "Reaction Missiles desc (WIP)",
-    "react_missile_name":  "Reaction Missiles",
-    "react_missile_description":  "Reaction Missiles desc (WIP)"
+    "vf_strikecraft_armor_unit_item_name": "VF Strike Armor",
+    "vf_strikecraft_armor_unit_item_description": "Equips this carrier's Valkyrie squadrons with Strike Armor.",
+    "vf_strike_armor_standard_name": "Standard VF Equipment"
 }

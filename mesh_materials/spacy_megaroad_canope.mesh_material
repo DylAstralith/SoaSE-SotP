@@ -1,0 +1,17 @@
+{
+    "base_color_texture": "spacy_megaroad_canope_clr",
+    "normal_texture": "nrm",
+    "mask_texture": "spacy_megaroad_canope_msk",
+    "occlusion_roughness_metallic_texture": "orm",
+    "has_transparency": true,
+    "emissive_hue_strength": 0.7,
+    "emissive_factor": 0.2,
+    "base_color_factor": [
+        1,
+        1,
+        1,
+        0.1
+    ],
+    "roughness_factor": 1,
+    "metallic_factor": 1
+}

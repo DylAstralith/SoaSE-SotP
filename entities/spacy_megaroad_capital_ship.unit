@@ -790,7 +790,7 @@
                 }
             },
             {
-                "weapon": "spacy_mm_bank_3",
+                "weapon": "spacy_mm_bank_0",
                 "mesh_point": "turret_muzzle.018",
                 "weapon_position": [
                     -48.731266,
@@ -824,7 +824,7 @@
                 }
             },
             {
-                "weapon": "spacy_mm_bank_4",
+                "weapon": "spacy_mm_bank_1",
                 "mesh_point": "turret_muzzle.019",
                 "weapon_position": [
                     -37.183529,
@@ -858,7 +858,7 @@
                 }
             },
             {
-                "weapon": "spacy_mm_bank_5",
+                "weapon": "spacy_mm_bank_2",
                 "mesh_point": "turret_muzzle.020",
                 "weapon_position": [
                     -60.278999,
@@ -1368,7 +1368,7 @@
                 }
             },
             {
-                "weapon": "spacy_mm_bank_6",
+                "weapon": "spacy_mm_bank_0",
                 "mesh_point": "turret_muzzle.035",
                 "weapon_position": [
                     -56.60714,
@@ -1402,7 +1402,7 @@
                 }
             },
             {
-                "weapon": "spacy_mm_bank_7",
+                "weapon": "spacy_mm_bank_1",
                 "mesh_point": "turret_muzzle.036",
                 "weapon_position": [
                     -88.212578,
@@ -1436,7 +1436,7 @@
                 }
             },
             {
-                "weapon": "spacy_mm_bank_0",
+                "weapon": "spacy_mm_bank_2",
                 "mesh_point": "turret_muzzle.037",
                 "weapon_position": [
                     56.607086,
@@ -2794,7 +2794,7 @@
 
             "abilities": [
 
-                "minmay_attack",
+                "spacy_minmay_attack",
 
                 "trader_colony_capital_ship_mobile_trade_port",
 

@@ -55,6 +55,7 @@
         }
     },
     "ai": {
+        "attack_target_type_groups_to_ignore": ["fighter_ignore_torpedoes"],
         "attack_target_type_groups": [
             "strikecraft_torpedo",
             "corvette"
@@ -223,7 +224,7 @@
     "strikecraft": {
         "kind": "snub",
         "build_time": 30.0,
-        "squadron_size": 5,
+        "squadron_size": 4,
         "launch_destination_formation_offset": {
             "rank": 0,
             "group": 0

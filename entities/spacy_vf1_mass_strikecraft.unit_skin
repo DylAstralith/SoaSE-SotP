@@ -1,0 +1,233 @@
+{
+    "version": 0,
+    "skin_stages": [
+    {
+        "is_main_view_icon_visible_camera_distance": 2897.056275,
+        "min_camera_distance": 28.987115,
+        "gui":
+        {
+            "hud_icon": "spacy_vfmass_strikecraft_hud_icon",
+            "hud_monochrome_icon": "spacy_vfmass_strikecraft_main_view_icon",
+            "hud_picture": "spacy_vfmass_strikecraft_hud_picture",
+            "tooltip_picture": "spacy_vfmass_strikecraft_tooltip_picture",
+            "name": "spacy_vfmass_strikecraft_name",
+            "description": ""
+        },
+        "unit_mesh":
+        {
+            "mesh": "spacy_vf1_mass_strikecraft",
+            "shader": "ship",
+            "is_shadow_blocker": true
+        },
+        "child_mesh_alias_bindings": {
+            "map": [
+                {
+                    "mesh_alias_name": "vf1_mass_wings",
+                    "mesh_definition": {
+                        "mesh": "spacy_vf1_mass_wings",
+                        "shader": "ship",
+                        "is_shadow_blocker": true
+                    }
+                },
+                {
+                    "mesh_alias_name": "vf1_mass_tail",
+                    "mesh_definition": {
+                        "mesh": "spacy_vf1_mass_tail",
+                        "shader": "ship",
+                        "is_shadow_blocker": true
+                    }
+                },
+                {
+                    "mesh_alias_name": "vf1_mass_legs",
+                    "mesh_definition": {
+                        "mesh": "spacy_vf1_mass_legs",
+                        "shader": "ship",
+                        "is_shadow_blocker": true
+                    }
+                },
+                {
+                    "mesh_alias_name": "vf1_gunpod",
+                    "mesh_definition": {
+                        "mesh": "spacy_vf1_gunpod",
+                        "shader": "ship",
+                        "is_shadow_blocker": true
+                    }
+                },
+                {
+                    "mesh_alias_name": "vf1_mm_pod",
+                    "mesh_definition": {
+                        "mesh": "spacy_vf1_mm_pod",
+                        "shader": "ship",
+                        "is_shadow_blocker": true
+                    }
+                },
+                {
+                    "mesh_alias_name": "vf1_mass_legs_strike",
+                    "mesh_definition": {
+                        "mesh": "spacy_vf1_mass_legs_strike",
+                        "shader": "ship",
+                        "is_shadow_blocker": true
+                    }
+                },
+                {
+                    "mesh_alias_name": "vf1_mass_tail_strike",
+                    "mesh_definition": {
+                        "mesh": "spacy_vf1_mass_tail_strike",
+                        "shader": "ship",
+                        "is_shadow_blocker": true
+                    }
+                },
+                {
+                    "mesh_alias_name": "vf1_mass_strike_armor",
+                    "mesh_definition": {
+                        "mesh": "spacy_vf1_strike_armor",
+                        "shader": "ship",
+                        "is_shadow_blocker": true
+                    }
+                }
+            ]
+        },
+        "main_view_icon":
+        {
+            "group": "ship",
+            "icon": "trader_interceptor_strikecraft_main_view_icon",
+            "selected_icon": "trader_interceptor_strikecraft_main_view_icon_selected",
+            "sub_selected_icon": "trader_interceptor_strikecraft_main_view_icon_sub_selected"
+        },
+        "effects":
+        {
+            "exhaust_effects":
+            {
+                "particle_effects": [
+                {
+                    "particle_effect": "spacy_exhaust_tiny"
+                }],
+                "trail_effects": [
+                {
+                    "trail_effect": "spacy_vf_trail"
+                }]
+            },
+            "effect_alias_bindings": [
+            {
+                "alias_name": "gunpod_weapon_hit_hull",
+                "alias_binding":
+                {
+                    "particle_effect": "explosion_tiny",
+                    "sounds": [
+                        "hithull_1",
+                        "hithull_2",
+                        "hithull_3"
+                    ]
+                }
+            },
+            {
+                "alias_name": "gunpod_weapon_hit_shield",
+                "alias_binding":
+                {
+                    "particle_effect": "explosion_tiny",
+                    "sounds": [
+                        "hithull_1",
+                        "hithull_2",
+                        "hithull_3"
+                    ]
+                }
+            },
+            {
+                "alias_name": "gunpod_weapon_muzzle",
+                "alias_binding":
+                {
+                    "particle_effect": "spacy_gunpod_muzzle",
+                    "sounds": [
+                        "spacy_gunpod_1",
+                        "spacy_gunpod_2"
+                    ]
+                }
+            },
+            {
+                "alias_name": "gunpod_weapon_beam",
+                "alias_binding":
+                {
+                    "beam": "spacy_gunpod_bullet_stream"
+                }
+            },
+            {
+                "alias_name": "mm_missile_weapon_muzzle",
+                "alias_binding": {
+                    "particle_effect": "Buff_FighterBlinkActivate",
+                    "sounds": ["missile_launch_1", "missile_launch_2"]
+                }
+            },
+            {
+                "alias_name": "mm_missile_weapon_hit_hull",
+                "alias_binding":
+                {
+                    "particle_effect": "explosion_small",
+                    "sounds": [
+                        "explode_1",
+                        "explode_2",
+                        "explode_3"
+                    ]
+                }
+            }
+        ]
+        },
+        "sounds":
+        {
+            "move_sounds":
+            {
+                "engine": "spacy_engine_light"
+            },
+            "dialogue":
+            {
+                "selected":
+                {
+                    "neutral": [
+                        "trader_interceptor_strikecraft_selected_neutral_0",
+                        "trader_interceptor_strikecraft_selected_neutral_1",
+                        "trader_interceptor_strikecraft_selected_neutral_2"
+                    ],
+                    "scared": [
+                        "trader_interceptor_strikecraft_selected_scared_0_placeholder",
+                        "trader_interceptor_strikecraft_selected_scared_1_placeholder",
+                        "trader_interceptor_strikecraft_selected_scared_2_placeholder"
+                    ]
+                },
+                "order_issued":
+                {
+                    "neutral": [
+                        "trader_interceptor_strikecraft_order_issued_neutral_0",
+                        "trader_interceptor_strikecraft_order_issued_neutral_1",
+                        "trader_interceptor_strikecraft_order_issued_neutral_2"
+                    ],
+                    "scared": [
+                        "trader_interceptor_strikecraft_order_issued_scared_0_placeholder",
+                        "trader_interceptor_strikecraft_order_issued_scared_1_placeholder",
+                        "trader_interceptor_strikecraft_order_issued_scared_2_placeholder"
+                    ]
+                },
+                "attack_order_issued":
+                {
+                    "neutral": [
+                        "trader_interceptor_strikecraft_attack_order_issued_neutral_0",
+                        "trader_interceptor_strikecraft_attack_order_issued_neutral_1",
+                        "trader_interceptor_strikecraft_attack_order_issued_neutral_2",
+                        "trader_interceptor_strikecraft_attack_order_issued_neutral_3"
+                    ],
+                    "scared": [
+                        "trader_interceptor_strikecraft_attack_order_issued_scared_0_placeholder",
+                        "trader_interceptor_strikecraft_attack_order_issued_scared_1_placeholder",
+                        "trader_interceptor_strikecraft_attack_order_issued_scared_2_placeholder",
+                        "trader_interceptor_strikecraft_attack_order_issued_scared_3_placeholder"
+                    ],
+                    "smug": [
+                        "trader_interceptor_strikecraft_attack_order_issued_smug_0_placeholder",
+                        "trader_interceptor_strikecraft_attack_order_issued_smug_1_placeholder",
+                        "trader_interceptor_strikecraft_attack_order_issued_smug_2_placeholder",
+                        "trader_interceptor_strikecraft_attack_order_issued_smug_3_placeholder"
+                    ]
+                }
+            }
+        },
+        "death_sequence_group": "explosion_small"
+    }]
+}

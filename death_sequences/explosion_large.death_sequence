@@ -8,9 +8,9 @@
                 "explosion_large"
             ],
             "sounds": [
-            "explode",
-            "explode2",
-            "explode3"
+            "explode_1",
+            "explode_2",
+            "explode_3"
         ]
     }]
 }

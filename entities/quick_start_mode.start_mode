@@ -145,7 +145,7 @@
             {
                 "required_units": [
                 {
-                    "unit": "zentr_thurvel_cruiser",
+                    "unit": "zentr_thuverl_cruiser",
                     "options":
                     {
     "is_temporary_ruler_ship": true

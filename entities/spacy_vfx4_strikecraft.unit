@@ -55,6 +55,7 @@
         }
     },
     "ai": {
+        "attack_target_type_groups_to_ignore": ["fighter_ignore_torpedoes"],
         "attack_target_type_groups": [
             "strikecraft_torpedo",
             "corvette"
@@ -326,7 +327,7 @@
                 }
             },
             {
-                "weapon": "spacy_mm_bank_3",
+                "weapon": "spacy_mm_bank_0",
                 "mesh_point": "turret_muzzle.007",
                 "weapon_position": [
                     -1.745,
@@ -375,6 +376,7 @@
         "release_time_after_death": 5.0,
         "can_collide_duration_after_death": 0.1,
         "round_max_points_up_to_5": false,
+        "durability": 55,
         "levels": [
             {
                 "max_hull_points": 40.0,

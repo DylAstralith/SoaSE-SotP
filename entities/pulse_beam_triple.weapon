@@ -5,7 +5,7 @@
     "yaw_speed": 0.0,
     "range": 3000.0,
     "cooldown_duration": 9.0,
-    "uniforms_target_filter_id": "common_and_strikecraft_and_torpedo_weapon",
+    "uniforms_target_filter_id": "common_and_strikecraft_weapon",
     "attack_target_type_groups": [
         "strikecraft_torpedo",
         "corvette"

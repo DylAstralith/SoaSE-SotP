@@ -1,0 +1,17 @@
+{
+    "texture": "explosion_animation",
+    "total_frame_count": 6,
+    "column_frame_count": 6,
+    "start_top_left": [
+        0,
+        0
+    ],
+    "frame_size": [
+        362,
+        322
+    ],
+    "frame_stride": [
+        362,
+        352
+    ]
+}

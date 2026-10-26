@@ -1,11 +1,13 @@
 {
     "ids": [
-        "macross_cannon",
+        "spacy_macross_cannon",
         "super_heavy_beam",
         "mm_splash",
-        "react_missile_vf1a",
-        "react_missile_armd",
-        "minmay_attack",
-        "omni_directional_barrier"
+        "spacy_react_missile_vf1_react",
+        "spacy_react_missile_armd",
+        "spacy_minmay_attack",
+        "spacy_omni_directional_barrier",
+        "vf_strikecraft_armor_unit_item",
+        "vf_strike_armor_initialize"
     ]
 }

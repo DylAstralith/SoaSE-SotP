@@ -305,7 +305,7 @@
                 }
             },
             {
-                "weapon": "glaug_pulse_beam_aa",
+                "weapon": "zentr_glaug_pulse_beam_aa",
                 "mesh_point": "child.glaug_turret",
                 "weapon_position": [0.010, 4.637, -1.637],
                 "forward": [0.000, 0.000, 1.000],
@@ -315,8 +315,8 @@
                     "max_angle": 180.0
                 },
                 "pitch_arc": {
-                    "min_angle": -5.0,
-                    "max_angle": 5.0
+                    "min_angle": -10.0,
+                    "max_angle": 20.0
                 }
             }
         ],
@@ -335,6 +335,7 @@
         "release_time_after_death": 5.0,
         "can_collide_duration_after_death": 0.1,
         "round_max_points_up_to_5": false,
+        "durability": 80,
         "levels": [
             {
                 "max_hull_points": 40.0,

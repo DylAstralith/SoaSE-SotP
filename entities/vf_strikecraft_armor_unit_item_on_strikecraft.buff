@@ -1,0 +1,100 @@
+{
+    "version": 0,
+    "make_dead_on_parent_buff_made_dead": true,
+    "stacking_limit":
+    {
+        "stacking_limit": "fixed_one",
+        "stacking_limit_met_behavior": "restart_existing_buff"
+    },
+    "stacking_ownership_type": "for_all_players",
+    "restart_other_stacked_buffs_when_started": true,
+    "unit_modifiers": [
+        {
+            "buff_unit_modifier_id": "max_armor_points_modifier"
+        },
+        {
+            "buff_unit_modifier_id": "armor_strength_modifier"
+        },
+        {
+            "buff_unit_modifier_id": "linear_speed_modifier"
+        },
+        {
+            "buff_unit_modifier_id": "turning_speed_modifier"
+        }
+    ],
+    "gui":
+    {
+        "hud_icon": "vasari_strikecraft_armor_unit_item_hud_icon",
+        "name": "vf_strikecraft_armor_unit_item_name",
+        "visibility_scope": "positive",
+        "tooltip_line_groups": [
+        {
+            "lines": [
+                {
+                    "rendering_type": "buff_unit_modifier",
+                    "unit_modifier_id": "max_armor_points_modifier"
+                },
+                {
+                    "rendering_type": "buff_unit_modifier",
+                    "unit_modifier_id": "armor_strength_modifier"
+                },
+                {
+                    "rendering_type": "buff_unit_modifier",
+                    "unit_modifier_id": "linear_speed_modifier"
+                },
+                {
+                    "rendering_type": "buff_unit_modifier",
+                    "unit_modifier_id": "turning_speed_modifier"
+                }
+            ]
+        }]
+    },
+    "trigger_event_actions": [
+        {
+            "trigger_event_type": "on_buff_started",
+            "action_group": {
+                "actions": [
+                    {
+                        "action_type": "use_unit_operators_on_single_unit",
+                        "destination_unit": {
+                            "unit_type": "current_spawner"
+                        },
+                        "operators": [
+                            {
+                                "operator_type": "remove_unit_item",
+                                "unit_item": "vf_strike_armor_standard"
+                            },
+                            {
+                                "operator_type": "add_unit_item",
+                                "unit_item": "vf_strike_armor_upgrade"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "trigger_event_type": "on_buff_made_dead",
+            "action_group": {
+                "actions": [
+                    {
+                        "action_type": "use_unit_operators_on_single_unit",
+                        "destination_unit": {
+                            "unit_type": "current_spawner"
+                        },
+                        "operators": [
+                            {
+                                "operator_type": "remove_unit_item",
+                                "unit_item": "vf_strike_armor_upgrade"
+                            },
+                            {
+                                "operator_type": "add_unit_item",
+                                "unit_item": "vf_strike_armor_standard"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

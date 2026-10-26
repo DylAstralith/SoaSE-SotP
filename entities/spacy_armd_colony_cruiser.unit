@@ -99,7 +99,7 @@
     "weapons": {
         "weapons": [
             {
-                "weapon": "light_beam_dual",
+                "weapon": "light_beam_triple",
                 "mesh_point": "turret_muzzle.004",
                 "weapon_position": [
                     0.0,
@@ -152,16 +152,8 @@
                         -12.768294
                     ]
                 ],
-                "forward": [
-                    0.0,
-                    0.0,
-                    1.0
-                ],
-                "up": [
-                    0.0,
-                    1.0,
-                    0.0
-                ],
+                "forward": [-0.886, 0.462, 0.043],
+                "up": [0.420, 0.760, 0.496],
                 "yaw_arc": {
                     "min_angle": -90.0,
                     "max_angle": 90.0
@@ -186,16 +178,8 @@
                         -19.011675
                     ]
                 ],
-                "forward": [
-                    0.0,
-                    0.0,
-                    1.0
-                ],
-                "up": [
-                    0.0,
-                    1.0,
-                    0.0
-                ],
+                "forward": [-0.886, 0.462, 0.043],
+                "up": [0.420, 0.760, 0.496],
                 "yaw_arc": {
                     "min_angle": -90.0,
                     "max_angle": 90.0
@@ -220,16 +204,8 @@
                         -24.20059
                     ]
                 ],
-                "forward": [
-                    0.0,
-                    0.0,
-                    1.0
-                ],
-                "up": [
-                    0.0,
-                    1.0,
-                    0.0
-                ],
+                "forward": [-0.886, 0.462, 0.043],
+                "up": [0.420, 0.760, 0.496],
                 "yaw_arc": {
                     "min_angle": -90.0,
                     "max_angle": 90.0
@@ -240,7 +216,7 @@
                 }
             },
             {
-                "weapon": "spacy_mm_bank_3",
+                "weapon": "spacy_mm_bank_0",
                 "mesh_point": "turret_muzzle.012",
                 "weapon_position": [
                     20.382784,
@@ -254,19 +230,11 @@
                         -24.200586
                     ]
                 ],
-                "forward": [
-                    0.0,
-                    0.0,
-                    1.0
-                ],
-                "up": [
-                    0.0,
-                    1.0,
-                    0.0
-                ],
+                "forward": [0.812, 0.554, -0.185],
+                "up": [-0.485, 0.815, 0.316],
                 "yaw_arc": {
-                    "min_angle": -90.0,
-                    "max_angle": 90.0
+                    "min_angle": -105.0,
+                    "max_angle": 105.0
                 },
                 "pitch_arc": {
                     "min_angle": -90.0,
@@ -274,7 +242,7 @@
                 }
             },
             {
-                "weapon": "spacy_mm_bank_4",
+                "weapon": "spacy_mm_bank_1",
                 "mesh_point": "turret_muzzle.013",
                 "weapon_position": [
                     24.413622,
@@ -288,19 +256,11 @@
                         -19.011667
                     ]
                 ],
-                "forward": [
-                    0.0,
-                    0.0,
-                    1.0
-                ],
-                "up": [
-                    0.0,
-                    1.0,
-                    0.0
-                ],
+                "forward": [0.812, 0.554, -0.185],
+                "up": [-0.485, 0.815, 0.316],
                 "yaw_arc": {
-                    "min_angle": -90.0,
-                    "max_angle": 90.0
+                    "min_angle": -105.0,
+                    "max_angle": 105.0
                 },
                 "pitch_arc": {
                     "min_angle": -90.0,
@@ -308,7 +268,7 @@
                 }
             },
             {
-                "weapon": "spacy_mm_bank_5",
+                "weapon": "spacy_mm_bank_2",
                 "mesh_point": "turret_muzzle.014",
                 "weapon_position": [
                     27.026123,
@@ -322,19 +282,11 @@
                         -12.768291
                     ]
                 ],
-                "forward": [
-                    0.0,
-                    0.0,
-                    1.0
-                ],
-                "up": [
-                    0.0,
-                    1.0,
-                    0.0
-                ],
+                "forward": [0.812, 0.554, -0.185],
+                "up": [-0.485, 0.815, 0.316],
                 "yaw_arc": {
-                    "min_angle": -90.0,
-                    "max_angle": 90.0
+                    "min_angle": -105.0,
+                    "max_angle": 105.0
                 },
                 "pitch_arc": {
                     "min_angle": -90.0,
@@ -342,8 +294,8 @@
                 }
             },
             {
-                "weapon": "defender_des_turret",
-                "required_unit_item": "defender_des_weapons",
+                "weapon": "spacy_defender_des_turret",
+                "required_unit_item": "spacy_defender_des_weapons",
                 "mesh_point": "child.defender_des_mount.0",
                 "weapon_position": [-17.882908, 13.625709, 64.360008],
                 "forward": [0.0, 0.0, 1.0],
@@ -358,8 +310,8 @@
                 }
             },
             {
-                "weapon": "defender_des_turret",
-                "required_unit_item": "defender_des_weapons",
+                "weapon": "spacy_defender_des_turret",
+                "required_unit_item": "spacy_defender_des_weapons",
                 "mesh_point": "child.defender_des_mount.1",
                 "weapon_position": [-21.525408, 13.625706, 37.847118],
                 "forward": [0.0, 0.0, 1.0],
@@ -374,8 +326,8 @@
                 }
             },
             {
-                "weapon": "defender_des_turret",
-                "required_unit_item": "defender_des_weapons",
+                "weapon": "spacy_defender_des_turret",
+                "required_unit_item": "spacy_defender_des_weapons",
                 "mesh_point": "child.defender_des_mount.2",
                 "weapon_position": [18.089104, 13.625703, -3.729498],
                 "forward": [0.0, 0.0, 1.0],
@@ -390,8 +342,8 @@
                 }
             },
             {
-                "weapon": "defender_des_turret",
-                "required_unit_item": "defender_des_weapons",
+                "weapon": "spacy_defender_des_turret",
+                "required_unit_item": "spacy_defender_des_weapons",
                 "mesh_point": "child.defender_des_mount.3",
                 "weapon_position": [18.089102, 13.625708, 38.592705],
                 "forward": [0.0, 0.0, 1.0],
@@ -411,7 +363,9 @@
     "carrier": {
         "base_max_squadron_capacity": 2,
         "strikecraft_kinds": [
-            "snub"
+            "snub",
+            "interceptor",
+            "bomber"
         ],
         "launch_destination_formation": "carrier_frigate_strikecraft",
         "launch_destination_formation_offset": {
@@ -550,25 +504,25 @@
             "mesh_alias_name": "defender_des_base",
             "mesh_point": "turret_muzzle.022",
             "is_weapon_effects_destination": false,
-            "required_unit_item": "defender_des_weapons"
+            "required_unit_item": "spacy_defender_des_weapons"
         },
         {
             "mesh_alias_name": "defender_des_base",
             "mesh_point": "turret_muzzle.021",
             "is_weapon_effects_destination": false,
-            "required_unit_item": "defender_des_weapons"
+            "required_unit_item": "spacy_defender_des_weapons"
         },
         {
             "mesh_alias_name": "defender_des_base",
             "mesh_point": "turret_muzzle.025",
             "is_weapon_effects_destination": false,
-            "required_unit_item": "defender_des_weapons"
+            "required_unit_item": "spacy_defender_des_weapons"
         },
         {
             "mesh_alias_name": "defender_des_base",
             "mesh_point": "turret_muzzle.026",
             "is_weapon_effects_destination": false,
-            "required_unit_item": "defender_des_weapons"
+            "required_unit_item": "spacy_defender_des_weapons"
         }
     ],
     "action_effect_size": "small_unit",
@@ -576,7 +530,7 @@
     "abilities": [
         {
             "abilities": [
-                "react_missile_armd",
+                "spacy_react_missile_armd",
                 "trader_colony_frigate_colonize",
                 "mm_splash"
             ]

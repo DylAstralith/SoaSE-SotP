@@ -1,0 +1,112 @@
+{
+    "version": 0,
+    "make_dead_on_parent_buff_made_dead": true,
+    "make_dead_on_distance_to_parent_buff_exceeded": {
+        "distance": "minmay_attack_radius_value"
+    },
+    "stacking_limit": {
+        "stacking_limit": "fixed_one",
+        "stacking_limit_met_behavior": "preserve_existing_buff"
+    },
+    "stacking_ownership_type": "for_all_players",
+    "restart_other_stacked_buffs_when_started": false,
+    "trigger_event_actions": [
+        {
+            "trigger_event_type": "on_current_spawner_player_ownership_changed",
+            "action_group": {
+                "actions": [
+                    {
+                        "action_type": "make_buff_dead"
+                    }
+                ]
+            }
+        },
+        {
+            "trigger_event_type": "on_buff_started",
+            "action_group": {
+                "actions": [
+                    {
+                        "action_type": "start_buff_effect",
+                        "effect_definition": {
+                            "binding": "unit_skin",
+                            "mesh_point": "center",
+                            "effect": "minmay_attack_on_enemy"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "time_actions": [
+        {
+            "first_action_delay_time_value": "minmay_attack_conversion_interval",
+            "execution_interval_value": "minmay_attack_conversion_interval",
+            "action_group": {
+                "actions": [
+                    {
+                        "action_type": "use_unit_operators_on_single_unit",
+                        "destination_unit": {
+                            "unit_type": "current_spawner"
+                        },
+                        "operators": [
+                            {
+                                "constraint": {
+                                    "constraint_type": "composite_and",
+                                    "constraints": [
+                                        {
+                                            "constraint_type": "unit_passes_target_filter",
+                                            "unit": {
+                                                "unit_type": "operand_destination"
+                                            },
+                                            "target_filter_id": "minmay_attack_enemy_target_filter"
+                                        },
+                                        {
+                                            "constraint_type": "random_chance",
+                                            "chance_value": "minmay_attack_conversion_chance"
+                                        }
+                                    ]
+                                },
+                                "operator_type": "change_owner_player",
+                                "new_owner_player": {
+                                    "player_type": "unit_owner",
+                                    "owned_unit": {
+                                        "unit_type": "first_spawner"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "weapon_modifiers": [
+        {
+            "buff_weapon_modifier_id": "enemy_cooldown_duration"
+        }
+    ],
+    "gui": {
+        "hud_icon": "minmay_attack_hud_icon",
+        "name": "spacy_minmay_attack_name",
+        "visibility_scope": "negative",
+        "tooltip_line_groups": [
+            {
+                "lines": [
+                    {
+                        "rendering_type": "buff_weapon_modifier",
+                        "weapon_modifier_id": "enemy_cooldown_duration"
+                    },
+                    {
+                        "rendering_type": "buff_unit_modifier",
+                        "unit_modifier_id": "enemy_max_linear_speed"
+                    }
+                ]
+            }
+        ]
+    },
+    "unit_modifiers": [
+        {
+            "buff_unit_modifier_id": "enemy_max_linear_speed"
+        }
+    ]
+}

@@ -1,0 +1,187 @@
+{
+    "version": 0,
+    "target_filters": [
+        {
+            "target_filter_id": "react_missile_splash_target_filter",
+            "target_filter": {
+                "unit_types": [
+                    "capital_ship",
+                    "corvette",
+                    "cruiser",
+                    "frigate",
+                    "starbase",
+                    "structure",
+                    "super_capital_ship",
+                    "titan",
+                    "strikecraft",
+                    "torpedo"
+                ],
+                "ownerships": [
+                    "enemy"
+                ]
+            }
+        },
+        {
+            "target_filter_id": "react_missile_auto_cast_high_priority_target_filter",
+            "target_filter": {
+                "unit_types": [
+                    "capital_ship",
+                    "starbase",
+                    "super_capital_ship",
+                    "titan"
+                ],
+                "ownerships": [
+                    "enemy"
+                ],
+                "constraints": [
+                    {
+                        "constraint_type": "is_always_a_threat"
+                    }
+                ]
+            }
+        },
+        {
+            "target_filter_id": "react_missile_auto_cast_low_priority_target_filter",
+            "target_filter": {
+                "unit_types": [
+                    "cruiser",
+                    "frigate",
+                    "structure"
+                ],
+                "ownerships": [
+                    "enemy"
+                ],
+                "constraints": [
+                    {
+                        "constraint_type": "is_always_a_threat"
+                    }
+                ]
+            }
+        },
+        {
+            "target_filter_id": "react_missile_target_filter",
+            "target_filter": {
+                "unit_types": [
+                    "capital_ship",
+                    "corvette",
+                    "cruiser",
+                    "frigate",
+                    "starbase",
+                    "structure",
+                    "super_capital_ship",
+                    "titan"
+                ],
+                "ownerships": [
+                    "enemy"
+                ]
+            }
+        }
+    ],
+    "action_values": [
+        {
+            "action_value_id": "react_missile_splash_radius_value",
+            "action_value": {
+                "values": [
+                    1250
+                ]
+            }
+        },
+        {
+            "action_value_id": "react_missile_splash_damage_value",
+            "action_value": {
+                "transform_type": "per_total_resolved_damage_dealt",
+                "values": [
+                    0.75
+                ]
+            }
+        },
+        {
+            "action_value_id": "react_missile_antimatter_cost_value",
+            "action_value": {
+                "values": [
+                    0
+                ]
+            }
+        },
+        {
+            "action_value_id": "react_missile_armor_penetration_value",
+            "action_value": {
+                "values": [
+                    2000
+                ]
+            }
+        },
+        {
+            "action_value_id": "react_missile_cooldown_time_value",
+            "action_value": {
+                "values": [
+                    120
+                ]
+            }
+        },
+        {
+            "action_value_id": "react_missile_damage_value",
+            "action_value": {
+                "values": [
+                    5000
+                ]
+            }
+        },
+        {
+            "action_value_id": "react_missile_range_value",
+            "action_value": {
+                "values": [
+                    15000
+                ]
+            }
+        },
+        {
+            "action_value_id": "react_missile_torpedo_count_value",
+            "action_value": {
+                "values": [
+                    2
+                ]
+            }
+        },
+        {
+            "action_value_id": "react_missile_torpedo_lifetime_value",
+            "action_value": {
+                "values": [
+                    15
+                ]
+            }
+        },
+        {
+            "action_value_id": "react_missile_torpedo_steering_distance_radius_scalar_value",
+            "action_value": {
+                "values": [
+                    1
+                ]
+            }
+        },
+        {
+            "action_value_id": "react_missile_torpedo_speed_value",
+            "action_value": {
+                "values": [
+                    4750
+                ]
+            }
+        },
+        {
+            "action_value_id": "react_missile_torpedo_hull_value",
+            "action_value": {
+                "values": [
+                    5
+                ]
+            }
+        },
+        {
+            "action_value_id": "react_missile_torpedo_armor_value",
+            "action_value": {
+                "values": [
+                    50
+                ]
+            }
+        }
+    ]
+}

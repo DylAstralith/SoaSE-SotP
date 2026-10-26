@@ -4,17 +4,17 @@
     "pitch_speed": 0.0,
     "yaw_speed": 0.0,
     "range": 12000.0,
-    "cooldown_duration": 12,
+    "cooldown_duration": 15,
     "uniforms_target_filter_id": "common_and_strikecraft_weapon",
     "attack_target_type_groups": [
-        "strikecraft_torpedo",
-        "corvette_light",
+        "strikecraft_corvette",
+        "light",
         "defense"
     ],
     "weapon_type": "normal",
     "damage_affect_type": "hull_and_armor_and_shields",
-    "damage": 9,
-    "penetration": 0.0,
+    "damage": 12,
+    "penetration": 20.0,
     "tags": [
         "missile",
         "physical"
@@ -24,7 +24,7 @@
         "firing_type": "spawn_torpedo",
         "torpedo_firing_definition": {
             "spawned_unit": "spacy_mm_torpedo_medium",
-            "duration": 8,
+            "duration": 9,
             "enable_steering_distance_as_radius_scalar": 2.65
         }
     },
